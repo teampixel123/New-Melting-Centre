@@ -1,0 +1,138 @@
+html,body{
+  margin:0px!important;
+  padding:0px!important;
+
+}
+.container-fluid{
+  margin: 0px!important;
+  padding: 0px!important;
+}
+
+.navbar{
+  padding-top: 10px!important;
+  padding-bottom: 10px!important;
+}
+
+a.nav-link{
+  font-size: 18px!important;
+  font-weight: 200!important;
+  border-right: 0.5px solid #a2a7ad;
+  padding-top: 0px!important;
+  padding-bottom: 0px!important;
+  margin-right: 15px;
+}
+h6{
+    color: #a2a7ad;
+}
+a{
+  color: #a2a7ad;
+}
+
+a:hover{
+  color: #d4d8dc;
+}
+
+.r-border-none{
+  border-right: none!important;
+}
+
+.jumbotron {
+margin-bottom: 0PX!important;
+
+}
+
+footer{
+  color: #fff;
+ background-color: #1c2331;
+}
+
+.social-footer{
+  background-color: #09c;
+}
+
+
+/* head start */
+.top-head-right{
+  background-color: #270D31;
+  color: #fff;
+  
+}
+.fa-volume-control-phone{
+
+}
+/* head ends */
+
+.btn-primary{
+  background-color: #09c!important;
+  border-color: #09c!important;
+}
+.btn-primary:hover{
+  background-color: #056d90!important;
+}
+
+.footer-copyright{
+  color:  #a2a7ad;
+  background-color: #161c27;
+}
+
+.contact-footer{
+  color:  #a2a7ad;
+}
+
+.white-text{
+  color: #fff;
+}
+
+.address-space{
+  float: right;
+}
+
+.paralex{
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 2px 4px #000000;
+  /* The image used */
+
+  background: url("../../assets/images/meltonparalex.jpg") no-repeat 0 100%;;
+
+  width: 100%;
+  /* Set a specific height */
+  height: 200px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.deep-purple{
+  color: #a2a7ad;
+  background-color: #a2a7ad;
+}
+
+.cont-speciality{
+  padding-top: 60px!important;
+  padding-bottom: 60px!important;
+}
+.text-speciality{
+  padding-bottom: 30px;
+}
+.text-heading-small{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+  color: #414e5d;
+}
+
+.bg-grey{
+  background-color: #e9ecef;
+  padding: 20px 0 20 0 !important;
+
+}
+
+/* testomonial*/
+
+/* testomonial*/
