@@ -1,13 +1,13 @@
-
-
   <body >
         <?php include('include/head.php'); ?>
           <!-- top navigation -->
-        <?php include('include/navbar.php') ?>
+        <?php // include('include/navbar.php') ?>
         <!-- /top navigation -->
-
+<div class="">
+  dfghgj
+</div>
 <!--slider start -->
- <div class="container-fluid">
+ <!-- <div class="container-fluid">
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -48,21 +48,21 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
-</div>
+</div> -->
 <!--slider end -->
 
 <!--jambotron start -->
-        <div class="jumbotron text-center">
+        <!-- <div class="jumbotron text-center">
             <h1 class="display-4">New Melting Centre </h1>
               <p class="lead">Looking for Automobile & other engineering Cast Components...</p>
             <hr class="my-4">
             <p class="lead">
               <a class="btn btn-primary btn-lg" href="#" role="button">Check Our Products</a>
             </p>
-        </div>
+        </div> -->
 <!--jambotron ends -->
 
-<div class="container-fluid cont-speciality">
+<!-- <div class="container-fluid cont-speciality">
   <div class="row">
     <div class="col-md-12">
         <h1 class="text-center display-4 text-speciality">Our Speciality</h1>
@@ -117,11 +117,11 @@ Efficiently and effectively manufactured machined components to meet customer re
 <div class="paralex">
 <h3>We shall strive to become a world class foundry to provide fully finished components to achieve customer’s delight.</h3>
 </div>
-</div>
+</div> -->
 
 
         <!-- footer content -->
-              <?php include('include/footer.php'); ?>
+              <?php //include('include/footer.php'); ?>
 
-</body>
-</html>
+<!-- </body>
+</html> -->
