@@ -288,14 +288,54 @@ a:hover, a:visited, a:focus, a:active {
   line-height: 1em;
   vertical-align: text-top;
 }
+.logo-mobile{
+  display: none;
+}
+.logo-desktop{
+  display: block;
+}
+@media screen and (max-width:470px) {
+  .containe {
+    height: 60px;
+  }
+  .logo-desktop{
+    display: none;
+  }
+  .logo-mobile{
+    display: block;
+  }
+  .logo-mobile img{
+    height: 100%;
+  }
+  .top-contact-desctop{
+    display: none;
+  }
+  .nav-contact-logo i{
+    font-size: 15px;
+    line-height: 1em;
+  }
+  .in-line{
+    display: table-cell;
+    padding-left: 10px;
+  }
+  .top-contact-mobile .nav-contact-logo .fa-phone, .top-contact-mobile .nav-contact-logo .fa-envelope{
+    padding-top: 20px;
+  }
+  .section-two .top-contact-mobile .span1{
+    font-size: 10px;
+  }
+  .section-two .span2{
+    font-weight: 600;
+    font-size: 14px;
+  }
+}
 /* Top Logo head end*/
 
 /* Navbar start */
-.navbar{
+.top-nav .navbar{
   padding-top: 10px!important;
   padding-bottom: 10px!important;
 }
-
 .top-nav {
   width: 800px;
   right:10%;
@@ -303,42 +343,82 @@ a:hover, a:visited, a:focus, a:active {
   position: absolute;
   z-index: 1;
 }
-.navbar{
-  height: 60px;
+.top-nav{
+  min-height: 60px;
   padding: 0px !important;
 }
-.collapse, .collapse ul, .collapse ul li, .collapse ul li a{
-  height:100%;
+.top-nav .navbar{
+  padding: 0px !important;
+  min-height: 60px;
 }
-.collapse ul li {
+.top-nav .collapse, .top-nav .collapse ul, .top-nav .collapse ul li, .top-nav .collapse ul li a{
+  min-height: 45px;
+}
+.top-nav .collapse ul li {
   padding-top: 15px;
 }
-.navbar-nav .active{
+.top-nav .navbar-nav .active{
   background-color: #FE5A0E;
 }
-.navbar-nav .active a{
+.top-nav .navbar-nav .active a{
   color: #fff !important;
   font-weight: 600;
 }
-a.nav-link{
+.top-nav a.nav-link{
   border-right: 0.5px solid #a2a7ad;
   padding-top: 0px!important;
   padding-bottom: 0px!important;
 }
-.navbar .nav-link{
+.top-nav .navbar .nav-link{
   padding:0px 20px 0px 20px !important;
   font-size: 18px!important;
   font-family: 'Poppins';
   color: rgba(0,0,0,.9) !important;
 }
-.navbar-nav .quote{
+.top-nav .navbar-nav .quote{
   background-color: #FE5A0E;
+}
+.top-nav .navbar-nav .quote .nav-link{
+  color: #fff !important;
+}
+.mob-nav{
+  display:none;
+}
+@media screen and (max-width:470px) {
+  .top-nav {
+    display:none;
+  }
+  .mob-nav{
+    display:block;
+  }
+  .mob-nav li{
+    height: 45px;
+    padding-left:10px;
+  }
+  .mob-nav .active{
+    background-color: #FE5A0E;
+  }
+  .mob-nav .active .nav-link{
+    color: #fff !important;
+    font-weight: 600;
+  }
+  .mob-nav .navbar .nav-link{
+    /* padding:0px 20px 0px 20px !important; */
+    font-size: 16px!important;
+    font-family: 'Poppins';
+    color: rgba(0,0,0,.9);
+  }
 }
 /* Navbar end */
 
 /* Slider - Banner Start */
 #carouselExampleIndicators img{
   height: 600px !important;
+}
+@media screen and (max-width:470px) {
+  #carouselExampleIndicators img{
+    height: 300px !important;
+  }
 }
 /* Slider - Banner End */
 
@@ -399,8 +479,13 @@ a.nav-link{
   padding: 16px 32px;
 }
 
-
+@media screen and (max-width: 470px) {
+  #service_box{
+    display: none !important;
+  }
+}
 /* Service Box end */
+
 /* About NMC home-page */
 #about_nmc{
   margin-top:200px;
@@ -457,7 +542,17 @@ a.nav-link{
 #about_nmc .about-btn: before{
   background: #252525;
 }
+
+@media screen and (max-width:470px) {
+  #about_nmc{
+    margin-top:40px;
+  }
+  #about_nmc .about-nmc-img {
+    margin-top: 40px;
+  }
+}
 /* About NMC home-page end*/
+
 /* NMC info */
 .b-border{
   position: relative;
@@ -476,7 +571,13 @@ a.nav-link{
 #nmc_info i{
   color: #f7c51e;
 }
+@media screen and (max-width:470px) {
+  #nmc_info .nmc-info-div2 .col-md-6{
+    padding: 0px;
+  }
+}
 /* NMC info End */
+
 /* about_com - com-info */
 .company-info{
   min-height: 400px;
@@ -552,9 +653,19 @@ a.nav-link{
   background: #252525;
 }
 
+@media screen and (max-width:470px) {
+  .quote .col-md-5{
+    padding: 0px;
+  }
+}
+/* Page Quote End */
+
 /* Award Info */
 .awards-info{
   min-height: 200px;
+  background-color: #262626;
+}
+.nmc_awards{
   background-color: #262626;
 }
 .awa-info{
@@ -566,6 +677,15 @@ a.nav-link{
 }
 .border-r{
   border-right: 1px solid #fff;
+}
+
+@media screen and (max-width:470px) {
+  .nmc_awards .col-md-6{
+    margin-top: 20px;
+  }
+  .awards-info{
+    min-height: 550px;
+  }
 }
 /* Award Info End*/
 

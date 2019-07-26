@@ -16,24 +16,18 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="d-block w-100" src="http://shtheme.net/demosd/industrio/wp-content/uploads/2018/12/banner-1-1-1.jpg" alt="First slide">
+            <img class="d-block w-100" src="<?php echo base_url('assets/images/slider/s1.jpg'); ?>" alt="First slide">
             <div class="carousel-caption d-none d-md-block">
-              <!-- <h5>Banner Heading</h5>
-              <p>...</p> -->
             </div>
           </div>
           <div class="carousel-item">
             <img class="d-block w-100" src="<?php echo base_url('assets/images/slider/s2.jpg'); ?>" alt="Second slide">
             <div class="carousel-caption d-none d-md-block">
-              <!-- <h5>Banner Heading</h5>
-              <p>...</p> -->
             </div>
           </div>
           <div class="carousel-item">
             <img class="d-block w-100" src="<?php echo base_url('assets/images/slider/s3.jpg'); ?>" alt="Third slide">
             <div class="carousel-caption d-none d-md-block">
-              <!-- <h5>Banner Heading</h5>
-              <p>...</p> -->
             </div>
           </div>
         </div>
@@ -54,19 +48,19 @@
       <div class="service-box">
         <div class="row">
           <div class="col-md-4">
-            <img src="<?php base_url() ?>assets/images/nmc_info2.jpg" alt="Avatar" class="image" style="width:100%">
+            <img src="<?php echo base_url() ?>assets/images/nmc_info2.jpg" alt="Avatar" class="image" style="width:100%">
             <div class="middle">
               <div class="text">John Doe</div>
             </div>
           </div>
           <div class="col-md-4">
-            <img src="<?php base_url() ?>assets/images/nmc_info2.jpg" alt="Avatar" class="image" style="width:100%">
+            <img src="<?php echo base_url() ?>assets/images/nmc_info2.jpg" alt="Avatar" class="image" style="width:100%">
             <div class="middle">
               <div class="text">John Doe</div>
             </div>
           </div>
           <div class="col-md-4">
-            <img src="<?php base_url() ?>assets/images/nmc_info2.jpg" alt="Avatar" class="image" style="width:100%">
+            <img src="<?php echo base_url() ?>assets/images/nmc_info2.jpg" alt="Avatar" class="image" style="width:100%">
             <div class="middle">
               <div class="text">John Doe</div>
             </div>
@@ -75,8 +69,8 @@
       </div>
     </div>
 
-    <div class="container">
-      <div style="" class="about-nmc" id="about_nmc">
+    <div class="container" id="about_nmc">
+      <div style="" class="about-nmc">
         <div class="row">
           <div class="col-md-6">
             <h2 class="title pb-4">Welcome to <span>Industrio Company</span></h2>
@@ -99,8 +93,8 @@
             </div>
             <a href="#" class="about-btn hvr-sweep-to-right">Learn about the services</a>
           </div>
-          <div class="col-md-6 text-center">
-            <img width="70%" src="<?php base_url() ?>assets/images/about.png" alt="">
+          <div class="col-md-6 text-center about-nmc-img">
+            <img width="70%" src="<?php echo base_url() ?>assets/images/about.png" alt="">
           </div>
         </div>
       </div>
@@ -114,34 +108,34 @@
             <div class="owl-slider">
               <div id="carousel" class="owl-carousel">
               	<div class="item">
-              		<img class="owl-lazy" data-src="<?php base_url() ?>assets/images/customers/iljin.png" alt="">
+              		<img class="owl-lazy" data-src="<?php echo base_url() ?>assets/images/customers/iljin.png" alt="">
               	</div>
               	<!-- <div class="item">
-              		<img class="owl-lazy" data-src="<?php base_url() ?>assets/images/customers/emerson.jpg" alt="">
+              		<img class="owl-lazy" data-src="<?php echo base_url() ?>assets/images/customers/emerson.jpg" alt="">
               	</div> -->
               	<!-- <div class="item">
-              		<img class="owl-lazy" data-src="<?php base_url() ?>assets/images/customers/kirloskar.png" alt="">
+              		<img class="owl-lazy" data-src="<?php echo base_url() ?>assets/images/customers/kirloskar.png" alt="">
               	</div> -->
               	<div class="item">
-              		<img class="owl-lazy" data-src="<?php base_url() ?>assets/images/customers/woosu.png" alt="">
+              		<img class="owl-lazy" data-src="<?php echo base_url() ?>assets/images/customers/woosu.png" alt="">
               	</div>
                 	<div class="item">
-              		<img class="owl-lazy" data-src="<?php base_url() ?>assets/images/customers/danfoss.jpg" alt="">
+              		<img class="owl-lazy" data-src="<?php echo base_url() ?>assets/images/customers/danfoss.jpg" alt="">
+              	</div>
+              	<!-- <div class="item">
+              		<img class="owl-lazy" data-src="<?php echo base_url() ?>assets/images/customers/caspro.jpg" alt="">
+              	</div> -->
+              	<div class="item">
+              		<img class="owl-lazy" data-src="<?php echo base_url() ?>assets/images/customers/lotus.jpg" alt="">
               	</div>
               	<div class="item">
-              		<img class="owl-lazy" data-src="<?php base_url() ?>assets/images/customers/caspro.jpg" alt="">
-              	</div>
-              	<div class="item">
-              		<img class="owl-lazy" data-src="<?php base_url() ?>assets/images/customers/lotus.jpg" alt="">
-              	</div>
-              	<div class="item">
-              		<img class="owl-lazy" data-src="<?php base_url() ?>assets/images/customers/john_deere.png" alt="">
+              		<img class="owl-lazy" data-src="<?php echo base_url() ?>assets/images/customers/john_deere.png" alt="">
               	</div>
                 	<div class="item">
-              		<img class="owl-lazy" data-src="<?php base_url() ?>assets/images/customers/hodek.jpg" alt="">
+              		<img class="owl-lazy" data-src="<?php echo base_url() ?>assets/images/customers/hodek.jpg" alt="">
               	</div>
               	<div class="item">
-              		<img class="owl-lazy" data-src="<?php base_url() ?>assets/images/customers/marvelous.jpg" alt="">
+              		<img class="owl-lazy" data-src="<?php echo base_url() ?>assets/images/customers/marvelous.jpg" alt="">
               	</div>
               </div>
             </div>
@@ -170,12 +164,12 @@
               Late Gauslazam Shaikh, father of our Managing Director was the famous Industrialist for Manufacturing Gun Metal Products, Cast Iron Components and having their Workshop for Repairing Diesel Engines.
             </p>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 nmc-info-div2">
             <h2 class="title b-border">Who We Are</h2>
             <div class="row">
               <div class="col-md-6 mt-2rem">
-                <img class="pb-3" width="100%" src="<?php base_url() ?>assets/images/nmc_info1.jpg" alt="">
-                <img width="100%" src="<?php base_url() ?>assets/images/nmc_info2.jpg" alt="">
+                <img class="pb-3" width="100%" src="<?php echo base_url() ?>assets/images/nmc_info1.jpg" alt="">
+                <img width="100%" src="<?php echo base_url() ?>assets/images/nmc_info2.jpg" alt="">
               </div>
               <div class="col-md-6 mt-2rem">
                 <p>
@@ -245,6 +239,7 @@
             <h2 class="title">Learn more from <span>our FAQ</span></h2>
             <p>You will find yourself working in a true partnership that results in an incredible experience, and an end product that is the best.</p>
           </div>
+
           <div class="col-md-5">
             <div class="requery-quote">
               <h2 class="title pb-3 white-text">Request a <span>Quote</span></h2>
@@ -317,9 +312,9 @@
 
 
 
-    <div class="container-fluid awards-info">
+    <div class="container-fluid nmc_awards" id="nmc_awards">
       <div class="container">
-        <div class="nmc_awards" id="nmc_awards">
+        <div class="">
           <div class="row awards-info">
             <div class="col-md-6 align-self-center">
               <h3 class="awa-info">Winning <span class="nmc-text-color"> Awards</span></h1>
