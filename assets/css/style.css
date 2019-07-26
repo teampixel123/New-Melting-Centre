@@ -9,7 +9,7 @@ body{
 }
 
 
-h6{
+/* h6{
     color: #a2a7ad;
 }
 a{
@@ -18,7 +18,7 @@ a{
 
 a:hover{
   color: #d4d8dc;
-}
+} */
 
 .r-border-none{
   border-right: none!important;
@@ -34,18 +34,6 @@ footer{
  background-color: #1c2331;
 }
 
-.social-footer{
-  background-color: #09c;
-}
-
-
-/* head start */
-
-.fa-volume-control-phone{
-
-}
-/* head ends */
-
 .btn-primary{
   background-color: #09c!important;
   border-color: #09c!important;
@@ -53,14 +41,12 @@ footer{
 .btn-primary:hover{
   background-color: #056d90!important;
 }
-
+button:focus {
+    outline: none !important;
+}
 .footer-copyright{
   color:  #a2a7ad;
   background-color: #161c27;
-}
-
-.contact-footer{
-  color:  #a2a7ad;
 }
 
 .white-text{
@@ -586,6 +572,7 @@ a:hover, a:visited, a:focus, a:active {
 .com-info{
   color: #fff;
   text-align: center;
+  font-family: 'Rubik', serif;
 }
 /* Company Info - com-info End*/
 
@@ -600,6 +587,12 @@ a:hover, a:visited, a:focus, a:active {
   padding-left: 20px !important;
   display: table-cell !important;
   vertical-align: middle !important;
+}
+.icon-box h3{
+  font-family: 'Poppins', serif;
+  font-size:24px;
+  font-weight: 600;
+  letter-spacing: 1px;
 }
 .bg-gray{
   background-color: #F6F6F6;
@@ -686,6 +679,9 @@ a:hover, a:visited, a:focus, a:active {
   .awards-info{
     min-height: 550px;
   }
+  .nmc_awards .border-r{
+    border-right: none !important;
+  }
 }
 /* Award Info End*/
 
@@ -754,6 +750,59 @@ a:hover, a:visited, a:focus, a:active {
     outline: none;
 }
 /* Products Home Page end*/
-/* testomonial*/
-
-/* testomonial*/
+/* Footer start*/
+.social-footer{
+  background-color: #09c;
+  min-height: 60px;
+}
+.social-footer .container, .social-footer .row{
+  min-height: 60px;
+}
+.footer-nmc{
+  font-size: 18px;
+  text-align: left;
+  color: #fff;
+}
+.contact-footer{
+  color:  #a2a7ad;
+  text-align: left;
+  margin-bottom: 5px;
+}
+.link-footer{
+  text-align: justify ;
+  margin-bottom: 5px;
+}
+.link-footer a{
+  color:  #a2a7ad;
+}
+.footer-products, .footer-links, .footer-company{
+  margin-bottom: 20px;
+}
+.nmc-footer hr{
+  margin-bottom: 10px;
+  margin-top: 0px !important;
+}
+@media screen and (max-width:470px) {
+  .social-footer{
+    padding: 10px 0px 10px 0px;
+  }
+  .social-footer .col-md-6{
+    padding: 0px;
+    text-align: center;
+  }
+  .footer-nmc{
+    text-align: center;
+  }
+  .contact-footer{
+    text-align: justify;
+  }
+  .link-footer{
+    text-align: center ;
+    margin-bottom: 5px;
+    color:  #a2a7ad;
+  }
+  .footer-products, .footer-links, .footer-company{
+    margin-bottom: 20px;
+  }
+}
+/* Footer end*/

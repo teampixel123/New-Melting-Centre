@@ -2,15 +2,11 @@
   <footer>
     <div class="social-footer" >
       <div class="container">
-        <!-- Grid row-->
         <div class="row py-4 d-flex align-items-center">
-          <!-- Grid column -->
-          <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+          <div class="col-md-6 align-self-center">
             <h6 class="mb-0 white-text">Get connected with us on social networks!</h6>
           </div>
-          <!-- Grid column -->
-          <!-- Grid column -->
-          <div class="col-md-6 col-lg-7 text-center text-md-right">
+          <div class="col-md-6 text-md-right">
             <!-- Facebook -->
             <a class="fb-ic">
               <i class="fab fa-facebook-f white-text mr-4"> </i>
@@ -32,87 +28,53 @@
               <i class="fab fa-instagram white-text"> </i>
             </a>
           </div>
-          <!-- Grid column -->
         </div>
-        <!-- Grid row-->
       </div>
     </div>
     <!-- Footer Links -->
-    <div class="container text-center text-md-left mt-5">
-      <!-- Grid row -->
+    <div class="container text-center text-md-left mt-5 nmc-footer">
       <div class="row mt-3">
-        <!-- Grid column -->
-        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-          <!-- Content -->
+        <div class="col-md-4 col-12 footer-company">
           <h6 class="text-uppercase font-weight-bold">Company name</h6>
-          <hr class="deep-purple  mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-          <img src="<?php echo base_url('assets/images/logo_footer.png'); ?>" alt="">
+          <hr class="deep-purple d-inline-block mx-auto" style="width: 60px;">
+          <p class="footer-nmc">New Melting Center Pvt. Ltd</p>
+          <!-- <img src="<?php echo base_url('assets/images/logo_footer.png'); ?>" alt=""> -->
           <p class="contact-footer">
-             Plot No.11,Building No.12, <br>
-            <span class="address-space">  Y.P.Powar Nagar,Kolhapur - 416008. <br>
-              Maharashtra State (India).
-            </span>
+             Plot No. 11, Building No. 12,
+             Y. P. Powar Nagar, Kolhapur - 416008.
+            Maharashtra (India).
           </p>
         </div>
-        <!-- Grid column -->
-        <!-- Grid column -->
-        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-          <!-- Links -->
+        <div class="col-md-2 col-6 footer-products">
           <h6 class="text-uppercase font-weight-bold">Products</h6>
-          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-          <p>
-            <a href="#!">MDBootstrap</a>
-          </p>
-          <p>
-            <a href="#!">MDWordPress</a>
-          </p>
-          <p>
-            <a href="#!">BrandFlow</a>
-          </p>
-          <p>
-            <a href="#!">Bootstrap Angular</a>
-          </p>
+          <hr class="deep-purple accent-2 d-inline-block mx-auto" style="width: 60px;">
+          <p class="link-footer"><a href="#!">Bootstrap</a></p>
+          <p class="link-footer"><a href="#!">WordPress</a></p>
+          <p class="link-footer"><a href="#!">BrandFlow</a></p>
+          <p class="link-footer"><a href="#!">Angular</a></p>
         </div>
-        <!-- Grid column -->
-        <!-- Grid column -->
-        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-          <!-- Links -->
+        <div class="col-md-2 col-6 footer-links">
           <h6 class="text-uppercase font-weight-bold">Useful links</h6>
-          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-          <p>
-            <a href="<?php echo base_url(); ?>Melting_Controller/home">Home</a>
-          </p>
-          <p>
-            <a href="<?php echo base_url(); ?>Melting_Controller/about">About Us</a>
-          </p>
-          <p>
-            <a href="<?php echo base_url(); ?>Melting_Controller/product">Products</a>
-          </p>
-          <p>
-            <a href="<?php echo base_url(); ?>Melting_Controller/gallery">Portfolio</a>
-          </p>
+          <hr class="deep-purple d-inline-block mx-auto" style="width: 60px;">
+          <p class="link-footer"><a href="<?php echo base_url(); ?>Melting_Controller/home">Home</a></p>
+          <p class="link-footer"><a href="<?php echo base_url(); ?>Melting_Controller/about">About Us</a></p>
+          <p class="link-footer"><a href="<?php echo base_url(); ?>Melting_Controller/product">Products</a></p>
+          <p class="link-footer"><a href="<?php echo base_url(); ?>Melting_Controller/gallery">Portfolio</a></p>
         </div>
-        <!-- Grid column -->
-        <!-- Grid column -->
-        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+        <div class="col-md-4 col-12 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
           <!-- Links -->
           <h6 class="text-uppercase font-weight-bold">Contact</h6>
-          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-            <h6 class="text-uppercase font-weight-bold">Works & Office:</h6>
-          <p class="contact-footer">
-            <i class="far fa-building mr-3"></i>Gat No.678 / 679 (Part),Kushire,<br>Tal.Panhala,
-                    Dist : Kolhapur - 416229 <br>
-                    Maharashtra State (India).
-          <p class="contact-footer" >
-            <i class="fas fa-envelope mr-3"></i> info@example.com</p>
-          <p class="contact-footer" >
-            <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
-          <p class="contact-footer" >
-            <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+          <hr class="deep-purple d-inline-block mx-auto" style="width: 60px;">
+            <!-- <h6 class="text-uppercase font-weight-bold">Works & Office:</h6> -->
+          <!-- <p class="contact-footer"><i class="far fa-building mr-3"></i>
+            Gat No.678 / 679 (Part), Kushire, Tal: Panhala,
+            Dist: Kolhapur - 416229,
+            Maharashtra (India).</p> -->
+          <p class="link-footer" ><i class="fas fa-envelope mr-3"></i> info@example.com</p>
+          <p class="link-footer" ><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+          <p class="link-footer" ><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
         </div>
-        <!-- Grid column -->
       </div>
-      <!-- Grid row -->
     </div>
     <!-- Footer Links -->
     <!-- Copyright -->

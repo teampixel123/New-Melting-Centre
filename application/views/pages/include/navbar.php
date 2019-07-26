@@ -11,7 +11,7 @@
     <div class="content">
       <div class="row top-contact-desctop">
         <div class="col-md-2"></div>
-        <div class="col-md-1 align-self-center">
+        <div class="col-md-1 align-self-center text-center">
           <div class="nav-contact-logo">
             <i class="fa fa-phone" aria-hidden="true"></i>
           </div>
@@ -22,7 +22,7 @@
             <span class="span2">9865326598</span>
           </div>
         </div>
-        <div class="col-md-1 align-self-center">
+        <div class="col-md-1 align-self-center text-center">
           <div class="nav-contact-logo">
             <i class="fa fa-envelope" aria-hidden="true"></i>
           </div>

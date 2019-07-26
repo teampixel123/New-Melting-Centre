@@ -186,7 +186,7 @@
       <div class="" id="about_com">
         <div class="row company-info">
           <div class="col-md-12 align-self-center">
-            <h3 class="com-info ">We shall strive to become a <span class="nmc-text-color">world class foundry</span> <br>to provide fully finished components <br>to achieve customer's delight.</h1>
+            <h3 class="com-info">We shall strive to become a <span class="nmc-text-color">world class foundry</span> <br>to provide fully finished components <br>to achieve customer's delight.</h1>
           </div>
         </div>
       </div>
@@ -246,16 +246,16 @@
               <p class="white-text">Fill all information details to consult with us to get services from us</p>
               <form>
                 <div class="form-group white-text">
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                  <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
                 </div>
                 <div class="form-group white-text">
-                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                  <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Email">
                 </div>
                 <div class="form-group white-text">
-                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                  <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Phone">
                 </div>
                 <div class="form-group white-text">
-                  <textarea name="name" class="form-control" rows="4" cols="80"></textarea>
+                  <textarea name="messege" class="form-control" rows="4" cols="80" placeholder="Write some text"></textarea>
                 </div>
                 <a href="#" class="about-btn hvr-sweep-to-right">Get a quote</a>
               </form>
