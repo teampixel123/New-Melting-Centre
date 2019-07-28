@@ -40,65 +40,67 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
-
     </div>
     <!--slider end -->
-
-    <div class="container-fluid " id="service_box">
-      <div class="service-box">
-        <div class="row">
-          <div class="col-md-4">
-            <img src="<?php echo base_url() ?>assets/images/nmc_info2.jpg" alt="Avatar" class="image" style="width:100%">
-            <div class="middle">
-              <div class="text">John Doe</div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <img src="<?php echo base_url() ?>assets/images/nmc_info2.jpg" alt="Avatar" class="image" style="width:100%">
-            <div class="middle">
-              <div class="text">John Doe</div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <img src="<?php echo base_url() ?>assets/images/nmc_info2.jpg" alt="Avatar" class="image" style="width:100%">
-            <div class="middle">
-              <div class="text">John Doe</div>
-            </div>
-          </div>
+<div class="container">
+  <div class="service-box" id="service_box">
+    <div class="row">
+      <div class="col-md-4">
+        <img src="<?php echo base_url() ?>assets/images/nmc_info2.jpg" alt="Avatar" class="image" style="width:100%">
+        <div class="middle">
+          <h3>Integrity</h3>
+          <p>We do business with at most Honesty, Transparency and in the interest of our Clients.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <img src="<?php echo base_url() ?>assets/images/nmc_info2.jpg" alt="Avatar" class="image" style="width:100%">
+        <div class="middle">
+          <h3>Excellence</h3>
+          <p>We strive for highest possible standards in our working and in the quality of the products we supply.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <img src="<?php echo base_url() ?>assets/images/nmc_info2.jpg" alt="Avatar" class="image" style="width:100%">
+        <div class="middle">
+          <h3>Responsibility</h3>
+          <p>We always work towards Safety, Security and Comfort for our Customers under Environment  Management System (EMS).</p>
         </div>
       </div>
     </div>
+  </div>
+</div>
 
-    <div class="container" id="about_nmc">
-      <div style="" class="about-nmc">
+<div class="container" id="about_nmc">
+  <div style="" class="about-nmc">
+    <div class="row">
+      <div class="col-md-6">
+        <h2 class="title pb-4">Welcome to <span>Industrio Company</span></h2>
+        <p>
+          Late Gauslazam Shaikh, father of our Managing Director was the famous Industrialist for Manufacturing Gun Metal Products, Cast Iron Components and having their Workshop for Repairing Diesel Engines. After completion of Diesel Mechanical Course, our Managing Director has started to look after family business since 1980 along with his brother Mr. Dilawar Shaikh.
+        </p>
         <div class="row">
           <div class="col-md-6">
-            <h2 class="title pb-4">Welcome to <span>Industrio Company</span></h2>
-            <p>
-              Late Gauslazam Shaikh, father of our Managing Director was the famous Industrialist for Manufacturing Gun Metal Products, Cast Iron Components and having their Workshop for Repairing Diesel Engines. After completion of Diesel Mechanical Course, our Managing Director has started to look after family business since 1980 along with his brother Mr. Dilawar Shaikh.
-            </p>
-            <div class="row">
-              <div class="col-md-6">
-                <ul class="list-items">
-                  <li><i class="fa fa-arrow-right"></i>  Our Work Growth</li>
-                  <li><i class="fa fa-arrow-right"></i>  1500 Employed</li>
-                </ul>
-              </div>
-              <div class="col-md-6">
-                <ul class="list-items">
-                  <li><i class="fa fa-arrow-right"></i>  Our Work Growth</li>
-                  <li><i class="fa fa-arrow-right"></i>  1500 Employed</li>
-                </ul>
-              </div>
-            </div>
-            <a href="#" class="about-btn hvr-sweep-to-right">Learn about the services</a>
+            <ul class="list-items">
+              <li><i class="fa fa-arrow-right"></i>  Our Work Growth</li>
+              <li><i class="fa fa-arrow-right"></i>  1500 Employed</li>
+            </ul>
           </div>
-          <div class="col-md-6 text-center about-nmc-img">
-            <img width="70%" src="<?php echo base_url() ?>assets/images/about.png" alt="">
+          <div class="col-md-6">
+            <ul class="list-items">
+              <li><i class="fa fa-arrow-right"></i>  Our Work Growth</li>
+              <li><i class="fa fa-arrow-right"></i>  1500 Employed</li>
+            </ul>
           </div>
         </div>
+        <a href="#" class="about-btn">Learn about the services</a>
+        <!-- hvr-sweep-to-right -->
+      </div>
+      <div class="col-md-6 text-center about-nmc-img">
+        <img width="70%" src="<?php echo base_url() ?>assets/images/about.png" alt="">
       </div>
     </div>
+  </div>
+</div>
 
     <div class="container">
       <div class="mb-5 products" id="customers">
@@ -197,34 +199,37 @@
         <div class="row">
           <div class="col-md-4">
             <div class="feature-box bg-gray">
-              <div class="icon-box">
+              <!-- <div class="icon-box">
                   <i class="fa fa-edit feature-icon"></i>
-              </div><!-- /.icon-box -->
+              </div -->
               <div class="icon-box">
-                  <h3>Creative Ideas</h3>
-                  <p>Sed quia non numquam eius modi tempora incidunt ut labore.</p>
+                  <h3>Count On Us</h3>
+                  <img width="100%" src="<?php echo base_url() ?>assets/images/count_on_us.jpg" alt="">
+                  <p>98.8% on-time delivery</p>
               </div><!-- /.text-box -->
             </div>
           </div>
           <div class="col-md-4">
             <div class="feature-box nmc-bg-color white-text">
-              <div class="icon-box">
+              <!-- <div class="icon-box">
                   <i class="fa fa-edit feature-icon"></i>
-              </div><!-- /.icon-box -->
+              </div> -->
               <div class="icon-box">
-                  <h3>Creative Ideas</h3>
-                  <p class="white-text">Sed quia non numquam eius modi tempora incidunt ut labore.</p>
+                  <h3>Reliable Quality</h3>
+                  <img width="100%" src="<?php echo base_url() ?>assets/images/reliable_quality.jpg" alt="">
+                  <p class="white-text">less than 1% customer return</p>
               </div><!-- /.text-box -->
             </div>
           </div>
           <div class="col-md-4">
             <div class="feature-box bg-black white-text">
-              <div class="icon-box">
+              <!-- <div class="icon-box">
                   <i class="fa fa-edit feature-icon"></i>
-              </div><!-- /.icon-box -->
+              </div> -->
               <div class="icon-box">
-                  <h3>Creative Ideas</h3>
-                  <p class="white-text">Sed quia non numquam eius modi tempora incidunt ut labore.</p>
+                  <h3>Short Lead Time</h3>
+                  <img width="100%" src="<?php echo base_url() ?>assets/images/short_lead_time.jpg" alt="">
+                  <p class="white-text">3.4 week average lead time</p>
               </div><!-- /.text-box -->
             </div>
           </div>

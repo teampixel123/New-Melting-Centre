@@ -52,3 +52,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'Melting_Controller';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
+
+$route['About-Us'] = 'Melting_Controller/about_us';
+$route['Products'] = 'Melting_Controller/products';
+$route['Our-Strength'] = 'Melting_Controller/our_strength';
+$route['Photo-Gallery'] = 'Melting_Controller/photo_gallery';
+$route['Contact-Us'] = 'Melting_Controller/contact_us';
