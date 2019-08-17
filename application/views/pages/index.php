@@ -121,7 +121,7 @@
               </ul>
             </div>
           </div>
-          <a href="#" class="about-btn">Learn about the services</a>
+          <a href="#" class="about-btn btn-hvr">Learn about the services</a>
           <!-- hvr-sweep-to-right -->
         </div>
         <div class="col-md-6 text-center about-nmc-img">
@@ -129,6 +129,7 @@
         </div>
       </div>
     </div>
+    <hr>
   </div>
 
   <div class="container">
@@ -141,21 +142,12 @@
             	<div class="item">
             		<img class="owl-lazy" data-src="<?php echo base_url() ?>assets/images/customers/iljin.png" alt="">
             	</div>
-            	<!-- <div class="item">
-            		<img class="owl-lazy" data-src="<?php echo base_url() ?>assets/images/customers/emerson.jpg" alt="">
-            	</div> -->
-            	<!-- <div class="item">
-            		<img class="owl-lazy" data-src="<?php echo base_url() ?>assets/images/customers/kirloskar.png" alt="">
-            	</div> -->
             	<div class="item">
             		<img class="owl-lazy" data-src="<?php echo base_url() ?>assets/images/customers/woosu.png" alt="">
             	</div>
               	<div class="item">
             		<img class="owl-lazy" data-src="<?php echo base_url() ?>assets/images/customers/danfoss.jpg" alt="">
             	</div>
-            	<!-- <div class="item">
-            		<img class="owl-lazy" data-src="<?php echo base_url() ?>assets/images/customers/caspro.jpg" alt="">
-            	</div> -->
             	<div class="item">
             		<img class="owl-lazy" data-src="<?php echo base_url() ?>assets/images/customers/lotus.jpg" alt="">
             	</div>
@@ -176,21 +168,21 @@
   </div>
 
   <div class="container">
-    <div class="mb-5 pt-5" id="nmc_info" class="nmc-info">
+    <div id="nmc_info" class="nmc-info">
       <div class="row">
         <div class="col-md-6">
           <h2 class="title b-border">Why Choose Us</h2>
           <h4 class="sub-title"><i class="fa fa-check"></i> WE ARE PASSIONATE</h4>
           <p>
-            Late Gauslazam Shaikh, father of our Managing Director was the famous Industrialist for Manufacturing Gun Metal Products, Cast Iron Components and having their Workshop for Repairing Diesel Engines.
+            We have a proven record of accomplishment and are a reputable company in the India. We ensure that all projects are done with utmost professionalism using quality materials while offering clients the support and accessibility.
           </p>
-          <h4 class="sub-title"><i class="fa fa-check"></i> WE ARE PASSIONATE</h4>
+          <h4 class="sub-title"><i class="fa fa-check"></i> HONEST AND DEPENDABLE</h4>
           <p>
-            Late Gauslazam Shaikh, father of our Managing Director was the famous Industrialist for Manufacturing Gun Metal Products, Cast Iron Components and having their Workshop for Repairing Diesel Engines.
+            For us, honesty is the only policy and we strive to complete all projects with integrity, not just with our clients, but also our suppliers and contractors. With thousands of successful projects under our belt, we are one of the most	trusted companies in India.
           </p>
-          <h4 class="sub-title"><i class="fa fa-check"></i> WE ARE PASSIONATE</h4>
+          <h4 class="sub-title"><i class="fa fa-check"></i> WE ARE ALWAYS IMPROVING</h4>
           <p>
-            Late Gauslazam Shaikh, father of our Managing Director was the famous Industrialist for Manufacturing Gun Metal Products, Cast Iron Components and having their Workshop for Repairing Diesel Engines.
+            We commit ourselves to complete all projects within the timeline set with our clients. We use the best of technology and tools to ensure that all jobs are done quickly but also giving attention to details and ensuring everything is done correctly.
           </p>
         </div>
         <div class="col-md-6 nmc-info-div2">
@@ -215,14 +207,15 @@
     <div class="" id="about_com">
       <div class="row company-info">
         <div class="col-md-12 align-self-center">
-          <h3 class="com-info">We shall strive to become a <span class="nmc-text-color">world class foundry</span> <br>to provide fully finished components <br>to achieve customer's delight.</h1>
+
+          <h3 class="com-info"><i class="fas fa-quote-left"></i> We shall strive to become a <span class="nmc-text-color">world class foundry</span> <br>to provide fully finished components <br>to achieve customer's delight<i class="fas fa-quote-right"></i></h1>
         </div>
       </div>
     </div>
   </div>
 
   <div class="container">
-    <div class="mb-5 features" id="features">
+    <div class="features" id="features">
       <div class="row">
         <div class="col-md-4">
           <div class="feature-box bg-gray">
@@ -237,40 +230,73 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="feature-box nmc-bg-color white-text">
+          <div class="feature-box bg-gray">
             <!-- <div class="icon-box">
                 <i class="fa fa-edit feature-icon"></i>
             </div> -->
             <div class="icon-box">
                 <h3>Reliable Quality</h3>
                 <img width="100%" src="<?php echo base_url() ?>assets/images/reliable_quality.jpg" alt="">
-                <p class="white-text">less than 1% customer return</p>
+                <p class="">less than 1% customer return</p>
             </div><!-- /.text-box -->
           </div>
         </div>
         <div class="col-md-4">
-          <div class="feature-box bg-black white-text">
+          <div class="feature-box bg-gray">
             <!-- <div class="icon-box">
                 <i class="fa fa-edit feature-icon"></i>
             </div> -->
             <div class="icon-box">
                 <h3>Short Lead Time</h3>
                 <img width="100%" src="<?php echo base_url() ?>assets/images/short_lead_time.jpg" alt="">
-                <p class="white-text">3.4 week average lead time</p>
+                <p class="">3.4 week average lead time</p>
             </div><!-- /.text-box -->
           </div>
         </div>
       </div>
     </div>
+    <hr>
   </div>
 
   <div class="container">
-    <div class="mb-5 quote">
+    <div class="quote">
       <div class="row">
         <div class="col-md-7">
-          <h2 class="title">Learn more from <span>our FAQ</span></h2>
-          <p>You will find yourself working in a true partnership that results in an incredible experience, and an end product that is the best.</p>
-        </div>
+          <h2 class="title">Our Core <span>Values</span></h2>
+          <p>
+            The New Melting Centre Pvt. Ltd., since its inception, has been always value-driven Organization. We do business on following Five Core Values:
+          </p>
+          <h4 class="sub-title"><i class="fa fa-check"></i> Integrity :
+          <span>
+            We do business with at most Honesty, Transparency and in the interest of our Clients.
+          </span>
+          </h4>
+          <h4 class="sub-title"><i class="fa fa-check"></i> Excellence :
+          <span>
+            We strive for highest possible standards in our working and in the quality of the products we supply.
+          </span>
+          </h4>
+          <h4 class="sub-title"><i class="fa fa-check"></i> Responsibility :
+          <span>
+            We always work towards Safety, Security and Comfort for our Customers under Environment  Management System (EMS).
+          </span>
+          </h4>
+          <h4 class="sub-title"><i class="fa fa-check"></i> Responsibility :
+          <span>
+            We always work towards Safety, Security and Comfort for our Customers under Environment  Management System (EMS).
+          </span>
+          </h4>
+          <h4 class="sub-title"><i class="fa fa-check"></i> Promptness :
+          <span>
+            We make it sure to supply our products in lead time to avoid any hardship to our Customers.
+          </span>
+          </h4>
+          <h4 class="sub-title"><i class="fa fa-check"></i> Cost Effectiveness :
+          <span>
+            We provide our Excellent Precision Products at Reasonable price.
+          </span>
+          </h4>
+          </div>
         <div class="col-md-5">
           <div class="requery-quote">
             <h2 class="title pb-3 white-text">Request a <span>Quote</span></h2>
@@ -288,12 +314,16 @@
               <div class="form-group white-text">
                 <textarea name="messege" class="form-control" rows="4" cols="80" placeholder="Write some text"></textarea>
               </div>
-              <a href="#" class="about-btn hvr-sweep-to-right">Get a quote</a>
+              <div class="text-center">
+                <a href="#" class="about-btn btn-hvr">Get a quote</a>
+              </div>
+
             </form>
           </div>
         </div>
       </div>
     </div>
+    <hr>
   </div>
 
   <div class="container">
@@ -345,15 +375,15 @@
       <div class="">
         <div class="row awards-info">
           <div class="col-md-6 align-self-center">
-            <h3 class="awa-info">Winning <span class="nmc-text-color"> Awards</span></h1>
-            <p class="white-text">You will find yourself working in a true partnership that results in an incredible experience, and an end product that is the best.</p>
+            <h3 class="awa-info title">Best Supplier<span class="nmc-text-color"> Award</span></h1>
+            <p class="white-text">Best Supplier Award for speed response to new products by Kirloskar Oil Engines Limited.</p>
           </div>
-          <div class="col-md-3 awards-img border-r">
+          <div class="col-md-6 awards-img">
+            <img width="80%" height="350px" src="<?php echo base_url() ?>assets/images/award1.jpg" alt="">
+          </div>
+          <!-- <div class="col-md-3 awards-img text-center align-self-center">
             <img width="80%" height="150px" src="<?php echo base_url() ?>assets/images/certificate1.jpg" alt="">
-          </div>
-          <div class="col-md-3 awards-img text-center align-self-center">
-            <img width="80%" height="150px" src="<?php echo base_url() ?>assets/images/certificate1.jpg" alt="">
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
