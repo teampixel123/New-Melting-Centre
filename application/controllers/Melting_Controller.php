@@ -13,7 +13,7 @@ class Melting_Controller extends CI_Controller {
     $this->load->view('pages/about_us');
   }
   public function products(){
-    $this->load->view('pages/index');
+    $this->load->view('pages/products');
   }
   public function our_strength(){
     $this->load->view('pages/index');
@@ -22,6 +22,6 @@ class Melting_Controller extends CI_Controller {
     $this->load->view('pages/index');
   }
   public function contact_us(){
-    $this->load->view('pages/index');
+    $this->load->view('pages/contact');
   }
 }

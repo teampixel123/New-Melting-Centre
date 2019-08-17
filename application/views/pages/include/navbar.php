@@ -7,7 +7,7 @@
         </div>
         <div class="col-md-9 text-left align-self-center" style="color:#000;">
           <p>
-            <span class="com-name">NEW MELTING CENTER PVT. LTD.</span><br>
+            <span class="com-name" >NEW MELTING CENTER PVT. LTD.</span><br>
             An ISO 9001:2008 Company
           </p>
         </div>
