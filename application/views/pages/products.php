@@ -12,7 +12,7 @@
   </div>
 </div>
 <!-- product container start -->
-<div class="container">
+<div class="container" id="product-page">
 <div class="row">
   <div class="col-md-4">
     <div class="card">
@@ -291,33 +291,29 @@
   <div class="col-md-4">
     <div class="card">
       <div class="pop">
-      <img style="display:none;" class="pop-img" src="<?php echo base_url(); ?>assets/images/products/large/rear_wheel_brake.jpg" alt="">
-      <img class="card-img-top" src="<?php echo base_url(); ?>assets/images/products/rear_wheel_brake.jpg" alt="Card image cap">
+      <img style="display:none;" class="pop-img" src="<?php echo base_url(); ?>assets/images/products/large/flywheel.jpg" alt="">
+      <img class="card-img-top" src="<?php echo base_url(); ?>assets/images/products/flywheel.jpg" alt="Card image cap">
     </div>
       <div class="card-body">
-        <h5 class="card-title">DRUM- REAR WHEEL BRAKE</h5>
+        <h5 class="card-title">FLYWHEEL HIGH INERTIA (DICR)</h5>
         <p class="card-text">
           <table class="product-table">
-                <tbody><tr>
-                  <td>MATERIAL GRADE</td>
-                  <td> : FC 250 D</td>
-                </tr>
-                <tr>
-                  <td>PART WEIGHT</td>
-                  <td> : 6.800 Kg.</td>
-                </tr>
-                <tr>
-                  <td>HEIGHT × WEIGHT</td>
-                  <td> : 51.8 x 244.4</td>
-                </tr>
-                <tr>
-                  <td>MONTHELY VOLUME</td>
-                  <td> : 45000 Nos.</td>
-                </tr>
-                <tr>
-                  <td>APPLICATION</td>
-                  <td> : Brake Assembly</td>
-                </tr>
+              <tbody><tr>
+                <td>MATERIAL GRADE</td>
+                <td> : FG 260</td>
+              </tr>
+              <tr>
+                <td>PART WEIGHT</td>
+                <td> : 11.500 kg.</td>
+              </tr>
+              <tr>
+                <td>HEIGHT × WEIGHT</td>
+                <td> : 50.0 × 254.0mm</td>
+              </tr>
+              <tr>
+                <td>MONTHELY VOLUME</td>
+                <td> : 3000</td>
+              </tr>
               </tbody>
             </table>
           </p>
@@ -353,6 +349,9 @@
                     <td>MONTHELY VOLUME</td>
                     <td> : 10000</td>
                   </tr>
+                  <tr>
+                    <td><br></td>
+                  </tr>
                 </tbody>
             </table>
           </p>
@@ -362,34 +361,39 @@
   <div class="col-md-4">
     <div class="card">
       <div class="pop">
-      <img style="display:none;" class="pop-img" src="<?php echo base_url(); ?>assets/images/products/large/flywheel.jpg" alt="">
-      <img class="card-img-top" src="<?php echo base_url(); ?>assets/images/products/flywheel.jpg" alt="Card image cap">
+      <img style="display:none;" class="pop-img" src="<?php echo base_url(); ?>assets/images/products/large/rear_wheel_brake.jpg" alt="">
+      <img class="card-img-top" src="<?php echo base_url(); ?>assets/images/products/rear_wheel_brake.jpg" alt="Card image cap">
     </div>
       <div class="card-body">
-        <h5 class="card-title">FLYWHEEL HIGH INERTIA (DICR)</h5>
+        <h5 class="card-title">DRUM- REAR WHEEL BRAKE</h5>
         <p class="card-text">
           <table class="product-table">
-              <tbody><tr>
-                <td>MATERIAL GRADE</td>
-                <td> : FG 260</td>
-              </tr>
-              <tr>
-                <td>PART WEIGHT</td>
-                <td> : 11.500 kg.</td>
-              </tr>
-              <tr>
-                <td>HEIGHT × WEIGHT</td>
-                <td> : 50.0 × 254.0mm</td>
-              </tr>
-              <tr>
-                <td>MONTHELY VOLUME</td>
-                <td> : 3000</td>
-              </tr>
+                <tbody><tr>
+                  <td>MATERIAL GRADE</td>
+                  <td> : FC 250 D</td>
+                </tr>
+                <tr>
+                  <td>PART WEIGHT</td>
+                  <td> : 6.800 Kg.</td>
+                </tr>
+                <tr>
+                  <td>HEIGHT × WEIGHT</td>
+                  <td> : 51.8 x 244.4</td>
+                </tr>
+                <tr>
+                  <td>MONTHELY VOLUME</td>
+                  <td> : 45000 Nos.</td>
+                </tr>
+                <tr>
+                  <td>APPLICATION</td>
+                  <td> : Brake Assembly</td>
+                </tr>
               </tbody>
             </table>
           </p>
       </div>
     </div>
+
   </div>
   <div class="col-md-4">
     <div class="card">
@@ -487,6 +491,9 @@
                   <td>MONTHELY VOLUME</td>
                   <td> : 20000 </td>
                 </tr>
+                <tr>
+                  <td><br></td>
+                </tr>
               </tbody>
             </table>
           </p>
@@ -518,6 +525,9 @@
                   <tr>
                     <td>MONTHELY VOLUME</td>
                     <td> : 2000 </td>
+                  </tr>
+                  <tr>
+                    <td><br></td>
                   </tr>
                 </tbody>
             </table>
@@ -1017,6 +1027,9 @@
                   <td>MONTHELY VOLUME</td>
                   <td> : 3000 No's</td>
                 </tr>
+                <tr>
+                  <td><br> <br><br> </td>
+                </tr>
               </tbody>
             </table>
           </p>
@@ -1093,7 +1106,7 @@ $(function() {
   $('.pop').on('click', function() {
     $('.imagepreview').attr('src', $(this).find('img').attr('src'));
       // $('#exampleModalLongTitle').text('.card-title');
-      $(this).
+      // $(this).
     $('#imagemodal').modal('show');
   });
 });

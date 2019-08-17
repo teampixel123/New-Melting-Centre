@@ -334,34 +334,34 @@
           <div class="owl-slider">
             <div id="carousel2" class="owl-carousel">
             	<div class="item">
-            		<img class="owl-lazy" data-src="https://i.pinimg.com/originals/84/67/26/846726299dc5abbeb5d60016f0fb32e9.jpg" alt="">
+            		<img class="owl-lazy" data-src="<?php echo base_url(); ?>assets/images/products/streering.jpg" alt="">
             	</div>
             	<div class="item">
-            		<img class="owl-lazy" data-src="http://desktop-backgrounds-org.s3.amazonaws.com/400x300/twitter-nature-high-definition.jpg" alt="">
+            		<img class="owl-lazy" data-src="<?php echo base_url(); ?>assets/images/products/krish_wheel_hub.jpg" alt="">
             	</div>
             	<div class="item">
-            		<img class="owl-lazy" data-src="https://i.pinimg.com/originals/84/67/26/846726299dc5abbeb5d60016f0fb32e9.jpg" alt="">
+            		<img class="owl-lazy" data-src="<?php echo base_url(); ?>assets/images/products/motor_cover.jpg" alt="">
             	</div>
             	<div class="item">
-            		<img class="owl-lazy" data-src="http://desktop-backgrounds-org.s3.amazonaws.com/400x300/twitter-nature-high-definition.jpg" alt="">
+            		<img class="owl-lazy" data-src="<?php echo base_url(); ?>assets/images/products/final_drive.jpg" alt="">
             	</div>
               	<div class="item">
-            		<img class="owl-lazy" data-src="https://i.pinimg.com/originals/84/67/26/846726299dc5abbeb5d60016f0fb32e9.jpg" alt="">
+            		<img class="owl-lazy" data-src="<?php echo base_url(); ?>assets/images/products/wheel_hub.jpg" alt="">
             	</div>
             	<div class="item">
-            		<img class="owl-lazy" data-src="http://desktop-backgrounds-org.s3.amazonaws.com/400x300/twitter-nature-high-definition.jpg" alt="">
+            		<img class="owl-lazy" data-src="<?php echo base_url(); ?>assets/images/products/engine_front_cover.jpg" alt="">
             	</div>
             	<div class="item">
-            		<img class="owl-lazy" data-src="https://i.pinimg.com/originals/84/67/26/846726299dc5abbeb5d60016f0fb32e9.jpg" alt="">
+            		<img class="owl-lazy" data-src="<?php echo base_url(); ?>assets/images/products/drive_shaft.jpg" alt="">
             	</div>
             	<div class="item">
-            		<img class="owl-lazy" data-src="http://desktop-backgrounds-org.s3.amazonaws.com/400x300/twitter-nature-high-definition.jpg" alt="">
+            		<img class="owl-lazy" data-src="<?php echo base_url(); ?>assets/images/products/front_wheel_hub.jpg" alt="">
             	</div>
               	<div class="item">
-            		<img class="owl-lazy" data-src="https://i.pinimg.com/originals/84/67/26/846726299dc5abbeb5d60016f0fb32e9.jpg" alt="">
+            		<img class="owl-lazy" data-src="<?php echo base_url(); ?>assets/images/products/rear_wheel_brake.jpg" alt="">
             	</div>
             	<div class="item">
-            		<img class="owl-lazy" data-src="http://desktop-backgrounds-org.s3.amazonaws.com/400x300/twitter-nature-high-definition.jpg" alt="">
+            		<img class="owl-lazy" data-src="<?php echo base_url(); ?>assets/images/products/flywheel5566.jpg" alt="">
             	</div>
             </div>
           </div>
