@@ -351,7 +351,7 @@ a:hover, a:visited, a:focus, a:active {
   display: none;
 }
 #cont-container{
-  margin-bottom: 50px;
+  margin-bottom: 80px;
 }
 .form-control{
   border-radius: 0px!important;
@@ -370,11 +370,59 @@ a:hover, a:visited, a:focus, a:active {
   text-align: left;
   line-height: 14px!important;
 }
+.address h4, .address h5{
+  margin-left: 20%;
+}
 #send-mail h3{
   text-align: left;
   padding-bottom: 10px;
 }
+.alert{
+  display: none;
+}
+.parallax {
+  /* The image used */
+  background-image: url("../images/paralex.jpg");
 
+  /* Set a specific height */
+  height: 300px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sub-page-title span{
+  color: #FE5A0E;
+  /* font-family: 'Playfair Display', serif; */
+  font-weight: bold;
+  font-style: italic;
+  /* background: -webkit-gradient(linear, left top, right top, from(#f80503), to(#ff7d09)); */
+  background: linear-gradient(to right, #f80503 0%, #ff7d09 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.reg-office{
+  margin-top: 30px;
+  line-height: 32px;
+  padding-bottom: 10px;
+}
+.form-group{
+  margin-bottom: 1.5rem;
+}
+.logo-footer{
+  height: 90%;
+}
+.form-control{
+  margin-bottom: 1rem!important;
+}
+#product-page{
+  padding-bottom: 50px;
+}
+.owl-lazy{
+  border: 1px solid #1c2331;
+}
 @media screen and (max-width:470px) {
   .containe {
     height: 60px;
@@ -382,6 +430,16 @@ a:hover, a:visited, a:focus, a:active {
   .logo-desktop{
     display: none;
   }
+  .address p{
+    line-height: 27px!important;
+    margin-bottom: 0px!important;
+  }
+  #contact-head .sub-page-title{
+    padding-top: 20px!important;
+    margin-bottom: 10px!important;
+  }
+
+
   .logo-mobile{
     display: block;
   }
@@ -412,6 +470,17 @@ a:hover, a:visited, a:focus, a:active {
   .col-md-4{
     padding-left: 0px;
     padding-right: 0px;
+  }
+
+  .address p{
+    margin-left: 0%;
+    text-align: center;
+  }
+  #send-mail h3{
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 15px;
+    padding-bottom: 10px;
   }
 }
 /* Top Logo head end*/
@@ -1113,6 +1182,9 @@ a:hover, a:visited, a:focus, a:active {
     }
     .preface .card-1{
        order: 2;
+    }
+    .sub-page-heading{
+      min-height: 90px;
     }
     .preface .card-3{
        order: 3;
