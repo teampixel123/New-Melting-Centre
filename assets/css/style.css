@@ -312,6 +312,69 @@ a:hover, a:visited, a:focus, a:active {
 .logo-desktop{
   display: block;
 }
+
+.card{
+  width: 20rem;
+  margin:5px!important;
+}
+.card-img-top{
+  padding-top: 5px;
+  min-height: 250px;
+  min-width: 150px;
+}
+.product-table td{
+  font-size: 14px;
+  text-align: left;
+
+}
+.card-title{
+  text-align: center;
+  background-color: #09c;
+  color: #fff;
+  font-size: 18px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+/* .hv-img img{
+  display: block;
+ border: 1px solid #000;
+ width: 150%;
+ height: auto;
+ position: absolute;
+ top: 2em;
+ left: 3em;
+ padding: 0;
+ margin: 0;
+ z-index: 1;
+} */
+.hide-img{
+  display: none;
+}
+#cont-container{
+  margin-bottom: 50px;
+}
+.form-control{
+  border-radius: 0px!important;
+}
+.btn-contact{
+  background-color: #F58520!important;
+  border-color: #F58520!important;
+  border-radius: 0px!important;
+}
+.btn-contact:hover,.btn-contact:focus{
+  box-shadow: 0 0 0 0.2rem rgba(245,132,45,.5)!important;
+  background-color: #F58520!important;
+}
+.address p{
+  margin-left: 20%;
+  text-align: left;
+  line-height: 14px!important;
+}
+#send-mail h3{
+  text-align: left;
+  padding-bottom: 10px;
+}
+
 @media screen and (max-width:470px) {
   .containe {
     height: 60px;
@@ -346,6 +409,10 @@ a:hover, a:visited, a:focus, a:active {
     font-weight: 600;
     font-size: 14px;
   }
+  .col-md-4{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 }
 /* Top Logo head end*/
 
@@ -364,18 +431,17 @@ a:hover, a:visited, a:focus, a:active {
   text-align: center;
   z-index: 1;
   width:auto;
-  width: 933px;
+  width: 940px;
   margin-left: auto;
   margin-right: auto;
+  min-height: 60px;
+  padding: 0px !important;
   /* right:12%;
   top: 125px;
   position: absolute;
   z-index: 1; */
 }
-.top-nav{
-  min-height: 60px;
-  padding: 0px !important;
-}
+
 .top-nav .navbar{
   padding: 0px !important;
   min-height: 60px;
