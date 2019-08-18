@@ -79,7 +79,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link r-border-none" href="<?php echo base_url(); ?>Melting_Controller">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link r-border-none" href="<?php echo base_url(); ?>">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link r-border-none" href="<?php echo base_url(); ?>About-Us">About Us</a>
@@ -91,7 +91,7 @@
             <a class="nav-link r-border-none" href="<?php echo base_url(); ?>Our-Strength">Our Strength</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link r-border-none" href="<?php echo base_url(); ?>Photo-Gallery">Photo Gallery</a>
+            <a class="nav-link r-border-none" href="<?php echo base_url(); ?>Infrastructure">Infrastructure</a>
           </li>
           <li class="nav-item">
             <a class="nav-link r-border-none" href="<?php echo base_url(); ?>Contact-Us">Contact Us</a>
