@@ -18,8 +18,8 @@ class Melting_Controller extends CI_Controller {
   public function our_strength(){
     $this->load->view('pages/index');
   }
-  public function photo_gallery(){
-    $this->load->view('pages/index');
+  public function infrastructure(){
+    $this->load->view('pages/infrastructure');
   }
   public function contact_us(){
     $this->load->view('pages/contact');

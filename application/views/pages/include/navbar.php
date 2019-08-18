@@ -3,7 +3,7 @@
     <div class="content logo-desktop row">
       <div class="row">
         <div class="col-md-3">
-          <img width="100%" class="" src="<?php echo base_url(); ?>assets/images/nmc_logo.png" alt="">
+          <img class="" src="<?php echo base_url(); ?>assets/images/nmc_logo.jpg" alt="">
         </div>
         <div class="col-md-9 text-left align-self-center" style="color:#000;">
           <p>
@@ -12,7 +12,6 @@
           </p>
         </div>
       </div>
-
     </div>
     <div class="content logo-mobile">
       <img class="" src="<?php echo base_url(); ?>assets/images/logo_mob.jpg" alt="">
@@ -21,7 +20,7 @@
   <div class="section-two">
     <div class="content">
       <div class="row top-contact-desctop">
-        <div class="col-md-2"></div>
+        <div class="col-md-1"></div>
         <div class="col-md-1 align-self-center text-center">
           <div class="nav-contact-logo">
             <i class="fa fa-phone" aria-hidden="true"></i>
@@ -30,7 +29,7 @@
         <div class="col-md-4 align-self-center">
           <div class="phone-num">
             <span class="span1">Call Us 09.00 am - 06.00 pm</span><br>
-            <span class="span2">9865326598</span>
+            <span class="span2">02328 271224</span>
           </div>
         </div>
         <div class="col-md-1 align-self-center text-center">
@@ -41,7 +40,7 @@
         <div class="col-md-4 align-self-center">
           <div class="email-id">
             <span class="span1">Email Us</span> <br>
-            <span class="span2">support@gmail.com</span>
+            <span class="span2">meltingcentre@gmail.com</span>
           </div>
         </div>
       </div>
@@ -80,7 +79,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link r-border-none" href="<?php echo base_url(); ?>Melting_Controller">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link r-border-none" href="<?php echo base_url(); ?>">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link r-border-none" href="<?php echo base_url(); ?>About-Us">About Us</a>
@@ -92,7 +91,7 @@
             <a class="nav-link r-border-none" href="<?php echo base_url(); ?>Our-Strength">Our Strength</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link r-border-none" href="<?php echo base_url(); ?>Photo-Gallery">Photo Gallery</a>
+            <a class="nav-link r-border-none" href="<?php echo base_url(); ?>Infrastructure">Infrastructure</a>
           </li>
           <li class="nav-item">
             <a class="nav-link r-border-none" href="<?php echo base_url(); ?>Contact-Us">Contact Us</a>

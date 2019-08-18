@@ -3,10 +3,13 @@
     <div class="social-footer" >
       <div class="container">
         <div class="row py-4 d-flex align-items-center">
-          <div class="col-md-6 align-self-center">
-            <h6 class="mb-0 white-text">Get connected with us on social networks!</h6>
-          </div>
-          <div class="col-md-6 text-md-right">
+          <div class="col-md-12 align-self-center text-center">
+            <!-- <h6 class="mb-0 white-text">Get connected with us!</h6> -->
+            <a class="fb-ic">
+              <i class="fab white-text mr-4"> <h6 class="mb-0 white-text">Get connected with us!</h6></i>
+            </a>
+          <!-- </div>
+          <div class="col-md-6"> -->
             <!-- Facebook -->
             <a class="fb-ic">
               <i class="fab fa-facebook-f white-text mr-4"> </i>
