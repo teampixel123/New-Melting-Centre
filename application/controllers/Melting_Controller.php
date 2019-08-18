@@ -21,6 +21,18 @@ class Melting_Controller extends CI_Controller {
   public function infrastructure(){
     $this->load->view('pages/infrastructure');
   }
+  public function policy(){
+    $this->load->view('pages/policy');
+  }
+  public function certificate(){
+    $this->load->view('pages/certification');
+  }
+  public function clients(){
+    $this->load->view('pages/clients');
+  }
+  public function awards(){
+    $this->load->view('pages/awards');
+  }
   public function contact_us(){
     $this->load->view('pages/contact');
   }

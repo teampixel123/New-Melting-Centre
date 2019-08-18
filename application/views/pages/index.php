@@ -137,29 +137,50 @@
     <div class="mb-5 products" id="customers">
       <div class="row">
         <div class="col-md-12">
-          <h2 class="title pb-3">Our <span>Customers</span></h2>
+          <h2 class="title pb-3">Our <span>Clients</span></h2>
           <div class="owl-slider">
             <div id="carousel" class="owl-carousel">
             	<div class="item">
-            		<img class="owl-lazy" data-src="<?php echo base_url() ?>assets/images/customers/iljin.png" alt="">
+            		<img class="owl-lazy" data-src="<?php echo base_url() ?>assets/images/customers/01.jpg" alt="">
             	</div>
             	<div class="item">
-            		<img class="owl-lazy" data-src="<?php echo base_url() ?>assets/images/customers/woosu.png" alt="">
+            		<img class="owl-lazy" data-src="<?php echo base_url() ?>assets/images/customers/02.jpg" alt="">
             	</div>
               	<div class="item">
-            		<img class="owl-lazy" data-src="<?php echo base_url() ?>assets/images/customers/danfoss.jpg" alt="">
+            		<img class="owl-lazy" data-src="<?php echo base_url() ?>assets/images/customers/03.jpg" alt="">
             	</div>
             	<div class="item">
-            		<img class="owl-lazy" data-src="<?php echo base_url() ?>assets/images/customers/lotus.jpg" alt="">
+            		<img class="owl-lazy" data-src="<?php echo base_url() ?>assets/images/customers/04.jpg" alt="">
             	</div>
             	<div class="item">
-            		<img class="owl-lazy" data-src="<?php echo base_url() ?>assets/images/customers/john_deere.png" alt="">
+            		<img class="owl-lazy" data-src="<?php echo base_url() ?>assets/images/customers/05.jpg" alt="">
             	</div>
               	<div class="item">
-            		<img class="owl-lazy" data-src="<?php echo base_url() ?>assets/images/customers/hodek.jpg" alt="">
+            		<img class="owl-lazy" data-src="<?php echo base_url() ?>assets/images/customers/06.jpg" alt="">
             	</div>
             	<div class="item">
-            		<img class="owl-lazy" data-src="<?php echo base_url() ?>assets/images/customers/marvelous.jpg" alt="">
+            		<img class="owl-lazy" data-src="<?php echo base_url() ?>assets/images/customers/08.jpg" alt="">
+            	</div>
+              <div class="item">
+            		<img class="owl-lazy" data-src="<?php echo base_url() ?>assets/images/customers/09.jpg" alt="">
+            	</div>
+              <div class="item">
+            		<img class="owl-lazy" data-src="<?php echo base_url() ?>assets/images/customers/10.jpg" alt="">
+            	</div>
+              <div class="item">
+            		<img class="owl-lazy" data-src="<?php echo base_url() ?>assets/images/customers/11.jpg" alt="">
+            	</div>
+              <div class="item">
+            		<img class="owl-lazy" data-src="<?php echo base_url() ?>assets/images/customers/12.jpg" alt="">
+            	</div>
+              <div class="item">
+            		<img class="owl-lazy" data-src="<?php echo base_url() ?>assets/images/customers/14.jpg" alt="">
+            	</div>
+              <div class="item">
+            		<img class="owl-lazy" data-src="<?php echo base_url() ?>assets/images/customers/15.jpg" alt="">
+            	</div>
+              <div class="item">
+            		<img class="owl-lazy" data-src="<?php echo base_url() ?>assets/images/customers/16.jpg" alt="">
             	</div>
             </div>
           </div>
@@ -334,34 +355,34 @@
           <div class="owl-slider">
             <div id="carousel2" class="owl-carousel">
             	<div class="item">
-            		<img class="owl-lazy" data-src="<?php echo base_url(); ?>assets/images/products/streering.jpg" alt="">
+            		<img class="owl-lazy border-light" data-src="<?php echo base_url(); ?>assets/images/products/streering.jpg" alt="">
             	</div>
             	<div class="item">
-            		<img class="owl-lazy" data-src="<?php echo base_url(); ?>assets/images/products/krish_wheel_hub.jpg" alt="">
+            		<img class="owl-lazy border-light" data-src="<?php echo base_url(); ?>assets/images/products/krish_wheel_hub.jpg" alt="">
             	</div>
             	<div class="item">
-            		<img class="owl-lazy" data-src="<?php echo base_url(); ?>assets/images/products/motor_cover.jpg" alt="">
+            		<img class="owl-lazy border-light" data-src="<?php echo base_url(); ?>assets/images/products/motor_cover.jpg" alt="">
             	</div>
             	<div class="item">
-            		<img class="owl-lazy" data-src="<?php echo base_url(); ?>assets/images/products/final_drive.jpg" alt="">
+            		<img class="owl-lazy border-light" data-src="<?php echo base_url(); ?>assets/images/products/final_drive.jpg" alt="">
             	</div>
               	<div class="item">
-            		<img class="owl-lazy" data-src="<?php echo base_url(); ?>assets/images/products/wheel_hub.jpg" alt="">
+            		<img class="owl-lazy border-light" data-src="<?php echo base_url(); ?>assets/images/products/wheel_hub.jpg" alt="">
             	</div>
             	<div class="item">
-            		<img class="owl-lazy" data-src="<?php echo base_url(); ?>assets/images/products/engine_front_cover.jpg" alt="">
+            		<img class="owl-lazy border-light" data-src="<?php echo base_url(); ?>assets/images/products/engine_front_cover.jpg" alt="">
             	</div>
             	<div class="item">
-            		<img class="owl-lazy" data-src="<?php echo base_url(); ?>assets/images/products/drive_shaft.jpg" alt="">
+            		<img class="owl-lazy border-light" data-src="<?php echo base_url(); ?>assets/images/products/drive_shaft.jpg" alt="">
             	</div>
             	<div class="item">
-            		<img class="owl-lazy" data-src="<?php echo base_url(); ?>assets/images/products/front_wheel_hub.jpg" alt="">
+            		<img class="owl-lazy border-light" data-src="<?php echo base_url(); ?>assets/images/products/front_wheel_hub.jpg" alt="">
             	</div>
               	<div class="item">
-            		<img class="owl-lazy" data-src="<?php echo base_url(); ?>assets/images/products/rear_wheel_brake.jpg" alt="">
+            		<img class="owl-lazy border-light" data-src="<?php echo base_url(); ?>assets/images/products/rear_wheel_brake.jpg" alt="">
             	</div>
             	<div class="item">
-            		<img class="owl-lazy" data-src="<?php echo base_url(); ?>assets/images/products/flywheel5566.jpg" alt="">
+            		<img class="owl-lazy border-light" data-src="<?php echo base_url(); ?>assets/images/products/flywheel5566.jpg" alt="">
             	</div>
             </div>
           </div>
