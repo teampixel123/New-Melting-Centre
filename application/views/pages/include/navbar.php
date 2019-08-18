@@ -88,29 +88,34 @@
             <a class="nav-link r-border-none" href="<?php echo base_url(); ?>Products">Products</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link r-border-none" href="<?php echo base_url(); ?>Our-Strength">Our Strength</a>
+            <a class="nav-link r-border-none" href="<?php echo base_url(); ?>Clients">Clients</a>
           </li>
           <li class="nav-item">
             <a class="nav-link r-border-none" href="<?php echo base_url(); ?>Infrastructure">Infrastructure</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link r-border-none" href="<?php echo base_url(); ?>Contact-Us">Contact Us</a>
+            <a class="nav-link r-border-none" href="<?php echo base_url(); ?>Policy">Quality Policy</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link r-border-none" href="<?php echo base_url(); ?>Awards">Awards</a>
           </li>
           <!-- <li class="nav-item dropdown r-border-none">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown
+            <a class="nav-link dropdown-toggle r-border-none" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Quality Policy
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
+              <a class="dropdown-item" href="<?php echo base_url(); ?>Policy">Quality Policy</a>
+              <a class="dropdown-item" href="<?php echo base_url(); ?>Certificate">Certificate</a>
             </div>
           </li> -->
-          <li class="nav-item quote-btn-li">
-            <a href="#" class="nav-link r-border-none quote-btn">Get a Quote</a>
-            <!-- <a class="nav-link r-border-none" href="<?php echo base_url(); ?>Melting_Controller/home">Get a Quote</a> -->
+          <li class="nav-item">
+            <a class="nav-link r-border-none" href="<?php echo base_url(); ?>Contact-Us">Contact Us</a>
           </li>
+
+          <!-- <li class="nav-item quote-btn-li">
+            <a href="#" class="nav-link r-border-none quote-btn">Get a Quote</a>
+             <a class="nav-link r-border-none" href="<?php echo base_url(); ?>Melting_Controller/home">Get a Quote</a>
+          </li> -->
         </ul>
       </div>
     </nav>

@@ -368,6 +368,44 @@ height: 150px;
 #cont-container{
   margin-bottom: 80px;
 }
+
+.certificate{
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+.policy{
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+.img-cert{
+  width: 320px;
+  height: 450px;
+}
+.pilicy-ul{
+  text-align: justify;
+  line-height: 27px;
+  font-family: 'Rubik';
+  font-size: 16px;
+  font-weight: 300;
+}
+.client-img{
+  width: 100%;
+  height: auto;
+  border: 1px solid #D3D3D3!important;
+  margin-bottom: 25px;
+}
+.policy p{
+  font-size: 18px;
+}
+.pilicy-ul h6{
+  font-family: 'Poppins', serif !important;
+  font-size:24px;
+  padding-top: 8px;
+  padding-bottom: 0px;
+}
+.ml-45{
+  margin-left: 40px;
+}
 .form-control{
   border-radius: 0px!important;
 }
@@ -435,13 +473,25 @@ height: 150px;
 #product-page{
   padding-bottom: 50px;
 }
-.owl-lazy{
-  border: 1px solid #1c2331;
+.border-light{
+  border: 1px solid #D3D3D3!important;
+  margin-bottom: 2px;
+}
+.grey-co{
+  color:#acaeb1!important;
 }
 @media screen and (max-width:470px) {
   .containe {
     height: 60px;
   }
+  .mob-cen{
+    text-align: center!important;
+  }
+  .footer-copyright{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
   .logo-desktop{
     display: none;
   }
@@ -515,7 +565,7 @@ height: 150px;
   text-align: center;
   z-index: 1;
   width:auto;
-  width: 940px;
+  width: 1050px;
   margin-left: auto;
   margin-right: auto;
   min-height: 60px;
@@ -526,6 +576,16 @@ height: 150px;
   z-index: 1; */
 }
 
+.dropdown-item:active {
+    color: #f58520!important;
+    background-color: #fff!important;
+  }
+  .dropdown-item:hover {
+    color: #f58520!important;
+  }
+  .dropdown-menu{
+    width: 180px;
+  }
 .top-nav .navbar{
   padding: 0px !important;
   min-height: 60px;
@@ -554,10 +614,12 @@ height: 150px;
   color: #fff;
   font-weight: 600;
 }
+
 .top-nav .navbar-nav .active a{
-  color: #fff !important;
+  color: #F58520 !important;
   font-weight: 600;
 }
+
 .top-nav a.nav-link{
   border-right: 0.5px solid #a2a7ad;
   padding-top: 0px!important;
@@ -1069,7 +1131,9 @@ height: 150px;
 /* Products Home Page */
 .products{
   padding-top: 50px;
+  padding-bottom: 10px!important;
 }
+
 .products h2:after {
     display: inline-block;
     vertical-align: middle;

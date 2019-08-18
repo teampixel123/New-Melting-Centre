@@ -36,8 +36,8 @@
     </div>
     <!-- Footer Links -->
     <div class="container text-center text-md-left mt-5 nmc-footer">
-      <div class="row mt-3">
-        <div class="col-md-2 col-6 footer-products">
+      <div class="row mob-cen mt-3">
+        <div class="col-md-2  footer-products">
           <img class="logo-footer" src="<?php echo base_url('assets/images/logo_footer2.png'); ?>" alt="">
         </div>
         <div class="col-md-4 col-12 footer-company">
@@ -45,7 +45,7 @@
           <hr class="deep-purple d-inline-block mx-auto" style="width: 60px;">
           <!-- <p class="footer-nmc"></p> -->
           <!-- <img src="<?php echo base_url('assets/images/logo_footer.png'); ?>" alt=""> -->
-          <p class="contact-footer">
+          <p class="contact-footer mob-cen">
              Plot No. 11, Building No. 12,<br>
              Y. P. Powar Nagar, Kolhapur - 416008.
             Maharashtra State (India).
@@ -59,13 +59,14 @@
           <p class="link-footer"><a href="#!">BrandFlow</a></p>
           <p class="link-footer"><a href="#!">Angular</a></p>
         </div> -->
-        <div class="col-md-2 col-6 footer-links">
+        <div class="col-md-2  footer-links">
           <h6 class="text-uppercase font-weight-bold">Useful links</h6>
           <hr class="deep-purple d-inline-block mx-auto" style="width: 60px;">
           <p class="link-footer"><a href="<?php echo base_url(); ?>Melting_Controller/home">Home</a></p>
           <p class="link-footer"><a href="<?php echo base_url(); ?>About-Us">About Us</a></p>
           <p class="link-footer"><a href="<?php echo base_url(); ?>Products">Products</a></p>
-          <p class="link-footer"><a href="<?php echo base_url(); ?>Photo-Gallery">Photo Gallery</a></p>
+          <p class="link-footer"><a href="<?php echo base_url(); ?>Infrastructure">Infrastructure</a></p>
+          <p class="link-footer"><a href="<?php echo base_url(); ?>Clients">Clients</a></p>
         </div>
         <div class="col-md-4 col-12 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
           <!-- Links -->
@@ -84,8 +85,8 @@
     </div>
     <!-- Footer Links -->
     <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2019 Copyright:
-      <a href="#"> New Melting Centre Pvt.Ltd. All rights reserved.</a>
+    <div class="footer-copyright text-center  py-3">© 2019 Copyright:
+      <a href="#" class="grey-co"> New Melting Centre Pvt.Ltd. All rights reserved.</a>
     </div>
     <!-- Copyright -->
   </footer>
