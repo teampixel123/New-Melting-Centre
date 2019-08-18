@@ -1,3 +1,10 @@
+<div id="load" class="text-center row">
+  <div class="col-md-12 align-self-center">
+    <img src="<?php echo base_url() ?>assets/images/gears3.gif" alt="">
+  </div>
+</div>
+
+
 <div class="containe top-head">
   <div class="section-one">
     <div class="content logo-desktop row">

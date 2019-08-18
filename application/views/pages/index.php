@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <?php include('include/head.php'); ?>
   <body>
+
   <!-- top navigation -->
   <?php include('include/navbar.php') ?>
   <!-- /top navigation -->
@@ -207,7 +208,6 @@
     <div class="" id="about_com">
       <div class="row company-info">
         <div class="col-md-12 align-self-center">
-
           <h3 class="com-info"><i class="fas fa-quote-left"></i> We shall strive to become a <span class="nmc-text-color">world class foundry</span> <br>to provide fully finished components <br>to achieve customer's delight<i class="fas fa-quote-right"></i></h1>
         </div>
       </div>
@@ -390,5 +390,8 @@
   </div>
     <!-- footer content -->
     <?php include('include/footer.php'); ?>
+    <script type="text/javascript">
+    
+    </script>
   </body>
 </html>
