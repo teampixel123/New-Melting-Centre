@@ -8,6 +8,20 @@ body{
   padding: 0px!important;
 }
 
+#load{
+    width:100%;
+    height:100%;
+    position:fixed;
+    z-index:9999;
+    background-color: #F58520;
+    /* background:url("https://www.creditmutuel.fr/cmne/fr/banques/webservices/nswr/images/loading.gif") no-repeat center center rgba(0,0,0,0.25) */
+}
+#load img{
+  height: 120px;
+  /* width:250px; */
+}
+
+
 /* #FE5A0E */
 /* #f80503 */
 /* h6{
@@ -24,7 +38,6 @@ a:hover{
 .r-border-none{
   border-right: none!important;
 }
-
 .jumbotron {
 margin-bottom: 0PX!important;
 
@@ -111,14 +124,12 @@ button:focus {
   background-color: #e9ecef;
   padding: 20px 0 20 0 !important;
 }
-
 .nmc-text-color{
   color: #F58520 !important;
 }
 .nmc-bg-color{
   background-color: #F58520 !important;
 }
-
 .bg-black{
   background-color: #262626;
 }
@@ -224,6 +235,19 @@ a:hover, a:visited, a:focus, a:active {
     outline: none !important;
 }
 
+.front-sm-hr::after{
+  display: inline-block;
+  vertical-align: middle;
+  content: '';
+  width: 38px;
+  height: 3px;
+  background: #888888;
+  margin-left: 5px;
+  margin-top: 18px;
+}
+
+
+
 /* Top Logo head */
 .containe {
   width: 100%;
@@ -304,10 +328,10 @@ a:hover, a:visited, a:focus, a:active {
 }
 .section-two .span2{
   font-family: 'Poppins';
-  font-weight: 600;
-  letter-spacing: .01em;
+  font-weight: 500;
+  letter-spacing: .1em;
   color: #ffffff;
-  font-size: 18px;
+  font-size: 16px;
 }
 .nav-contact-logo i{
   font-size: 30px;
@@ -625,9 +649,14 @@ height: 150px;
 }
 .top-nav .collapse ul li {
   padding-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.top-nav .navbar-nav{
+  width:100% !important;
 }
 .top-nav .navbar-nav .active .nav-link{
-  color: #F58520 !important;
+  color: #F58520;
   /* text-decoration: underline !important; */
 }
 .top-nav .navbar-nav .active{
@@ -646,7 +675,7 @@ height: 150px;
 }
 
 .top-nav .navbar-nav .active a{
-  color: #F58520 !important;
+  color: #F58520;
   font-weight: 600;
 }
 
@@ -661,6 +690,26 @@ height: 150px;
   font-family: 'Poppins';
   color: rgba(0,0,0,.9);
 }
+.top-nav .navbar .nav-bg{
+  background-color: #F58520;
+}
+.top-nav .navbar .nav-bg a{
+  color: #fff;
+}
+.top-nav .navbar .nav-bg:hover a{
+  color: #fff !important;
+  font-weight: 600  !important;
+}
+.top-nav .navbar .nav-bg:hover{
+  color: #fff  !important;
+  font-weight: 600  !important;
+}
+.top-nav .navbar .active .nav-bg{
+  color: #fff  !important;
+  font-weight: 600  !important;
+}
+
+
 /* .top-nav .navbar-nav .quote{
   background-color: #F58520;
 }
@@ -730,6 +779,9 @@ height: 150px;
   #carouselExampleIndicators img{
     height: 300px;
   }
+}
+.carousel-control-next, .carousel-control-prev{
+  top:40px !important;
 }
 /* @media screen and (min-width: 1300px){
   #carouselExampleIndicators img{
@@ -802,6 +854,7 @@ height: 150px;
   left: 0;
   background-color: #000;
   border-top: 4px solid #F58520;
+  padding: 35px;
 }
 .service-box .box .service-content h3{
   margin: 0;
@@ -885,16 +938,16 @@ height: 150px;
   padding-top:100px;
   padding-bottom: 50px;
 }
-#about_nmc h2:after {
+/* #about_nmc h2:after {
     display: inline-block;
     vertical-align: middle;
     content: '';
     width: 38px;
     height: 2px;
     background: #888888;
-    margin-left: 15px;
+    margin-left: 5px;
     margin-top: 18px;
-}
+} */
 #about_nmc ul{
   margin: 0;
   padding: 0;
@@ -981,7 +1034,9 @@ height: 150px;
 /* about_com - com-info */
 .company-info{
   min-height: 400px;
-  background-color: #262626;
+  background: url("../images/about-com-bg.jpg") ;
+  background-size: cover;
+  /* background-color: #262626; */
 }
 .com-info{
   color: #fff;
@@ -1653,3 +1708,46 @@ section .section-title {
   }
 }
 /* Performance end */
+
+/* Infrastructure */
+.section{
+  padding: 100px 0;
+}
+.infra{
+  /* padding: 50px 0; */
+}
+.infra .col-md-6 .title{
+  margin-top: 0;
+}
+.infra-sub-title{
+  font-size: 18px;
+  color: #7E7E7E;
+}
+.infra-info .fa{
+  color: #7E7E7E;
+}
+.infra-info .paragraph{
+  font-family: 'Rubik';
+  font-size: 16px;
+  line-height: 27px;
+  color: #7E7E7E;
+  text-align: justify;
+}
+.infra-img-div img{
+  height: 400px;
+}
+@media (max-width:470px){
+  .section{
+    padding: 40px 0;
+  }
+  .para-img{
+    display: none;
+  }
+  .infra .second-div{
+    padding-top: 40px;
+  }
+  .infra-img-div img{
+    height: 300px;
+  }
+}
+/* Infrastructure end */
