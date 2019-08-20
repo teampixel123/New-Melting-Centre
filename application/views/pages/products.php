@@ -8,7 +8,7 @@
 
 <div class="container-fluid">
   <div class="sub-page-heading">
-    <h1 class="sub-page-title"><span>Products</span></h1>
+    <h1 class="sub-page-title"><span>Product Range</span></h1>
   </div>
 </div>
 <!-- product container start -->
@@ -957,7 +957,7 @@
                 </tr>
                 <tr>
                   <td>APPLICATION</td>
-                  <td> : Tortional Vibration Damper</td>
+                  <td> : Tortional <br> Vibration Damper</td>
                 </tr>
               </tbody>
             </table>
@@ -993,7 +993,7 @@
                   </tr>
                   <tr>
                     <td>APPLICATION</td>
-                    <td> : Tortional Vibration Damper</td>
+                    <td> : Tortional <br> Vibration Damper</td>
                   </tr>
                 </tbody>
             </table>
@@ -1028,7 +1028,7 @@
                   <td> : 3000 No's</td>
                 </tr>
                 <tr>
-                  <td><br> <br><br> </td>
+                  <td><br> <br></td>
                 </tr>
               </tbody>
             </table>
