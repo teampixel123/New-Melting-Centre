@@ -4,7 +4,6 @@
   </div>
 </div>
 
-
 <div class="containe top-head">
   <div class="section-one">
     <div class="content logo-desktop row">
@@ -83,9 +82,9 @@
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
+      <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto mr-auto text-center">
+          <li class="nav-item ml-0">
             <a class="nav-link r-border-none" href="<?php echo base_url(); ?>">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
@@ -115,8 +114,8 @@
               <a class="dropdown-item" href="<?php echo base_url(); ?>Certificate">Certificate</a>
             </div>
           </li> -->
-          <li class="nav-item">
-            <a class="nav-link r-border-none" href="<?php echo base_url(); ?>Contact-Us">Contact Us</a>
+          <li class="mr-0 nav-bg">
+            <a class="nav-bg nav-link r-border-none" href="<?php echo base_url(); ?>Contact-Us">Contact Us</a>
           </li>
 
           <!-- <li class="nav-item quote-btn-li">

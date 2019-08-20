@@ -104,7 +104,7 @@
     <div style="" class="about-nmc">
       <div class="row">
         <div class="col-md-6">
-          <h2 class="title pb-4">Welcome to <span>Industrio Company</span></h2>
+          <h2 class="title pb-4 front-sm-hr">Welcome to <span>NMCPL</span></h2>
           <p>
             New Melting Centre Pvt. Ltd. established in 2006. We always believe in synchronizing and utilizing Time, Equipments and Business. In 2011 we have commissioned High Pressure Molding Line of Tokyu Japan Having capacity 100 Mould / Hour; this is the first plant of this company in India. In 2012 we have crossed production of 1350 M.T. / Month. In future we have planned for commissioning Hi-tech equipments in new extensions of Foundry and Machine Shop. We assure that we will make it with the support of our staff & well-wishers. Location : Kolhapur, Maharashtra - India
           </p>
@@ -412,7 +412,7 @@
     <!-- footer content -->
     <?php include('include/footer.php'); ?>
     <script type="text/javascript">
-    
+
     </script>
   </body>
 </html>
