@@ -15,8 +15,8 @@
 <div class="container" id="product-page">
 <div class="row">
   <div class="col-md-4">
-    <div class="card">
-      <div class="pop">
+    <div class="card pop">
+      <div class="">
         <img style="display:none;" class="pop-img" src="<?php echo base_url(); ?>assets/images/products/large/streering.jpg" alt="">
         <img class="card-img-top" src="<?php echo base_url(); ?>assets/images/products/streering.jpg" alt="Card image cap">
       </div>
@@ -50,8 +50,8 @@
     </div>
   </div>
   <div class="col-md-4">
-    <div class="card">
-      <div class="pop">
+    <div class="card pop">
+      <div class="">
         <img style="display:none;" class="pop-img" src="<?php echo base_url(); ?>assets/images/products/large/krish_wheel_hub.jpg" alt="">
       <img class="card-img-top" src="<?php echo base_url(); ?>assets/images/products/krish_wheel_hub.jpg" alt="Card image cap">
     </div>
@@ -86,8 +86,8 @@
     </div>
   </div>
   <div class="col-md-4">
-    <div class="card">
-      <div class="pop">
+    <div class="card pop">
+      <div class="">
       <img style="display:none;" class="pop-img" src="<?php echo base_url(); ?>assets/images/products/large/motor_cover.jpg" alt="">
       <img class="card-img-top" src="<?php echo base_url(); ?>assets/images/products/motor_cover.jpg" alt="Card image cap">
     </div>
@@ -125,8 +125,8 @@
 </div>
 <div class="row">
   <div class="col-md-4">
-    <div class="card">
-      <div class="pop">
+    <div class="card pop">
+      <div class="">
       <img style="display:none;" class="pop-img" src="<?php echo base_url(); ?>assets/images/products/large/final_drive.jpg" alt="">
       <img class="card-img-top" src="<?php echo base_url(); ?>assets/images/products/final_drive.jpg" alt="Card image cap">
     </div>
@@ -157,8 +157,8 @@
     </div>
   </div>
   <div class="col-md-4">
-    <div class="card">
-      <div class="pop">
+    <div class="card pop">
+      <div class="">
       <img style="display:none;" class="pop-img" src="<?php echo base_url(); ?>assets/images/products/large/wheel_hub.jpg" alt="">
       <img class="card-img-top" src="<?php echo base_url(); ?>assets/images/products/wheel_hub.jpg" alt="Card image cap">
     </div>
@@ -189,8 +189,8 @@
     </div>
   </div>
   <div class="col-md-4">
-    <div class="card">
-      <div class="pop">
+    <div class="card pop">
+      <div class="">
       <img style="display:none;" class="pop-img" src="<?php echo base_url(); ?>assets/images/products/large/engine_front_cover.jpg" alt="">
       <img class="card-img-top" src="<?php echo base_url(); ?>assets/images/products/engine_front_cover.jpg" alt="Card image cap">
     </div>
@@ -224,8 +224,8 @@
 </div>
 <div class="row">
   <div class="col-md-4">
-    <div class="card">
-      <div class="pop">
+    <div class="card pop">
+      <div class="">
       <img style="display:none;" class="pop-img" src="<?php echo base_url(); ?>assets/images/products/large/drive_shaft.jpg" alt="">
       <img class="card-img-top" src="<?php echo base_url(); ?>assets/images/products/drive_shaft.jpg" alt="Card image cap">
     </div>
@@ -249,6 +249,9 @@
                       <td>MONTHELY VOLUME</td>
                       <td> : 5000</td>
                     </tr>
+                    <tr>
+                      <td><br></td>
+                    </tr>
                   </tbody>
                 </table>
 
@@ -257,8 +260,8 @@
     </div>
   </div>
   <div class="col-md-4">
-    <div class="card">
-      <div class="pop">
+    <div class="card pop">
+      <div class="">
       <img style="display:none;" class="pop-img" src="<?php echo base_url(); ?>assets/images/products/large/front_wheel_hub.jpg" alt="">
       <img class="card-img-top" src="<?php echo base_url(); ?>assets/images/products/front_wheel_hub.jpg" alt="Card image cap">
     </div>
@@ -282,6 +285,9 @@
                 <td>MONTHELY VOLUME</td>
                 <td> : 4000</td>
               </tr>
+              <tr>
+                <td><br></td>
+              </tr>
             </tbody>
             </table>
           </p>
@@ -289,8 +295,8 @@
     </div>
   </div>
   <div class="col-md-4">
-    <div class="card">
-      <div class="pop">
+    <div class="card pop">
+      <div class="">
       <img style="display:none;" class="pop-img" src="<?php echo base_url(); ?>assets/images/products/large/flywheel.jpg" alt="">
       <img class="card-img-top" src="<?php echo base_url(); ?>assets/images/products/flywheel.jpg" alt="Card image cap">
     </div>
@@ -324,8 +330,8 @@
 
 <div class="row">
   <div class="col-md-4">
-    <div class="card">
-      <div class="pop">
+    <div class="card pop">
+      <div class="">
       <img style="display:none;" class="pop-img" src="<?php echo base_url(); ?>assets/images/products/large/flywheel5566.jpg" alt="">
       <img class="card-img-top" src="<?php echo base_url(); ?>assets/images/products/flywheel5566.jpg" alt="Card image cap">
     </div>
@@ -359,8 +365,8 @@
     </div>
   </div>
   <div class="col-md-4">
-    <div class="card">
-      <div class="pop">
+    <div class="card pop">
+      <div class="">
       <img style="display:none;" class="pop-img" src="<?php echo base_url(); ?>assets/images/products/large/rear_wheel_brake.jpg" alt="">
       <img class="card-img-top" src="<?php echo base_url(); ?>assets/images/products/rear_wheel_brake.jpg" alt="Card image cap">
     </div>
@@ -396,8 +402,8 @@
 
   </div>
   <div class="col-md-4">
-    <div class="card">
-      <div class="pop">
+    <div class="card pop">
+      <div class="">
       <img style="display:none;" class="pop-img" src="<?php echo base_url(); ?>assets/images/products/large/head_cylender.jpg" alt="">
       <img class="card-img-top" src="<?php echo base_url(); ?>assets/images/products/head_cylender.jpg" alt="Card image cap">
     </div>
@@ -434,8 +440,8 @@
 </div>
 <div class="row">
   <div class="col-md-4">
-    <div class="card">
-      <div class="pop">
+    <div class="card pop">
+      <div class="">
       <img style="display:none;" class="pop-img" src="<?php echo base_url(); ?>assets/images/products/large/muffeler.jpg" alt="">
       <img class="card-img-top" src="<?php echo base_url(); ?>assets/images/products/muffeler.jpg" alt="Card image cap">
     </div>
@@ -466,8 +472,8 @@
     </div>
   </div>
   <div class="col-md-4">
-    <div class="card">
-      <div class="pop">
+    <div class="card pop">
+      <div class="">
       <img style="display:none;" class="pop-img" src="<?php echo base_url(); ?>assets/images/products/large/body_casting.jpg" alt="">
       <img class="card-img-top" src="<?php echo base_url(); ?>assets/images/products/body_casting.jpg" alt="Card image cap">
     </div>
@@ -501,8 +507,8 @@
     </div>
   </div>
   <div class="col-md-4">
-    <div class="card">
-      <div class="pop">
+    <div class="card pop">
+      <div class="">
       <img style="display:none;" class="pop-img" src="<?php echo base_url(); ?>assets/images/products/large/transmission_case.jpg" alt="">
       <img class="card-img-top" src="<?php echo base_url(); ?>assets/images/products/transmission_case.jpg" alt="Card image cap">
     </div>
@@ -538,8 +544,8 @@
 </div>
 <div class="row">
   <div class="col-md-4">
-    <div class="card">
-      <div class="pop">
+    <div class="card pop">
+      <div class="">
       <img style="display:none;" class="pop-img" src="<?php echo base_url(); ?>assets/images/products/large/disk_brake.jpg" alt="">
       <img class="card-img-top" src="<?php echo base_url(); ?>assets/images/products/disk_brake.jpg" alt="Card image cap">
     </div>
@@ -570,8 +576,8 @@
     </div>
   </div>
   <div class="col-md-4">
-    <div class="card">
-      <div class="pop">
+    <div class="card pop">
+      <div class="">
       <img style="display:none;" class="pop-img" src="<?php echo base_url(); ?>assets/images/products/large/brack_disk.jpg" alt="">
       <img class="card-img-top" src="<?php echo base_url(); ?>assets/images/products/brack_disk.jpg" alt="Card image cap">
     </div>
@@ -602,8 +608,8 @@
     </div>
   </div>
   <div class="col-md-4">
-    <div class="card">
-      <div class="pop">
+    <div class="card pop">
+      <div class="">
       <img style="display:none;" class="pop-img" src="<?php echo base_url(); ?>assets/images/products/large/diff_case.jpg" alt="">
       <img class="card-img-top" src="<?php echo base_url(); ?>assets/images/products/diff_case.jpg" alt="Card image cap">
     </div>
@@ -636,8 +642,8 @@
 </div>
 <div class="row">
   <div class="col-md-4">
-    <div class="card">
-      <div class="pop">
+    <div class="card pop">
+      <div class="">
       <img style="display:none;" class="pop-img" src="<?php echo base_url(); ?>assets/images/products/large/future_flywheel.jpg" alt="">
       <img class="card-img-top" src="<?php echo base_url(); ?>assets/images/products/future_flywheel.jpg" alt="Card image cap">
     </div>
@@ -668,8 +674,8 @@
     </div>
   </div>
   <div class="col-md-4">
-    <div class="card">
-      <div class="pop">
+    <div class="card pop">
+      <div class="">
       <img style="display:none;" class="pop-img" src="<?php echo base_url(); ?>assets/images/products/large/crank_case.jpg" alt="">
       <img class="card-img-top" src="<?php echo base_url(); ?>assets/images/products/crank_case.jpg" alt="Card image cap">
     </div>
@@ -700,8 +706,8 @@
     </div>
   </div>
   <div class="col-md-4">
-    <div class="card">
-      <div class="pop">
+    <div class="card pop">
+      <div class="">
       <img style="display:none;" class="pop-img" src="<?php echo base_url(); ?>assets/images/products/large/timing_gare_cover.jpg" alt="">
       <img class="card-img-top" src="<?php echo base_url(); ?>assets/images/products/timing_gare_cover.jpg" alt="Card image cap">
     </div>
@@ -734,8 +740,8 @@
 </div>
   <div class="row">
   <div class="col-md-4">
-    <div class="card">
-      <div class="pop">
+    <div class="card pop">
+      <div class="">
       <img style="display:none;" class="pop-img" src="<?php echo base_url(); ?>assets/images/products/large/engine_flung.jpg" alt="">
       <img class="card-img-top" src="<?php echo base_url(); ?>assets/images/products/engine_flung.jpg" alt="Card image cap">
     </div>
@@ -766,8 +772,8 @@
     </div>
   </div>
   <div class="col-md-4">
-    <div class="card">
-      <div class="pop">
+    <div class="card pop">
+      <div class="">
       <img style="display:none;" class="pop-img" src="<?php echo base_url(); ?>assets/images/products/large/cub_crank_case.jpg" alt="">
       <img class="card-img-top" src="<?php echo base_url(); ?>assets/images/products/cub_crank_case.jpg" alt="Card image cap">
     </div>
@@ -798,8 +804,8 @@
     </div>
   </div>
   <div class="col-md-4">
-    <div class="card">
-      <div class="pop">
+    <div class="card pop">
+      <div class="">
       <img style="display:none;" class="pop-img" src="<?php echo base_url(); ?>assets/images/products/large/cub_crank_case.jpg" alt="">
       <img class="card-img-top" src="<?php echo base_url(); ?>assets/images/products/brake_volve.jpg" alt="Card image cap">
     </div>
@@ -832,8 +838,8 @@
 </div>
 <div class="row">
   <div class="col-md-4">
-    <div class="card">
-      <div class="pop">
+    <div class="card pop">
+      <div class="">
       <img style="display:none;" class="pop-img" src="<?php echo base_url(); ?>assets/images/products/large/mount_bracket.jpg" alt="">
       <img class="card-img-top" src="<?php echo base_url(); ?>assets/images/products/mount_bracket.jpg" alt="Card image cap">
     </div>
@@ -864,8 +870,8 @@
     </div>
   </div>
   <div class="col-md-4">
-    <div class="card">
-      <div class="pop">
+    <div class="card pop">
+      <div class="">
       <img style="display:none;" class="pop-img" src="<?php echo base_url(); ?>assets/images/products/large/exaust.jpg" alt="">
       <img class="card-img-top" src="<?php echo base_url(); ?>assets/images/products/exaust.jpg" alt="Card image cap">
     </div>
@@ -896,8 +902,8 @@
     </div>
   </div>
   <div class="col-md-4">
-    <div class="card">
-      <div class="pop">
+    <div class="card pop">
+      <div class="">
       <img style="display:none;" class="pop-img" src="<?php echo base_url(); ?>assets/images/products/large/cylinder_head.jpg" alt="">
       <img class="card-img-top" src="<?php echo base_url(); ?>assets/images/products/cylinder_head.jpg" alt="Card image cap">
     </div>
@@ -930,8 +936,8 @@
 </div>
 <div class="row">
   <div class="col-md-4">
-    <div class="card">
-      <div class="pop">
+    <div class="card pop">
+      <div class="">
       <img style="display:none;" class="pop-img" src="<?php echo base_url(); ?>assets/images/products/large/hub_mk-25.jpg" alt="">
       <img class="card-img-top" src="<?php echo base_url(); ?>assets/images/products/hub_mk-25.jpg" alt="Card image cap">
     </div>
@@ -966,8 +972,8 @@
     </div>
   </div>
   <div class="col-md-4">
-    <div class="card">
-      <div class="pop">
+    <div class="card pop">
+      <div class="">
       <img style="display:none;" class="pop-img" src="<?php echo base_url(); ?>assets/images/products/large/ring_mk-25.jpg" alt="">
       <img class="card-img-top" src="<?php echo base_url(); ?>assets/images/products/ring_mk-25.jpg" alt="Card image cap">
     </div>
@@ -1002,8 +1008,8 @@
     </div>
   </div>
   <div class="col-md-4">
-    <div class="card">
-      <div class="pop">
+    <div class="card pop">
+      <div class="">
       <img style="display:none;" class="pop-img" src="<?php echo base_url(); ?>assets/images/products/large/hub_mb05.jpg" alt="">
       <img class="card-img-top" src="<?php echo base_url(); ?>assets/images/products/hub_mb05.jpg" alt="Card image cap">
     </div>
@@ -1039,8 +1045,8 @@
 </div>
 <div class="row">
   <div class="col-md-4">
-    <div class="card">
-      <div class="pop">
+    <div class="card pop">
+      <div class="">
       <img style="display:none;" class="pop-img" src="<?php echo base_url(); ?>assets/images/products/large/ring_mb05rr.jpg" alt="">
       <img class="card-img-top" src="<?php echo base_url(); ?>assets/images/products/ring_mb05rr.jpg" alt="Card image cap">
     </div>
@@ -1105,8 +1111,9 @@
 $(function() {
   $('.pop').on('click', function() {
     $('.imagepreview').attr('src', $(this).find('img').attr('src'));
-      // $('#exampleModalLongTitle').text('.card-title');
-      // $(this).
+      $('#exampleModalLongTitle').text($(this).find(".card-title").text());
+       // =$(this).closest('.card-title').find('.card-title').text();
+      // var heading= $(this).closest(".card-body").find(".card-title").text();
     $('#imagemodal').modal('show');
   });
 });
