@@ -207,7 +207,7 @@ button:focus {
   background-color: #262626;
 }
 h1, h2, h3, h4, h5{
-  font-family: 'Poppins', serif !important;
+  font-family: 'roboto', serif !important;
 }
 .title{
   color: #262626;
@@ -245,7 +245,7 @@ h1, h2, h3, h4, h5{
   margin-top:2rem
 }
 p{
-  font-family: 'Rubik';
+  font-family: 'roboto';
   font-size: 16px;
   line-height: 27px;
   color: #7E7E7E;
@@ -419,16 +419,31 @@ height: 150px;
   width: 20rem;
   margin:5px;
 }
+
 .card-img-top{
   padding-top: 5px;
   min-height: 250px;
   min-width: 150px;
+  cursor: zoom-in;
+}
+.card-awards{
+  width: 100%;
+  margin-left: 0px!important;
+  padding-top: 0px!important;
+}
+.card-awards .card-img-top{
+    padding-top: 0px;
+    cursor: pointer;
 }
 .product-table td{
   font-size: 14px;
   text-align: left;
+}
+.product-table tr td:first-child{
+  font-weight: 500;
 
 }
+
 .card-title{
   text-align: center;
   background-color: #09c;
@@ -467,25 +482,33 @@ height: 150px;
 .img-cert{
   width: 320px;
   height: 450px;
+
+}
+.img-shadow{
+  box-shadow: 0 0 15px #000;
 }
 .pilicy-ul{
   text-align: justify;
   line-height: 27px;
-  font-family: 'Rubik';
+  font-family: 'roboto';
   font-size: 16px;
   font-weight: 300;
 }
 .client-img{
   width: 100%;
   height: auto;
-  border: 1px solid #D3D3D3!important;
+  /* border: 1px solid #D3D3D3!important; */
   margin-bottom: 25px;
 }
+#clients{
+  text-align: center;
+}
+
 .policy p{
   font-size: 18px;
 }
 .pilicy-ul h6{
-  font-family: 'Poppins', serif !important;
+  font-family: 'roboto', serif !important;
   font-size:24px;
   padding-top: 8px;
   padding-bottom: 0px;
@@ -508,7 +531,7 @@ height: 150px;
 .address p{
   margin-left: 20%;
   text-align: left;
-  line-height: 14px!important;
+  line-height: 10px!important;
 }
 .address h4, .address h5{
   margin-left: 20%;
@@ -634,6 +657,28 @@ height: 150px;
     padding-top: 15px;
     padding-bottom: 10px;
   }
+  .client-img{
+    text-align: center;
+    width: 80%;
+    height: auto;
+    /* border: 1px solid #D3D3D3!important; */
+    margin-bottom: 10px;
+  }
+  .certificate{
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+  }
+  #exampleModalLongTitle{
+    font-size: 16px;
+  }
+  .img-cert {
+    width: 300px;
+    height: 350px;
+    margin-left: 0px!important;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
 }
 /* Top Logo head end*/
 
@@ -760,7 +805,7 @@ height: 150px;
   background: #fe5a0e;
   font-size: 16px;
   text-align: center;
-  font-family: 'Poppins';
+  font-family: 'roboto';
   height:100%;
   line-height: 54px;
   color: #fff !important;
@@ -1245,6 +1290,7 @@ height: 150px;
   .nmc_awards .border-r{
     border-right: none !important;
   }
+
 }
 /* Award Info End*/
 
@@ -1502,8 +1548,32 @@ height: 150px;
     .preface-content p{
       padding: 0 10px 0 10px !important;
     }
+
     .preface-hr{
       display: none;
+    }
+    
+    .sub-page-title {
+      padding-top: 20px;
+    }
+    .card-awards {
+      margin-bottom: 20px!important;
+    }
+    #awrd br{
+      display: none;
+    }
+    .card-awards br{
+      display: none;
+    }
+    #product-page br{
+      display: none;
+    }
+    .card{
+      margin-bottom: 20px!important;
+    }
+    .client-img{
+      width: 80%;
+      min-width: 250px;
     }
   }
 /* preface end */
