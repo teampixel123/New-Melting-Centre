@@ -8,7 +8,7 @@
   <div class="container-fluid">
   <div class="parallax"></div>
   </div>
-  
+
 <div class="container-fluid">
   <div class="sub-page-heading">
     <h1 class="sub-page-title"><span>Product Range</span></h1>
