@@ -113,6 +113,23 @@ footer{
   border: 2px solid #fe5a0e;
 } */
 
+.owl-prev{
+  margin-left: -25px!important;
+
+}
+.owl-prev:hover{
+  background: rgba(0, 0, 0, 0.38) !important;
+}
+.owl-next{
+  margin-right: -25px!important;
+}
+.owl-prev:hover{
+  background: rgba(236, 240, 241, 0.50) !important;
+}
+.owl-next:hover{
+  background: rgba(236, 240, 241, 0.50) !important;
+}
+
 .nmc-btn2{
   padding: 13px 15px;
   display: inline-block;
@@ -424,14 +441,14 @@ height: 150px;
    overflow: hidden;
 }
 
-.card-img-top{
+#product-page .card-img-top{
   padding-top: 5px;
   min-height: 250px;
   min-width: 150px;
   cursor: zoom-in;
    overflow: hidden;
 }
-.card-img-top:hover{
+#product-page .card-img-top:hover{
   transform: scale(1.1);
    -webkit-transition: all 1.0s
 }
