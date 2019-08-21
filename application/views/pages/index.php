@@ -63,7 +63,7 @@
         <div class="col-md-4">
           <div class="box">
             <div class="img-box">
-              <img src="<?php echo base_url() ?>assets/images/nmc_info2.jpg" alt="">
+              <img src="<?php echo base_url() ?>assets/images/infrastructure/induction_furnace_1.jpg" alt="">
             </div>
             <div class="service-content">
               <h3>Integrity</h3>
@@ -79,7 +79,7 @@
         <div class="col-md-4">
           <div class="box">
             <div class="img-box">
-              <img src="<?php echo base_url() ?>assets/images/nmc_info2.jpg" alt="">
+              <img src="<?php echo base_url() ?>assets/images/infrastructure/machine_shop_robotic.jpg" alt="">
             </div>
             <div class="service-content">
               <h3>Excellence</h3>
@@ -95,7 +95,7 @@
         <div class="col-md-4">
           <div class="box">
             <div class="img-box">
-              <img src="<?php echo base_url() ?>assets/images/nmc_info2.jpg" alt="">
+              <img src="<?php echo base_url() ?>assets/images/infrastructure/testing_Microscope_Image_Analyzer.jpg" alt="">
             </div>
             <div class="service-content">
               <h3>Responsibility</h3>
@@ -191,9 +191,9 @@
               <div class="item">
             		<img class="owl-lazy" data-src="<?php echo base_url() ?>assets/images/customers/15.jpg" alt="">
             	</div>
-              <div class="item">
-            		<img class="owl-lazy" data-src="<?php echo base_url() ?>assets/images/customers/16.jpg" alt="">
-            	</div>
+              <!-- <div class="item">
+            		 <img class="owl-lazy" data-src="<?php echo base_url() ?>assets/images/customers/16.jpg" alt=""> -
+            	</div> -->
             </div>
           </div>
         </div>

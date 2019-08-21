@@ -6,7 +6,7 @@
   <?php include('include/navbar.php') ?>
   <!-- /top navigation -->
   <div class="container-fluid">
-  <div class="parallax"></div>
+  <div class="parallax-awards"></div>
   </div>
 
 <!-- <div class="container-fluid" id="certi-head">
@@ -15,7 +15,7 @@
   </div>
 </div>
 
-<!-- Infrastructure container start 
+<!-- Infrastructure container start
 <div class="container">
   <div class="certificate">
     <div class="row text-center">
@@ -75,11 +75,11 @@
     </div>
     <div class="col-md-4">
       <div class="card card-awards">
-          <img class="card-img-top" src="<?php echo base_url(); ?>assets/images/awards/4.jpg" alt="Card image cap">
+          <img class="card-img-top" src="<?php echo base_url(); ?>assets/images/awards/6.jpg" alt="Card image cap">
         <div class="card-body">
           <!-- <h5 class="card-title">HUB MB 05 H</h5> -->
           <p class="card-text">
-            Best Supplier Award for speed response to new products by KIRLOSKAR OIL ENGINES LIMITED <br> <br>  </p>
+            Award for achivement in small group activities by ILJIN AUTOMOTIVES PRIVATE LIMITED  <br> <br>  </p>
         </div>
       </div>
     </div>

@@ -36,12 +36,12 @@
               <p>  Dist : Kolhapur Maharashtra - 416229</p>
               <p>  Phone No. : +91 - 02328 271224</p>
 
-              <h5>Unit 2 : </h5>
+              <!-- <h5>Unit 2 : </h5>
             <p>Gat No.704 & 706, Kushire, Tal.Panhala,</p>
-              <p>  Dist : Kolhapur Maharashtra - 416229</p>
+              <p>  Dist : Kolhapur Maharashtra - 416229</p> -->
               <!-- <p>  Phone No. : +91 - 02328 271224</p> -->
 
-              <h5>Unit 3 : </h5>
+              <h5>Unit 2 : </h5>
             <p> F-11, Five Star MIDC, Kagal</p>
               <p>  Dist : Kolhapur Maharashtra - 416229</p>
         </div>
