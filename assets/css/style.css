@@ -207,7 +207,7 @@ button:focus {
   background-color: #262626;
 }
 h1, h2, h3, h4, h5{
-  font-family: 'roboto', serif !important;
+  font-family: 'Roboto', sans-serif;
 }
 .title{
   color: #262626;
@@ -1448,11 +1448,11 @@ height: 150px;
 /* Footer end*/
 
 /* pages common */
-/* .sub-page-heading{
-  min-height: 120px;
-} */
+.sub-page-heading{
+  padding-bottom: 30px;
+}
 .sub-page-title{
-  padding-top: 80px;
+  padding-top: 35px;
   text-align: center;
   font-weight: 800;
 }
