@@ -12,7 +12,7 @@
           <img class="" src="<?php echo base_url(); ?>assets/images/nmc_logo.jpg" alt="">
         </div>
         <div class="col-md-9 text-left align-self-center" style="color:#000;">
-          <p style="font-family: 'Rubik';">
+          <p>
             <span class="com-name" >NEW MELTING CENTER PVT. LTD.</span><br>
             An ISO 9001:2008 Company
           </p>
@@ -25,7 +25,7 @@
   </div>
   <div class="section-two">
     <div class="content">
-      <div class="row top-contact-desctop">
+      <div class="row top-contact-desktop">
         <div class="col-md-1"></div>
         <div class="col-md-1 align-self-center text-center">
           <div class="nav-contact-logo">
