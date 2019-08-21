@@ -8,7 +8,7 @@
   <!-- /top navigation -->
 
   <!-- slider start -->
-  <div class="container-fluid">
+  <div class="container-fluid banner">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -17,19 +17,24 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="d-block w-100" src="<?php echo base_url('assets/images/slider/banner3.jpg'); ?>" alt="Second slide">
+          <img class="d-block w-100 banner-img" src="<?php echo base_url('assets/images/slider/banner3.jpg'); ?>" alt="Second slide">
           <div class="banner-title d-none d-md-block">
-            <h1 class="title text-white">Welcome to <span>NMCPL</span></h1>
+            <h1 class="title text-white banner-title1">Welcome to NMCPL</h1>
+            <h1 class="title text-white banner-title1 top-scale-1">We will provide the best service</h1>
           </div>
+
+
         </div>
         <div class="carousel-item">
           <img class="d-block w-100" src="<?php echo base_url('assets/images/slider/banner1.jpg'); ?>" alt="Second slide">
-          <div class="carousel-caption d-none d-md-block">
+          <div class="banner-title d-none d-md-block">
+            <h1 class="title text-white">Welcome to NMCPL</h1>
           </div>
         </div>
         <div class="carousel-item">
           <img class="d-block w-100" src="<?php echo base_url('assets/images/slider/banner2.jpg'); ?>" alt="Third slide">
-          <div class="carousel-caption d-none d-md-block">
+          <div class="banner-title d-none d-md-block">
+            <h1 class="title text-white">Welcome to NMCPL</h1>
           </div>
         </div>
       </div>

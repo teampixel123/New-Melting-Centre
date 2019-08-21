@@ -17,6 +17,7 @@
 
   <link href="<?php echo base_url(); ?>assets/css/owl.carousel.css" rel="stylesheet">
   <link href="<?php echo base_url(); ?>assets/css/owl.theme.default.min.css" rel="stylesheet">
+  <link href="<?php echo base_url(); ?>assets/css/animate.min.css" rel="stylesheet">
 </head>
 
 <!-- <!DOCTYPE html>
