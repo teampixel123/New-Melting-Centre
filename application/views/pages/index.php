@@ -17,17 +17,18 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="d-block w-100" src="<?php echo base_url('assets/images/slider/s1.jpg'); ?>" alt="First slide">
+          <img class="d-block w-100" src="<?php echo base_url('assets/images/slider/banner3.jpg'); ?>" alt="Second slide">
+          <div class="banner-title d-none d-md-block">
+            <h1 class="title text-white">Welcome to <span>NMCPL</span></h1>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="<?php echo base_url('assets/images/slider/banner1.jpg'); ?>" alt="Second slide">
           <div class="carousel-caption d-none d-md-block">
           </div>
         </div>
         <div class="carousel-item">
-          <img class="d-block w-100" src="<?php echo base_url('assets/images/slider/s2.jpg'); ?>" alt="Second slide">
-          <div class="carousel-caption d-none d-md-block">
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="<?php echo base_url('assets/images/slider/s3.jpg'); ?>" alt="Third slide">
+          <img class="d-block w-100" src="<?php echo base_url('assets/images/slider/banner2.jpg'); ?>" alt="Third slide">
           <div class="carousel-caption d-none d-md-block">
           </div>
         </div>
@@ -122,7 +123,7 @@
               </ul>
             </div>
           </div>
-          <a href="#" class="about-btn btn-hvr">Learn about the services</a>
+          <a href="<?php echo base_url(); ?>About-Us" class="nmc-btn btn-hvr about-btn">More About Us</a>
           <!-- hvr-sweep-to-right -->
         </div>
         <div class="col-md-6 text-center about-nmc-img">
@@ -134,10 +135,10 @@
   </div>
 
   <div class="container">
-    <div class="mb-5 products" id="customers">
+    <div class="products" id="customers">
       <div class="row">
         <div class="col-md-12">
-          <h2 class="title pb-3">Our <span>Clients</span></h2>
+          <h2 class="title front-sm-hr pb-3">Our <span>Clients</span></h2>
           <div class="owl-slider">
             <div id="carousel" class="owl-carousel">
             	<div class="item">
@@ -185,15 +186,20 @@
             </div>
           </div>
         </div>
+        <div class="col-md-12 mt-5 text-center">
+          <a href="<?php echo base_url(); ?>Clients" class="nmc-btn btn-hvr">See More Clients</a>
+        </div>
       </div>
     </div>
+    <hr>
   </div>
 
   <div class="container">
     <div id="nmc_info" class="nmc-info">
       <div class="row">
         <div class="col-md-6">
-          <h2 class="title b-border">Why Choose Us</h2>
+          <h2 class="title front-sm-hr">Why <span>Choose Us</span></h2>
+          <!-- <h2 class="title b-border">Why Choose Us</h2> -->
           <h4 class="sub-title"><i class="fa fa-check"></i> WE ARE PASSIONATE</h4>
           <p>
             We have a proven record of accomplishment and are a reputable company in the India. We ensure that all projects are done with utmost professionalism using quality materials while offering clients the support and accessibility.
@@ -208,7 +214,8 @@
           </p>
         </div>
         <div class="col-md-6 nmc-info-div2">
-          <h2 class="title b-border">Who We Are</h2>
+          <h2 class="title front-sm-hr">Who <span>We Are</span></h2>
+          <!-- <h2 class="title b-border">Who We Are</h2> -->
           <div class="row">
             <div class="col-md-6 mt-2rem">
               <img class="pb-3" width="100%" src="<?php echo base_url() ?>assets/images/nmc_info1.jpg" alt="">
@@ -239,7 +246,7 @@
     <div class="features" id="features">
       <div class="row">
         <div class="col-md-4">
-          <div class="feature-box bg-gray">
+          <div class="feature-box">
             <!-- <div class="icon-box">
                 <i class="fa fa-edit feature-icon"></i>
             </div -->
@@ -251,7 +258,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="feature-box bg-gray">
+          <div class="feature-box">
             <!-- <div class="icon-box">
                 <i class="fa fa-edit feature-icon"></i>
             </div> -->
@@ -263,7 +270,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="feature-box bg-gray">
+          <div class="feature-box">
             <!-- <div class="icon-box">
                 <i class="fa fa-edit feature-icon"></i>
             </div> -->
@@ -283,7 +290,7 @@
     <div class="quote">
       <div class="row">
         <div class="col-md-7">
-          <h2 class="title">Our Core <span>Values</span></h2>
+          <h2 class="title front-sm-hr mb-4">Our Core <span>Values</span></h2>
           <p>
             The New Melting Centre Pvt. Ltd., since its inception, has been always value-driven Organization. We do business on following Five Core Values:
           </p>
@@ -302,11 +309,11 @@
             We always work towards Safety, Security and Comfort for our Customers under Environment  Management System (EMS).
           </span>
           </h4>
-          <h4 class="sub-title"><i class="fa fa-check"></i> Responsibility :
+          <!-- <h4 class="sub-title"><i class="fa fa-check"></i> Responsibility :
           <span>
             We always work towards Safety, Security and Comfort for our Customers under Environment  Management System (EMS).
           </span>
-          </h4>
+          </h4> -->
           <h4 class="sub-title"><i class="fa fa-check"></i> Promptness :
           <span>
             We make it sure to supply our products in lead time to avoid any hardship to our Customers.
@@ -320,7 +327,7 @@
           </div>
         <div class="col-md-5">
           <div class="requery-quote">
-            <h2 class="title pb-3 white-text">Request a <span>Quote</span></h2>
+            <h2 class="title front-sm-hr pb-3 white-text">Request a <span>Quote</span></h2>
             <p class="white-text">Fill all information details to consult with us to get services from us</p>
             <form>
               <div class="form-group white-text">
@@ -336,7 +343,7 @@
                 <textarea name="messege" class="form-control" rows="4" cols="80" placeholder="Write some text"></textarea>
               </div>
               <div class="text-center">
-                <a href="#" class="about-btn btn-hvr">Get a quote</a>
+                <a href="#" class="nmc-btn btn-hvr-border">Get a quote</a>
               </div>
 
             </form>
@@ -348,10 +355,10 @@
   </div>
 
   <div class="container">
-    <div class="mb-5 products" id="products">
+    <div class="products" id="products">
       <div class="row">
         <div class="col-md-12">
-          <h2 class="title pb-3">Our <span>Products</span></h2>
+          <h2 class="title front-sm-hr pb-3">Our <span>Products</span></h2>
           <div class="owl-slider">
             <div id="carousel2" class="owl-carousel">
             	<div class="item">
@@ -386,25 +393,26 @@
             	</div>
             </div>
           </div>
+          <div class="mt-5 text-center">
+            <a href="<?php echo base_url(); ?>Products" class="nmc-btn btn-hvr">See More Products</a>
+          </div>
         </div>
       </div>
     </div>
+    <hr>
   </div>
 
-  <div class="container-fluid nmc_awards" id="nmc_awards">
-    <div class="container">
+  <div class="container-fluid " >
+    <div class="container nmc_awards" id="nmc_awards">
       <div class="">
-        <div class="row awards-info">
-          <div class="col-md-6 align-self-center">
+        <div class="row">
+          <div class="col-md-6 awards-info align-self-center">
             <h3 class="awa-info title">Best Supplier<span class="nmc-text-color"> Award</span></h1>
             <p class="white-text">Best Supplier Award for speed response to new products by Kirloskar Oil Engines Limited.</p>
           </div>
           <div class="col-md-6 awards-img">
-            <img width="80%" height="350px" src="<?php echo base_url() ?>assets/images/award1.jpg" alt="">
+            <img src="<?php echo base_url() ?>assets/images/award1.jpg" alt="">
           </div>
-          <!-- <div class="col-md-3 awards-img text-center align-self-center">
-            <img width="80%" height="150px" src="<?php echo base_url() ?>assets/images/certificate1.jpg" alt="">
-          </div> -->
         </div>
       </div>
     </div>

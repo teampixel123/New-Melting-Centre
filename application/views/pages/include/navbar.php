@@ -12,7 +12,7 @@
           <img class="" src="<?php echo base_url(); ?>assets/images/nmc_logo.jpg" alt="">
         </div>
         <div class="col-md-9 text-left align-self-center" style="color:#000;">
-          <p>
+          <p style="font-family: 'Rubik';">
             <span class="com-name" >NEW MELTING CENTER PVT. LTD.</span><br>
             An ISO 9001:2008 Company
           </p>
@@ -138,19 +138,28 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item active">
-        <a class="nav-link r-border-none" href="<?php echo base_url(); ?>Melting_Controller">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link r-border-none" href="<?php echo base_url(); ?>">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link r-border-none" href="<?php echo base_url(); ?>Melting_Controller/home">About Us</a>
+        <a class="nav-link r-border-none" href="<?php echo base_url(); ?>About-Us">About Us</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link r-border-none" href="<?php echo base_url(); ?>Melting_Controller/home">Products</a>
+        <a class="nav-link r-border-none" href="<?php echo base_url(); ?>Products">Products</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link r-border-none" href="<?php echo base_url(); ?>Melting_Controller/home">Testimonials</a>
+        <a class="nav-link r-border-none" href="<?php echo base_url(); ?>Infrastructure">Infrastructure</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link r-border-none" href="<?php echo base_url(); ?>Melting_Controller/home">Contact Us</a>
+        <a class="nav-link r-border-none" href="<?php echo base_url(); ?>Clients">Clients</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link r-border-none" href="<?php echo base_url(); ?>Policy">Quality Policy</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link r-border-none" href="<?php echo base_url(); ?>Awards">Awards</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link r-border-none" href="<?php echo base_url(); ?>Contact-Us">Contact Us</a>
       </li>
       <!-- <li class="nav-item quote">
         <a class="nav-link r-border-none" href="<?php echo base_url(); ?>Melting_Controller/home"></a>

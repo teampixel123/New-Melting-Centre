@@ -4,31 +4,17 @@
       <div class="container">
         <div class="row py-4 d-flex align-items-center">
           <div class="col-md-12 align-self-center text-center">
-            <!-- <h6 class="mb-0 white-text">Get connected with us!</h6> -->
             <a class="fb-ic">
               <i class="fab white-text mr-4"> <h6 class="mb-0 white-text">Get connected with us!</h6></i>
             </a>
-          <!-- </div>
-          <div class="col-md-6"> -->
-            <!-- Facebook -->
             <a class="fb-ic">
               <i class="fab fa-facebook-f white-text mr-4"> </i>
             </a>
-            <!-- Twitter -->
             <a class="tw-ic">
               <i class="fab fa-twitter white-text mr-4"> </i>
             </a>
-            <!-- Google +-->
             <a class="gplus-ic">
               <i class="fab fa-google-plus-g white-text mr-4"> </i>
-            </a>
-            <!--Linkedin -->
-            <a class="li-ic">
-              <i class="fab fa-linkedin-in white-text mr-4"> </i>
-            </a>
-            <!--Instagram-->
-            <a class="ins-ic">
-              <i class="fab fa-instagram white-text"> </i>
             </a>
           </div>
         </div>
@@ -37,36 +23,36 @@
     <!-- Footer Links -->
     <div class="container text-center text-md-left mt-5 nmc-footer">
       <div class="row mob-cen mt-3">
-        <div class="col-md-2  footer-products">
+        <div class="col-md-1  footer-products">
           <img class="logo-footer" src="<?php echo base_url('assets/images/logo_footer2.png'); ?>" alt="">
         </div>
         <div class="col-md-4 col-12 footer-company">
           <h6 class="text-uppercase font-weight-bold">New Melting Center Pvt. Ltd</h6>
           <hr class="deep-purple d-inline-block mx-auto" style="width: 60px;">
-          <!-- <p class="footer-nmc"></p> -->
-          <!-- <img src="<?php echo base_url('assets/images/logo_footer.png'); ?>" alt=""> -->
           <p class="contact-footer mob-cen">
              Plot No. 11, Building No. 12,<br>
              Y. P. Powar Nagar, Kolhapur - 416008.
             Maharashtra State (India).
           </p>
         </div>
-        <!-- <div class="col-md-2 col-6 footer-products">
-           <h6 class="text-uppercase font-weight-bold">Products</h6>
-          <hr class="deep-purple accent-2 d-inline-block mx-auto" style="width: 60px;">
-          <p class="link-footer"><a href="#!">Bootstrap</a></p>
-          <p class="link-footer"><a href="#!">WordPress</a></p>
-          <p class="link-footer"><a href="#!">BrandFlow</a></p>
-          <p class="link-footer"><a href="#!">Angular</a></p>
-        </div> -->
-        <div class="col-md-2  footer-links">
+        <div class="col-md-4 footer-links">
           <h6 class="text-uppercase font-weight-bold">Useful links</h6>
           <hr class="deep-purple d-inline-block mx-auto" style="width: 60px;">
-          <p class="link-footer"><a href="<?php echo base_url(); ?>Melting_Controller/home">Home</a></p>
-          <p class="link-footer"><a href="<?php echo base_url(); ?>About-Us">About Us</a></p>
-          <p class="link-footer"><a href="<?php echo base_url(); ?>Products">Products</a></p>
-          <p class="link-footer"><a href="<?php echo base_url(); ?>Infrastructure">Infrastructure</a></p>
-          <p class="link-footer"><a href="<?php echo base_url(); ?>Clients">Clients</a></p>
+          <div class="row">
+            <div class="col-6">
+              <p class="link-footer"><a href="<?php echo base_url(); ?>">Home</a></p>
+              <p class="link-footer"><a href="<?php echo base_url(); ?>About-Us">About Us</a></p>
+              <p class="link-footer"><a href="<?php echo base_url(); ?>Products">Products</a></p>
+              <p class="link-footer"><a href="<?php echo base_url(); ?>Infrastructure">Infrastructure</a></p>
+            </div>
+            <div class="col-6">
+              <p class="link-footer"><a href="<?php echo base_url(); ?>Clients">Clients</a></p>
+              <p class="link-footer"><a href="<?php echo base_url(); ?>Policy">Quality Policy</a></p>
+              <p class="link-footer"><a href="<?php echo base_url(); ?>Awards">Awards</a></p>
+              <p class="link-footer"><a href="<?php echo base_url(); ?>Contact-Us">Contact Us</a></p>
+            </div>
+          </div>
+
         </div>
         <div class="col-md-4 col-12 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
           <!-- Links -->
