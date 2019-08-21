@@ -7,10 +7,10 @@
   <!-- /top navigation -->
 
 
-    <div class="container-fluid">
+    <div class="container">
       <div class="sub-page-heading">
         <!-- <h1 class="sub-page-title"><span>About Us</span></h1> -->
-        <h1 class="title front-sm-hr sub-page-title">About <span>NMCPL</span></h1>
+        <h1 class="sub-page-title">About <span>NMCPL</span></h1>
       </div>
     </div>
 
@@ -115,7 +115,10 @@
 
     <div class="container">
       <div class="journey">
-        <h2 class="title front-sm-hr">Journey of <span>New Melting Center</span></h2>
+        <div class="col-md-12">
+            <h2 class="title bottom-sm-hr">Journey of New Melting Center</h2>
+        </div>
+
         <div class="timeline">
           <ul>
             <li>

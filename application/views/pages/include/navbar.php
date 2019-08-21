@@ -51,7 +51,7 @@
         </div>
       </div>
 
-      <div class="row top-contact-mobile">
+      <!-- <div class="row top-contact-mobile">
         <div class="col-md-12">
           <div class="nav-contact-logo in-line">
             <i class="fa fa-phone" aria-hidden="true"></i>
@@ -61,23 +61,14 @@
             <span class="span2">9865326598</span>
           </div>
         </div>
-        <!-- <div class="col-md-6">
-          <div class="nav-contact-logo in-line">
-            <i class="fa fa-envelope" aria-hidden="true"></i>
-          </div>
-          <div class="email-id in-line">
-            <span class="span1">Email Us</span> <br>
-            <span class="span2">support@gmail.com</span>
-          </div>
-        </div> -->
-      </div>
+      </div> -->
     </div>
   </div>
 </div>
 
-<div class="container">
-  <div class="top-nav">
-    <nav class="navbar navbar-expand-lg navbar-light bg-white ">
+<div class="container ">
+  <div class="top-nav stick">
+    <nav class="navbar navbar-expand-md navbar-light bg-white ">
       <!-- <a class="navbar-brand" href="<?php echo base_url(); ?>Melting_Controller/home"></a> -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -130,13 +121,16 @@
 
 
 <div class="container-fluid mob-nav">
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">New Melting Center</a>
+<nav class="navbar sticky navbar-expand-lg navbar-light bg-white w-100">
+  <div class="">
+    <img height="55px" src="<?php echo base_url(); ?>assets/images/NMCPL_Logo_V1-01.png" alt="">
+  </div>
+  <!-- <a class="navbar-brand" href="#">New Melting Center</a> -->
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav ml-auto">
+    <ul class="navbar-nav ml-auto mt-2">
       <li class="nav-item active">
         <a class="nav-link r-border-none" href="<?php echo base_url(); ?>">Home <span class="sr-only">(current)</span></a>
       </li>

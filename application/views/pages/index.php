@@ -19,22 +19,28 @@
         <div class="carousel-item active">
           <img class="d-block w-100 banner-img" src="<?php echo base_url('assets/images/slider/banner3.jpg'); ?>" alt="Second slide">
           <div class="animated animated-2s bounceInLeft delay-1s banner-title d-none d-md-block">
-            <h1 class=" title text-white banner-title1">Welcome to NMCPL</h1>
-            <h1 class="title text-white banner-title1 top-scale-1">We will provide the best service</h1>
+            <h1 class="title text-white banner-title1">Welcome to NMCPL</h1>
+            <!-- <h1 class="title title2 text-white banner-title1 top-scale-1">We will provide the best service</h1> -->
+            <p class="banner-para1 text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit,sed do eiusmod tempor<br> incididunt ut labore et dolore magna aliqua.</p>
+            <a href="<?php echo base_url(); ?>About-Us" class="banner-btn1 nmc-btn btn-hvr about-btn">More About Us</a>
           </div>
         </div>
         <div class="carousel-item">
           <img class="d-block w-100" src="<?php echo base_url('assets/images/slider/banner1.jpg'); ?>" alt="Second slide">
           <div class="animated animated-2s bounceInLeft delay-1s banner-title d-none d-md-block">
-            <h1 class=" title text-white banner-title1">Welcome to NMCPL</h1>
-            <h1 class="title text-white banner-title1 top-scale-1">We will provide the best service</h1>
+            <h1 class="title text-white banner-title1">Welcome to NMCPL</h1>
+            <!-- <h1 class="title text-white banner-title1 top-scale-1">We will provide the best service</h1> -->
+            <p class="banner-para1 text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit,sed do eiusmod tempor<br> incididunt ut labore et dolore magna aliqua.</p>
+            <a href="<?php echo base_url(); ?>About-Us" class="banner-btn1 nmc-btn btn-hvr about-btn">More About Us</a>
           </div>
         </div>
         <div class="carousel-item">
           <img class="d-block w-100" src="<?php echo base_url('assets/images/slider/banner2.jpg'); ?>" alt="Third slide">
           <div class="animated animated-2s bounceInLeft delay-1s banner-title d-none d-md-block">
-            <h1 class=" title text-white banner-title1">Welcome to NMCPL</h1>
-            <h1 class="title text-white banner-title1 top-scale-1">We will provide the best service</h1>
+            <h1 class="title text-white banner-title1">Welcome to NMCPL</h1>
+            <!-- <h1 class="title text-white banner-title1 top-scale-1">We will provide the best service</h1> -->
+            <p class="banner-para1 text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit,sed do eiusmod tempor<br> incididunt ut labore et dolore magna aliqua.</p>
+            <a href="<?php echo base_url(); ?>About-Us" class="banner-btn1 nmc-btn btn-hvr about-btn">More About Us</a>
           </div>
         </div>
       </div>
@@ -110,11 +116,11 @@
     <div style="" class="about-nmc">
       <div class="row">
         <div class="col-md-6">
-          <h2 class=" title pb-4 front-sm-hr">Welcome to <span>NMCPL</span></h2>
+          <h2 class=" title pb-4 bottom-sm-hr">Welcome to NMCPL</h2>
           <p class="">
             New Melting Centre Pvt. Ltd. established in 2006. We always believe in synchronizing and utilizing Time, Equipments and Business. In 2011 we have commissioned High Pressure Molding Line of Tokyu Japan Having capacity 100 Mould / Hour; this is the first plant of this company in India. In 2012 we have crossed production of 1350 M.T. / Month. In future we have planned for commissioning Hi-tech equipments in new extensions of Foundry and Machine Shop. We assure that we will make it with the support of our staff & well-wishers. Location : Kolhapur, Maharashtra - India
           </p>
-          <div class="row">
+          <!-- <div class="row">
             <div class="col-md-6">
               <ul class="list-items">
                 <li><i class="fa fa-arrow-right"></i>  Our Work Growth</li>
@@ -127,7 +133,7 @@
                 <li><i class="fa fa-arrow-right"></i>  1500 Employed</li>
               </ul>
             </div>
-          </div>
+          </div> -->
           <a href="<?php echo base_url(); ?>About-Us" class="nmc-btn btn-hvr about-btn">More About Us</a>
           <!-- hvr-sweep-to-right -->
         </div>
@@ -143,7 +149,7 @@
     <div class="products" id="customers">
       <div class="row">
         <div class="col-md-12">
-          <h2 class="title front-sm-hr pb-3">Our <span>Clients</span></h2>
+          <h2 class="title bottom-sm-hr pb-3">Our Clients</h2>
           <div class="owl-slider">
             <div id="carousel" class="owl-carousel">
             	<div class="item">
@@ -203,23 +209,23 @@
     <div id="nmc_info" class="nmc-info">
       <div class="row">
         <div class="col-md-6">
-          <h2 class="title front-sm-hr">Why <span>Choose Us</span></h2>
-          <!-- <h2 class="title b-border">Why Choose Us</h2> -->
-          <h4 class="sub-title"><i class="fa fa-check"></i> WE ARE PASSIONATE</h4>
+          <h2 class="title bottom-sm-hr">Why Choose Us</h2>
+          <!-- <h2 class="title">Why Choose Us</h2> -->
+          <h4 class="sub-title"><i class="fa fa-check"></i> &nbsp;WE ARE PASSIONATE</h4>
           <p>
             We have a proven record of accomplishment and are a reputable company in the India. We ensure that all projects are done with utmost professionalism using quality materials while offering clients the support and accessibility.
           </p>
-          <h4 class="sub-title"><i class="fa fa-check"></i> HONEST AND DEPENDABLE</h4>
+          <h4 class="sub-title"><i class="fa fa-check"></i> &nbsp;HONEST AND DEPENDABLE</h4>
           <p>
             For us, honesty is the only policy and we strive to complete all projects with integrity, not just with our clients, but also our suppliers and contractors. With thousands of successful projects under our belt, we are one of the most	trusted companies in India.
           </p>
-          <h4 class="sub-title"><i class="fa fa-check"></i> WE ARE ALWAYS IMPROVING</h4>
+          <h4 class="sub-title"><i class="fa fa-check"></i> &nbsp;WE ARE ALWAYS IMPROVING</h4>
           <p>
             We commit ourselves to complete all projects within the timeline set with our clients. We use the best of technology and tools to ensure that all jobs are done quickly but also giving attention to details and ensuring everything is done correctly.
           </p>
         </div>
         <div class="col-md-6 nmc-info-div2">
-          <h2 class="title front-sm-hr">Who <span>We Are</span></h2>
+          <h2 class="title bottom-sm-hr">Who We Are</h2>
           <!-- <h2 class="title b-border">Who We Are</h2> -->
           <div class="row">
             <div class="col-md-6 mt-2rem">
@@ -295,21 +301,21 @@
     <div class="quote">
       <div class="row">
         <div class="col-md-7">
-          <h2 class="title front-sm-hr mb-4">Our Core <span>Values</span></h2>
+          <h2 class="title bottom-sm-hr mb-4">Our Core Values</h2>
           <p>
             The New Melting Centre Pvt. Ltd., since its inception, has been always value-driven Organization. We do business on following Five Core Values:
           </p>
-          <h4 class="sub-title"><i class="fa fa-check"></i> Integrity :
+          <h4 class="sub-title"><i class="fa fa-check"></i> &nbsp;Integrity :
           <span>
             We do business with at most Honesty, Transparency and in the interest of our Clients.
           </span>
           </h4>
-          <h4 class="sub-title"><i class="fa fa-check"></i> Excellence :
+          <h4 class="sub-title"><i class="fa fa-check"></i> &nbsp;Excellence :
           <span>
             We strive for highest possible standards in our working and in the quality of the products we supply.
           </span>
           </h4>
-          <h4 class="sub-title"><i class="fa fa-check"></i> Responsibility :
+          <h4 class="sub-title"><i class="fa fa-check"></i> &nbsp;Responsibility :
           <span>
             We always work towards Safety, Security and Comfort for our Customers under Environment  Management System (EMS).
           </span>
@@ -319,12 +325,12 @@
             We always work towards Safety, Security and Comfort for our Customers under Environment  Management System (EMS).
           </span>
           </h4> -->
-          <h4 class="sub-title"><i class="fa fa-check"></i> Promptness :
+          <h4 class="sub-title"><i class="fa fa-check"></i> &nbsp;Promptness :
           <span>
             We make it sure to supply our products in lead time to avoid any hardship to our Customers.
           </span>
           </h4>
-          <h4 class="sub-title"><i class="fa fa-check"></i> Cost Effectiveness :
+          <h4 class="sub-title"><i class="fa fa-check"></i> &nbsp;Cost Effectiveness :
           <span>
             We provide our Excellent Precision Products at Reasonable price.
           </span>
@@ -332,7 +338,7 @@
           </div>
         <div class="col-md-5">
           <div class="requery-quote">
-            <h2 class="title front-sm-hr pb-3 white-text">Request a <span>Quote</span></h2>
+            <h2 class="title pb-3 white-text">Request a <span>Quote</span></h2>
             <p class="white-text">Fill all information details to consult with us to get services from us</p>
             <form>
               <div class="form-group white-text">
@@ -363,8 +369,8 @@
     <div class="products" id="products">
       <div class="row">
         <div class="col-md-12">
-          <h2 class="title front-sm-hr pb-3">Our <span>Products</span></h2>
-          <div class="owl-slider">
+          <h2 class="title bottom-sm-hr pb-3">Our Products</h2>
+          <div class="owl-slider mt-5">
             <div id="carousel2" class="owl-carousel">
             	<div class="item">
             		<img class="owl-lazy border-light" data-src="<?php echo base_url(); ?>assets/images/products/streering.jpg" alt="">
@@ -412,7 +418,7 @@
       <div class="">
         <div class="row">
           <div class="col-md-6 awards-info align-self-center">
-            <h3 class="awa-info title">Best Supplier<span class="nmc-text-color"> Award</span></h1>
+            <h3 class="awa-info title">Best Supplier Award</h1>
             <p class="white-text">Best Supplier Award for speed response to new products by Kirloskar Oil Engines Limited.</p>
           </div>
           <div class="col-md-6 awards-img">

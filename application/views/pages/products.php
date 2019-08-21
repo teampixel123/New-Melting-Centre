@@ -5,10 +5,13 @@
   <!-- top navigation -->
   <?php include('include/navbar.php') ?>
   <!-- /top navigation -->
+  <div class="container-fluid para-img">
+  <div class="parallax"></div>
+  </div>
 
 <div class="container">
   <div class="sub-page-heading">
-    <h1 class="sub-page-title"><span>Product Range</span></h1>
+    <h1 class="sub-page-title "><span>Product Range</span></h1>
     <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
   </div>
 </div>

@@ -9,13 +9,13 @@
   <div class="parallax"></div>
   </div>
 
-<div class="container-fluid" id="certi-head">
+<!-- <div class="container-fluid" id="certi-head">
   <div class="sub-page-heading">
     <h1 class="sub-page-title"><span>Certificates</span></h1>
   </div>
 </div>
 
-<!-- Infrastructure container start -->
+<!-- Infrastructure container start 
 <div class="container">
   <div class="certificate">
     <div class="row text-center">
@@ -27,7 +27,7 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
 <div class="container-fluid" id="certi-head">
   <div class="sub-page-heading">

@@ -9,14 +9,16 @@
   <div class="parallax"></div>
   </div>
 
-<div class="container-fluid" id="infra-head">
+<div class="container" id="infra-head">
   <div class="sub-page-heading">
     <h1 class="sub-page-title"><span>Infrastructure</span></h1>
+    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
   </div>
 </div>
 
 <!-- Infrastructure container start -->
-<section class="section">
+<section class="section section1">
   <div class="container">
     <div class="infra">
       <div class="row">
