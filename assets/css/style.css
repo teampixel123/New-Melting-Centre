@@ -821,7 +821,7 @@ height: 150px;
   color: #fe5a0e !important;
   /* text-decoration: underline !important; */
 }
-.top-nav .navbar-nav li:before {
+/* .top-nav .navbar-nav li:before {
     content: '';
     width: 100%;
     height: 3px;
@@ -837,10 +837,10 @@ height: 150px;
 .top-nav .navbar-nav li:hover:before{
   webkit-transform: scale(1, 1);
     transform: scale(1, 1);
-}
-/* .top-nav .navbar-nav .nav-item:hover{
-  border-bottom: 5px solid #fe5a0e;
 } */
+.top-nav .navbar-nav .nav-item:hover{
+  border-bottom: 5px solid #fe5a0e;
+}
 
 .top-nav .navbar-nav .nav-item:hover .nav-link{
   color: #fff;
