@@ -105,6 +105,25 @@ if (state == 'interactive') {
        document.getElementById('interactive');
        document.getElementById('load').style.visibility="hidden";
        document.getElementById('contents').style.visibility="visible";
-    },1000);
+    },300);
 }
 }
+
+
+$(document).scroll(function() {
+  go_top();
+});
+// Show go top on scroll
+function go_top(){
+  if( $(document).scrollTop() > 200 ) {
+    $('#go-top').fadeIn();
+  } else {
+    $('#go-top').fadeOut();
+  }
+}
+
+// Go to top..
+$('#go-top').on( "click", function() {
+    $('html, body').animate({scrollTop: 0});
+    return false;
+});

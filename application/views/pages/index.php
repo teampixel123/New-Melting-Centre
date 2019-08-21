@@ -18,23 +18,23 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img class="d-block w-100 banner-img" src="<?php echo base_url('assets/images/slider/banner3.jpg'); ?>" alt="Second slide">
-          <div class="banner-title d-none d-md-block">
-            <h1 class="title text-white banner-title1">Welcome to NMCPL</h1>
+          <div class="animated animated-2s bounceInLeft delay-1s banner-title d-none d-md-block">
+            <h1 class=" title text-white banner-title1">Welcome to NMCPL</h1>
             <h1 class="title text-white banner-title1 top-scale-1">We will provide the best service</h1>
           </div>
-
-
         </div>
         <div class="carousel-item">
           <img class="d-block w-100" src="<?php echo base_url('assets/images/slider/banner1.jpg'); ?>" alt="Second slide">
-          <div class="banner-title d-none d-md-block">
-            <h1 class="title text-white">Welcome to NMCPL</h1>
+          <div class="animated animated-2s bounceInLeft delay-1s banner-title d-none d-md-block">
+            <h1 class=" title text-white banner-title1">Welcome to NMCPL</h1>
+            <h1 class="title text-white banner-title1 top-scale-1">We will provide the best service</h1>
           </div>
         </div>
         <div class="carousel-item">
           <img class="d-block w-100" src="<?php echo base_url('assets/images/slider/banner2.jpg'); ?>" alt="Third slide">
-          <div class="banner-title d-none d-md-block">
-            <h1 class="title text-white">Welcome to NMCPL</h1>
+          <div class="animated animated-2s bounceInLeft delay-1s banner-title d-none d-md-block">
+            <h1 class=" title text-white banner-title1">Welcome to NMCPL</h1>
+            <h1 class="title text-white banner-title1 top-scale-1">We will provide the best service</h1>
           </div>
         </div>
       </div>
@@ -110,8 +110,8 @@
     <div style="" class="about-nmc">
       <div class="row">
         <div class="col-md-6">
-          <h2 class="title pb-4 front-sm-hr">Welcome to <span>NMCPL</span></h2>
-          <p>
+          <h2 class=" title pb-4 front-sm-hr">Welcome to <span>NMCPL</span></h2>
+          <p class="">
             New Melting Centre Pvt. Ltd. established in 2006. We always believe in synchronizing and utilizing Time, Equipments and Business. In 2011 we have commissioned High Pressure Molding Line of Tokyu Japan Having capacity 100 Mould / Hour; this is the first plant of this company in India. In 2012 we have crossed production of 1350 M.T. / Month. In future we have planned for commissioning Hi-tech equipments in new extensions of Foundry and Machine Shop. We assure that we will make it with the support of our staff & well-wishers. Location : Kolhapur, Maharashtra - India
           </p>
           <div class="row">
