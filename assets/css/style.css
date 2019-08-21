@@ -161,7 +161,7 @@ h1, h2, h3, h4, h5{
   margin-top:2rem
 }
 p{
-  font-family: 'roboto';
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 27px;
   color: #7E7E7E;
@@ -355,6 +355,7 @@ height: 150px;
 .card{
   width: 20rem;
   margin:5px!important;
+   overflow: hidden;
 }
 
 .card-img-top{
@@ -362,6 +363,11 @@ height: 150px;
   min-height: 250px;
   min-width: 150px;
   cursor: zoom-in;
+   overflow: hidden;
+}
+.card-img-top:hover{
+  transform: scale(1.1);
+   -webkit-transition: all 1.0s
 }
 .card-awards{
   width: 100%;
