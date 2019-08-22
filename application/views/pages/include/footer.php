@@ -75,7 +75,7 @@
     </div>
     <!-- Footer Links -->
     <!-- Copyright -->
-    <div class="footer-copyright text-center  py-3">© 2019 Copyright:
+    <div class="footer-copyright text-center  py-3">© 2019 Copyright :
       <a href="#" class="grey-co"> New Melting Centre Pvt.Ltd. All rights reserved.</a>
     </div>
     <!-- Copyright -->

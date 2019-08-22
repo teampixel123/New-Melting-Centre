@@ -7,16 +7,16 @@
 <div class="containe top-head">
   <div class="section-one">
     <div class="content logo-desktop row">
-      <div class="row">
-        <div class="col-md-3">
-          <img class="" src="<?php echo base_url(); ?>assets/images/nmc_logo.jpg" alt="">
-        </div>
-        <div class="col-md-9 text-left align-self-center" style="color:#000;">
+      <div class="row float-right ">
+
+        <a href="<?php echo base_url() ?>">  <img class="pr-5" src="<?php echo base_url(); ?>assets/images/logo_desktop.svg" alt="">
+          </a>
+        <!-- <div class="col-md-9 text-left align-self-center" style="color:#000;">
           <p>
             <span class="com-name" >NEW MELTING CENTER PVT. LTD.</span><br>
             An ISO 9001:2008 Company
           </p>
-        </div>
+        </div> -->
       </div>
     </div>
     <div class="content logo-mobile">
