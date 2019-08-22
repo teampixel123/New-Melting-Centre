@@ -138,7 +138,7 @@ $(document).ready(function() {
 		   	var stickyNav = function(){
 			    var scrollTop = $(window).scrollTop(); // our current vertical position from the top
           var width = $(document).width();
-          var rem = width-1004;
+          var rem = width-1100;
           var left = rem/2;
 			    // if we've scrolled more than the navigation, change its position to fixed to stick to top,
 			    // otherwise change it back to relative
