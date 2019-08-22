@@ -105,7 +105,7 @@
               <a class="dropdown-item" href="<?php echo base_url(); ?>Certificate">Certificate</a>
             </div>
           </li> -->
-          <li class="mr-0 nav-bg">
+          <li class=" nav-bg" style="margin-right:-1px;">
             <a class="nav-bg nav-link r-border-none" href="<?php echo base_url(); ?>Contact-Us">Contact Us</a>
           </li>
 

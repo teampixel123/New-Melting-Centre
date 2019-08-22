@@ -7,10 +7,13 @@
   <!-- /top navigation -->
 
 
+
     <div class="container">
       <div class="sub-page-heading">
-        <!-- <h1 class="sub-page-title"><span>About Us</span></h1> -->
-        <h1 class="sub-page-title">About <span>NMCPL</span></h1>
+        <div class="col-md-12">
+            <!-- <h1 class="sub-page-title" >About <span>NMCPL</span></h1> -->
+        </div>
+
       </div>
     </div>
 
@@ -30,21 +33,32 @@
       <hr>
     </div> -->
     <div class="container">
+
       <div class="preface">
         <div class="row">
-          <div class="col-md-1">
-          </div>
-          <div class="col-md-5">
+          <div class="col-md-3 offset-md-2">
             <div class="card no-border text-center">
               <img class="card-img-top ml-auto mr-0" src="<?php echo base_url() ?>assets/images/gausul_shaikh.jpg" alt="Card image cap">
             </div>
           </div>
-          <div class="col-md-5">
+          <div class="col-md-7 ">
+            <div class="preface-content">
+              <p class="ml-3 pt-3">Late Gauslazam Shaikh, father of our Managing Director was the famous Industrialist for Manufacturing Gun Metal Products, Cast Iron Components and having their Workshop for Repairing Diesel Engines. After completion of Diesel Mechanical Course, our Managing Director has started to look after family business since 1980 along with his brother Mr. Dilawar Shaikh.</p>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="row">
+          <div class="col-md-2 offset-1">
+            <div class="card no-border text-center">
+              <img class="card-img-top ml-auto mr-0" src="<?php echo base_url() ?>assets/images/gausul_shaikh.jpg" alt="Card image cap">
+            </div>
+          </div>
+          <div class="col-md-8">
             <div class="preface-content">
               <p>Late Gauslazam Shaikh, father of our Managing Director was the famous Industrialist for Manufacturing Gun Metal Products, Cast Iron Components and having their Workshop for Repairing Diesel Engines. After completion of Diesel Mechanical Course, our Managing Director has started to look after family business since 1980 along with his brother Mr. Dilawar Shaikh.</p>
             </div>
           </div>
-        </div>
+        </div> -->
         <!-- <div class="row">
           <div class="col-md-3 pr-0 row1">
             <div class="card no-border card1">
@@ -247,11 +261,15 @@
     				</nav>
     				<div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
     					<div class="tab-pane fade show active text-center" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-                <h1 class="title front-sm-hr text-left">Sales <span>Performance</span></h1>
+                <div class="col-md-12">
+                  <h1 class="title bottom-sm-hr text-left">Sales Performance</h1>
+                </div>
                 <img class="img1 mx-auto" src="<?php echo base_url() ?>assets/images/sales_performance.png" alt="">
     					</div>
     					<div class="tab-pane fade text-center" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-                <h1 class="title front-sm-hr text-left">Production <span>Performance</span></h1>
+              <div class="col-md-12">
+                <h1 class="title bottom-sm-hr text-left">Production Performance</h1>
+              </div>
                 <img class="img2" src="<?php echo base_url() ?>assets/images/production_performance.png" alt="">
     					</div>
     				</div>

@@ -260,6 +260,13 @@ h1, h2, h3, h4, h5{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.subtitle-padding{
+  padding-bottom: 1.5rem!important;
+}
+#customers .owl-slider{
+  margin-top: 32px;
+}
 .sub-title{
   color: #262626;
   font-weight: 600;
@@ -340,7 +347,7 @@ a:hover, a:visited, a:focus, a:active {
     /* background-color: #f7c51e; */
     height: 5px;
     width: 50px;
-    top: 40px;
+    top: 44px;
     left: 15px;
 }
 .bottom-sm-hr::before {
@@ -350,7 +357,7 @@ a:hover, a:visited, a:focus, a:active {
     background-color: #7E7E7E;
     height: 1px;
     width: 300px;
-    top: 44px;
+    top: 48px;
     left: 20px;
 }
 /* .b-border-100{
@@ -971,34 +978,37 @@ height: 150px;
 .banner-title1{
   position: absolute;
   left:40px;
-  top: 80px;
+  width: 100%;
+  bottom: 400px;
   z-index: 10;
   padding-top: 20px;
   padding-bottom: 20px;
   color: #000;
-  text-align: center;
+  text-align: center!important;
 }
 .top-scale-1{
   bottom: 340px;
 }
 .banner-para1{
   position: absolute;
-  right:40px;
+  left:40px;
+  width: 100%;
   bottom: 350px;
   z-index: 10;
   padding-top: 20px;
   padding-bottom: 20px;
-  text-align: right;
+  text-align: center;
   font-size: 20px;
 }
 .banner-btn1{
   position: absolute;
-  right:40px;
+  left:40px;
+  width: 100%;
   bottom: 300px;
   z-index: 10;
   /* padding-top: 20px; */
   /* padding-bottom: 20px; */
-  text-align: right;
+  text-align: center;
   font-size: 20px;
 }
 
@@ -1237,7 +1247,7 @@ height: 150px;
   transition: all .4s ease;
 }
 #about_nmc .about-btn{
-  margin-top: 40px;
+  margin-top: 10px;
   width: 295px;
 }
 
@@ -1290,7 +1300,12 @@ height: 150px;
 #customers{
   padding-top: 50px;
   padding-bottom: 50px;
+
 }
+#customers .bottom-sm-hr::before{
+  width: 140px;
+}
+
 /* Customers End*/
 /* about_com - com-info */
 .company-info{
@@ -1351,9 +1366,21 @@ height: 150px;
   padding:20px;
 }
 .icon-box{
-  padding-left: 20px !important;
-  display: table-cell !important;
+
+  /* display: table-cell !important; */
   vertical-align: middle !important;
+  width: 100%;
+}
+
+.svg{
+
+      fill:#d3d3d3;
+    margin: 40px;
+    padding: 20px !important;
+  border: 1px solid #d3d3d3;
+}
+.svg:hover{
+      fill:#fe5a0e;
 }
 .icon-box h3{
   font-family: 'Poppins', serif;
@@ -1431,7 +1458,7 @@ height: 150px;
   padding-bottom: 80px;
 }
 .awa-info{
-  color: #fff;
+  color: #fe5a0e;
 }
 .awards-img{
   text-align:center;
@@ -1563,6 +1590,10 @@ height: 150px;
   color:  #a2a7ad;
   text-align: left;
   margin-bottom: 5px;
+  font-size: 14px;
+}
+.address-footer h6{
+  font-weight: 400;
 }
 .link-footer{
   text-align: justify ;
@@ -1573,6 +1604,10 @@ height: 150px;
 }
 .footer-products, .footer-links, .footer-company{
   margin-bottom: 20px;
+
+}
+.footer-link-padding{
+  padding-left: 70px!important;
 }
 .footer-links .col-6{
   padding-left: 0px;
@@ -1609,6 +1644,9 @@ height: 150px;
   .footer-products, .footer-links, .footer-company{
     margin-bottom: 20px;
   }
+  .footer-link-padding{
+    padding-left: 10px!important;
+  }
 }
 /* Footer end*/
 
@@ -1616,11 +1654,34 @@ height: 150px;
 .sub-page-heading{
   padding-bottom: 30px;
 }
+
+.sub-page-heading h1:after {
+  content: "";
+  height: 2px;
+  width: 80px;
+  background-color: #fe5a0e;
+  position: absolute;
+  bottom: -0.5rem;
+  left: 50%;
+  transform: translate(-50%);
+}
+
 .sub-page-title{
   padding-top: 35px;
   text-align: center;
   font-weight: 800;
+
 }
+
+/* .sub-page-heading h1::before {
+    position: absolute;
+    left: 0;
+    top: 1.2em;
+    height: 0;
+    width: 50px;
+    content: '';
+    border-top: 1px solid red;
+} */
 .sub-page-heading p{
   font-size: 20px;
 }
@@ -1634,6 +1695,8 @@ height: 150px;
 }
 /* pages common end */
 /* About Us Page */
+
+
 /* preface */
   .preface {
     margin-top: 50px;

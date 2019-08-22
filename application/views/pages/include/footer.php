@@ -29,30 +29,34 @@
         <div class="col-md-4 col-12 footer-company">
           <h6 class="text-uppercase font-weight-bold">New Melting Center Pvt. Ltd</h6>
           <hr class="deep-purple d-inline-block mx-auto" style="width: 60px;">
-          <p class="contact-footer mob-cen">
-             Plot No. 11, Building No. 12,<br>
-             Y. P. Powar Nagar, Kolhapur - 416008.
-            Maharashtra State (India).
-          </p>
+          <div class="address-footer">
+            <h6 class="text-uppercase ">office : </h6>
+        <p class="contact-footer mob-cen">
+           Plot No. 11, Building No. 12,
+           Y. P. Powar Nagar, Kolhapur - 416008.
+          Maharashtra State (India).
+        </p>
+        <h6 class="text-uppercase ">Unit 1 : </h6>
+      <p class="contact-footer mob-cen"> Gat No.678 / 679 (Part), Kushire, Tal.Panhala,
+         Dist : Kolhapur Maharashtra - 416229
+        Phone No. : +91 - 02328 271224</p>
+          <h6 class="text-uppercase">Unit 2 : </h6>
+      <p class="contact-footer mob-cen"> F-11, Five Star MIDC, Kagal
+        Dist : Kolhapur Maharashtra - 416229</p>
+          </div>
+
         </div>
-        <div class="col-md-4 footer-links">
-          <h6 class="text-uppercase font-weight-bold">Useful links</h6>
+        <div class="col-md-4 footer-links footer-link-padding">
+          <h6 class="text-uppercase">Useful links</h6>
           <hr class="deep-purple d-inline-block mx-auto" style="width: 60px;">
-          <div class="row">
-            <div class="col-6">
               <p class="link-footer"><a href="<?php echo base_url(); ?>">Home</a></p>
               <p class="link-footer"><a href="<?php echo base_url(); ?>About-Us">About Us</a></p>
               <p class="link-footer"><a href="<?php echo base_url(); ?>Products">Products</a></p>
               <p class="link-footer"><a href="<?php echo base_url(); ?>Infrastructure">Infrastructure</a></p>
-            </div>
-            <div class="col-6">
               <p class="link-footer"><a href="<?php echo base_url(); ?>Clients">Clients</a></p>
               <p class="link-footer"><a href="<?php echo base_url(); ?>Policy">Quality Policy</a></p>
               <p class="link-footer"><a href="<?php echo base_url(); ?>Awards">Awards</a></p>
               <p class="link-footer"><a href="<?php echo base_url(); ?>Contact-Us">Contact Us</a></p>
-            </div>
-          </div>
-
         </div>
         <div class="col-md-4 col-12 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
           <!-- Links -->

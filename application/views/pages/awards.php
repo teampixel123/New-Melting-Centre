@@ -31,7 +31,10 @@
 
 <div class="container-fluid" id="certi-head">
   <div class="sub-page-heading">
-    <h1 class="sub-page-title"><span>Awards</span></h1>
+    <div class="col-md-12">
+        <h1 class="sub-page-title" ><span>Awards</span></h1>
+    </div>
+    <!-- <h1 class="sub-page-title"><span>Awards</span></h1> -->
   </div>
 </div>
 <div class="container pb-5" id="awrd" >
