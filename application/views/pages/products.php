@@ -15,7 +15,7 @@
         <h1 class="sub-page-title" ><span>Product Range</span></h1>
     </div>
     <!-- <h1 class="sub-page-title "><span>Product Range</span></h1> -->
-    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <p class="">We focus mainly on developing and manufacturing critical and challenging products according to specific requirements of customers. Our manufacturing plants are equipped with the latest amenities to ensure that we produce high-quality products aimed at delivering customer satisfaction.</p>
   </div>
 </div>
 <!-- product container start -->

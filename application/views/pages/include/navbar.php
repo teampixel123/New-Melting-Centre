@@ -20,7 +20,7 @@
       </div>
     </div>
     <div class="content logo-mobile">
-      <img class="" src="<?php echo base_url(); ?>assets/images/logo_mob.jpg" alt="">
+      <img class="" src="<?php echo base_url(); ?>assets/images/logo_desktop.svg" alt="">
     </div>
   </div>
   <div class="section-two">
@@ -125,7 +125,7 @@
 
 
 <div class="container-fluid mob-nav">
-<nav class="navbar sticky navbar-expand-lg navbar-light bg-white w-100">
+<nav class="navbar navbar-expand-lg navbar-light bg-white w-100">
   <div class="">
     <img height="55px" src="<?php echo base_url(); ?>assets/images/NMCPL_Logo_V1-01.png" alt="">
   </div>

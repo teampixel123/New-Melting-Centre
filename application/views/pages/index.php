@@ -119,8 +119,8 @@
     <div style="" class="about-nmc">
       <div class="row">
         <div class="col-md-6">
-          <h2 class="title pb-4 bottom-sm-hr subtitle-padding">Welcome to NMCPL</h2>
-          <p class="">
+          <h2 class="title bottom-sm-hr ">Welcome to NMCPL</h2>
+          <p class="padding-m-10">
             New Melting Centre Pvt. Ltd. established in 2006. We always believe in synchronizing and utilizing Time, Equipments and Business. In 2011 we have commissioned High Pressure Molding Line of Tokyu Japan Having capacity 100 Mould / Hour; this is the first plant of this company in India. In 2012 we have crossed production of 1350 M.T. / Month. In future we have planned for commissioning Hi-tech equipments in new extensions of Foundry and Machine Shop. We assure that we will make it with the support of our staff & well-wishers. Location : Kolhapur, Maharashtra - India
           </p>
           <!-- <div class="row">
@@ -152,7 +152,7 @@
     <div class="products" id="customers">
       <div class="row">
         <div class="col-md-12">
-          <h2 class="title bottom-sm-hr subtitle-padding">Our Clients</h2>
+          <h2 class="title bottom-sm-hr ">Our Clients</h2>
           <div class="owl-slider">
             <div id="carousel" class="owl-carousel">
             	<div class="item">
@@ -231,7 +231,10 @@
           <h2 class="title bottom-sm-hr">Who We Are</h2>
           <!-- <h2 class="title b-border">Who We Are</h2> -->
           <div class="row">
-            <div class="col-md-6 mt-2rem">
+            <img  class="who-img"src="<?php echo base_url() ?>assets/images/whowe.jpg" alt="">
+            <p class="mx-auto">
+              It is a great pleasure to introduce our company. In our business journey we have followed holy footprints of our father late Mr. Gouslazam Shaikh alice Shaikhchacha, He is the person who made the history in the industrial of our region. In 1962 he started Udyam Engineering works in Shivaji Udyamnagar Kolhapur in rented premises, where mainly activity of oil engine repairing was carried out, after that in 1970, India Iron Works was founded for producing C.I Casting and for machining facility M.G.Industries and D.G.Industries established. </p>
+            <!-- <div class="col-md-6 mt-2rem">
               <img class="pb-3" width="100%" src="<?php echo base_url() ?>assets/images/nmc_info1.jpg" alt="">
               <img width="100%" src="<?php echo base_url() ?>assets/images/nmc_info2.jpg" alt="">
             </div>
@@ -239,7 +242,7 @@
               <p>
                 Late Gauslazam Shaikh, father of our Managing Director was the famous Industrialist for Manufacturing Gun Metal Products, Cast Iron Components and having their Workshop for Repairing Diesel Engines. After completion of Diesel Mechanical Course, our Managing Director has started to look after family business since 1980 along with his brother Mr. Dilawar Shaikh.
               </p>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -433,8 +436,8 @@
           <p class="white-text">Best Supplier Award for speed response to new products<br> by  Kirloskar Oil Engines Limited.</p>
         </div>
     </div>
-      <img class="svg-award" src="<?php echo base_url(); ?>assets/images/gear.svg" alt="">
-
+      <img class="svg-award d-none d-sm-block" src="<?php echo base_url(); ?>assets/images/gear.svg" alt="">
+      <img class="svg-award d-block d-sm-none" src="<?php echo base_url(); ?>assets/images/gear_mob.svg" alt="">
     <!-- <img src="<?php echo base_url(); ?>assets/images/best_supply.png" width="100%" alt=""> -->
     <!-- <div class="container nmc_awards" id="nmc_awards">
       <div class="">

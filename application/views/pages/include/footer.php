@@ -27,7 +27,7 @@
 
         </div> -->
         <div class="col-md-5 col-12 footer-company">
-          <h6 class="text-uppercase company-text font-weight-bold">New Melting Center Pvt. Ltd</h6>
+          <h6 class="text-uppercase company-text font-weight-bold">New Melting Centre Pvt. Ltd</h6>
           <!-- <hr class="deep-purple d-inline-block mx-auto" style="width: 60px;"> -->
           <div class="address-footer">
             <h6 class="text-uppercase mt-2">office : </h6>
@@ -39,7 +39,7 @@
         <h6 class="text-uppercase ">Unit 1 : </h6>
       <p class="contact-footer mob-cen"> Gat No.678 / 679 (Part), Kushire, Tal.Panhala,
          Dist : Kolhapur Maharashtra - 416229
-        Phone No. : +91 - 02328 271224</p>
+      </p>
           <h6 class="text-uppercase">Unit 2 : </h6>
       <p class="contact-footer mob-cen"> F-11, Five Star MIDC, Kagal
         Dist : Kolhapur Maharashtra - 416229</p>
@@ -70,7 +70,7 @@
           <p class="link-footer" ><i class="fas fa-envelope mr-3"></i> meltingcentre@gmail.com</p>
           <p class="link-footer" ><i class="fas fa-phone mr-3"></i> 02328 271224</p>
           <p class="link-footer" ><i class="fas fa-phone mr-3"></i> 0231 2690730</p>
-          <img class="logo-footer" src="<?php echo base_url('assets/images/logo_footer0.png'); ?>" alt="">
+          <img class="logo-footer" src="<?php echo base_url('assets/images/footer_logo.svg'); ?>" alt="">
         </div>
       </div>
     </div>
