@@ -229,7 +229,7 @@
           <div class="col-md-6 vision-content">
             <h1 class="title front-sm-hr d-block d-sm-none">Our <span>Vision</span></h1>
             <div class="card">
-              <h1 class="title front-sm-hr d-none d-sm-block">Our <span>Vision</span></h1>
+              <h1 class="title bottom-sm-hr d-none d-sm-block">Our <span>Vision</span></h1>
               <!-- <img class="card-img-top mx-auto" src="<?php echo base_url() ?>assets/images/vision.png" alt="Card image cap"> -->
               <div class="card-body">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>

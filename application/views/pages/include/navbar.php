@@ -74,15 +74,18 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+
         <ul class="navbar-nav ml-auto mr-auto text-center">
           <li class="nav-item ml-0">
             <a class="nav-link r-border-none" href="<?php echo base_url(); ?>">Home <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item demo">
             <a class="nav-link r-border-none" href="<?php echo base_url(); ?>About-Us">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link r-border-none" href="<?php echo base_url(); ?>Products">Products</a>
+            <div class="aft">
+              <a class="nav-link r-border-none" href="<?php echo base_url(); ?>Products">Products</a>
+            </div>
           </li>
           <li class="nav-item">
             <a class="nav-link r-border-none" href="<?php echo base_url(); ?>Clients">Clients</a>
@@ -114,6 +117,7 @@
              <a class="nav-link r-border-none" href="<?php echo base_url(); ?>Melting_Controller/home">Get a Quote</a>
           </li> -->
         </ul>
+
       </div>
     </nav>
   </div>
