@@ -6,16 +6,21 @@
   <?php include('include/navbar.php') ?>
   <!-- /top navigation -->
 
-
-
+  <div class="container-fluid " id="about-head">
     <div class="container">
-      <div class="sub-page-heading">
+      <div class="sub-page-heading mt-3">
         <div class="col-md-12">
-            <!-- <h1 class="sub-page-title" >About <span>NMCPL</span></h1> -->
+            <h1 class="sub-page-title" ><span>About Us</span></h1>
         </div>
-
+        <p>It is a great pleasure to introduce our company. In our business journey we have followed holy footprints of our father late Mr. Gouslazam Shaikh alice Shaikhchacha, He is the person who made the history in the industrial of our region. In 1962 he started Udyam Engineering works in Shivaji Udyamnagar Kolhapur in rented premises, where mainly activity of oil engine repairing was carried out, after that in 1970, India Iron Works was founded for producing C.I Casting and for machining facility M.G.Industries and D.G.Industries established. These all units was engaged in producing machined casting of Gun Metal Bearing, Bushing and Coupling required for Sugar Industries in Maharashtra and also out of State. In this Foundry they have produced very heavy Castings up to 1800 Kg. He was the only person in the region who use to produce this type of machined Casting for that reason he was very popular and well known for this activity.</p>
+        <p>In 1996 Melting Point was constituted on partnership basis with well known businessman Mr. Datta Jadhav. Kolhapur is famous for producing high quality castings, it is also called as Mother of Foundry business, hence it was really great pleasure for having large Foundry Unit.. A small tree of business planted by Late Shaikh Chacha converted in a very large tree, this is only because of his Skills and Hard working nature. He was also supporting and guiding us for grooming our carrier. In this over all period he have faced several ups and downs but he was steady and firm because he was follower of morals like Truth, Consistency, Quality and Hard Working. He made epic for us which ends in the year 2004 with very sad demise of Shaikh Chacha.</p>
+        <p>Further in 2006 we founded Melting Centre separately. We always believe in synchronizing and utilizing Time, Equipments and Business. In 2011 we have commissioned High Pressure Moulding Line of Tokyo Japan; this is the first plant of this company in India. In 2012 we have crossed production of 1350 M.T. / Month. In future we have planned for commissioning Hi-tech equipments in new extensions of Foundry and Machine Shop. I am sure that we will make it. My Staff and Workers definitely support me to make my Company the Successful Establishment.</p>
       </div>
     </div>
+
+  </div>
+
+
 
 
     <!-- <div class="container">
@@ -32,107 +37,60 @@
       </div>
       <hr>
     </div> -->
-    <div class="container">
-
-      <div class="preface">
-        <div class="row">
-          <div class="col-md-3 offset-md-2">
-            <div class="card no-border text-center">
-              <img class="card-img-top ml-auto mr-0" src="<?php echo base_url() ?>assets/images/gausul_shaikh.jpg" alt="Card image cap">
-            </div>
-          </div>
-          <div class="col-md-7 ">
-            <div class="preface-content">
-              <p class="ml-3 pt-3">Late Gauslazam Shaikh, father of our Managing Director was the famous Industrialist for Manufacturing Gun Metal Products, Cast Iron Components and having their Workshop for Repairing Diesel Engines. After completion of Diesel Mechanical Course, our Managing Director has started to look after family business since 1980 along with his brother Mr. Dilawar Shaikh.</p>
-            </div>
-          </div>
-        </div>
-        <!-- <div class="row">
-          <div class="col-md-2 offset-1">
-            <div class="card no-border text-center">
-              <img class="card-img-top ml-auto mr-0" src="<?php echo base_url() ?>assets/images/gausul_shaikh.jpg" alt="Card image cap">
-            </div>
-          </div>
-          <div class="col-md-8">
-            <div class="preface-content">
-              <p>Late Gauslazam Shaikh, father of our Managing Director was the famous Industrialist for Manufacturing Gun Metal Products, Cast Iron Components and having their Workshop for Repairing Diesel Engines. After completion of Diesel Mechanical Course, our Managing Director has started to look after family business since 1980 along with his brother Mr. Dilawar Shaikh.</p>
-            </div>
-          </div>
-        </div> -->
-        <!-- <div class="row">
-          <div class="col-md-3 pr-0 row1">
-            <div class="card no-border card1">
-              <img class="card-img-top ml-auto mr-0" src="<?php echo base_url() ?>assets/images/gausul_shaikh.jpg" alt="Card image cap">
-            </div>
-          </div>
-          <div class="col-md-9 align-self-center bg-gray row1" style="">
-            <div class="preface-content">
-              <p>Late Gauslazam Shaikh, father of our Managing Director was the famous Industrialist for Manufacturing Gun Metal Products, Cast Iron Components and having their Workshop for Repairing Diesel Engines. After completion of Diesel Mechanical Course, our Managing Director has started to look after family business since 1980 along with his brother Mr. Dilawar Shaikh.</p>
-            </div>
-          </div>
-          </div> -->
-          <hr class="preface-hr">
-          <div class="row">
-          <div class="col-md-6 row2 text-right">
-            <div class="card no-border float-right">
-              <img width="80%" class="card-img-top mx-auto" src="<?php echo base_url() ?>assets/images/mubarak_shaikh.jpg" alt="Card image cap">
-              <div class="card-body text-center">
-                <h5 class="card-title">Mr. Mubarak Shaikh</h5>
-                <span>Managing Director<span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 row2">
-            <div class="card no-border">
-              <img class="card-img-top mx-auto" src="<?php echo base_url() ?>assets/images/dilawar_shaikh.jpg" alt="Card image cap">
-              <div class="card-body text-center">
-                <h5 class="card-title">Mr. Dilawar Shaikh</h5>
-                <span>Active Director<span>
-              </div>
-            </div>
-          </div>
-          <!-- <div class="col-md-4 card-1">
-            <div class="card">
-              <img width="80%" class="card-img-top mx-auto" src="<?php echo base_url() ?>assets/images/mubarak_shaikh.jpg" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Mr. Mubarak Shaikh</h5>
-                <span>Managing Director<span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 card-2">
-            <div class="card">
-              <img class="card-img-top mx-auto" src="<?php echo base_url() ?>assets/images/gausul_shaikh.jpg" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Late Gausul Azam Shaikh</h5>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 card-3">
-            <div class="card">
-              <img class="card-img-top mx-auto" src="<?php echo base_url() ?>assets/images/dilawar_shaikh.jpg" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Mr. Dilawar Shaikh</h5>
-                <span>Active Director<span>
-              </div>
-            </div>
-          </div> -->
-        </div>
-
-        <!-- <div class="preface-content">
-          <p>Late Gauslazam Shaikh, father of our Managing Director was the famous Industrialist for Manufacturing Gun Metal Products, Cast Iron Components and having their Workshop for Repairing Diesel Engines. After completion of Diesel Mechanical Course, our Managing Director has started to look after family business since 1980 along with his brother Mr. Dilawar Shaikh.</p>
-        </div> -->
+    <div class="container" id="about-page">
+    <div class="row">
+      <div class="col-md-3">
+        <img class="about-top-img" src="<?php echo base_url() ?>assets/images/gausul_shaikh.png" alt="">
       </div>
-      <hr>
+      <div class="col-md-7 content-div" >
+            <h1 class="bottom-sm-hr" ><span>Our Inspiration</span></h1>
+            <p>Late Gauslazam Shaikh, father of our Managing Director was the famous Industrialist for Manufacturing Gun Metal Products, Cast Iron Components and having their Workshop for Repairing Diesel Engines. After completion of Diesel Mechanical Course, our Managing Director has started to look after family business since 1980 along with his brother Mr. Dilawar Shaikh.</p>
+      </div>
+      <div class="col-md-2">
+        <img class="about-svg-top" src="<?php echo base_url() ?>assets/images/about_svg2.svg" alt="">
+      </div>
+    </div>
+  </div>
+    <div class="container-fluid" id="middle-cont-about">
+      <div class="container">
+          <div class="row">
+            <div class="col-md-3 offset-md-6 left-img">
+              <div class="card no-border">
+              <img  class="card-img-top mx-auto" src="<?php echo base_url() ?>/assets/images/mubarak_shaikh.png" alt="Card image cap">
+              <div class="card-body text-center">
+                <h5 class="card-title">Mr. Mubarak Shaikh</h5>
+                <span>Managing Director<span>
+              </span></span></div>
+            </div>
+              <!-- <img src="<?php echo base_url() ?>assets/images/mubarak_shaikh.png" alt=""> -->
+            </div>
+            <div class="col-md-3 right-img">
+              <div class="card no-border">
+              <img class="card-img-top mx-auto" src="<?php echo base_url() ?>/assets/images/dilawar_shaikh.png" alt="Card image cap">
+              <div class="card-body text-center">
+                <h5 class="card-title">Mr. Dilawar Shaikh</h5>
+                <span>Active Director<span>
+              </span></span></div>
+            </div>
+              <!-- <img src="<?php echo base_url() ?>assets/images/dilawar_shaikh.png" alt=""> -->
+            </div>
+
+        </div>
+      </div>
+      <div class="row">
+        <img class="about-svg-bottom" src="<?php echo base_url() ?>assets/images/about_svg1.svg" alt="">
+      </div>
+
     </div>
 
-    <div class="container">
+
+
+
+    <div class="container" id="journey">
       <div class="journey">
-        <div class="col-md-12">
+        <div class="col-md-8 offset-md-4 ">
             <h2 class="title bottom-sm-hr">Journey of New Melting Center</h2>
         </div>
-
         <div class="timeline">
           <ul>
             <li>
@@ -227,9 +185,9 @@
       <div class="vision">
         <div class="row">
           <div class="col-md-6 vision-content">
-            <h1 class="title front-sm-hr d-block d-sm-none">Our <span>Vision</span></h1>
+            <!-- <h1 class="title front-sm-hr d-block d-sm-none">Our <span>Vision</span></h1> -->
             <div class="card">
-              <h1 class="title bottom-sm-hr d-none d-sm-block">Our <span>Vision</span></h1>
+              <h1 class="title bottom-sm-hr">Our Vision</h1>
               <!-- <img class="card-img-top mx-auto" src="<?php echo base_url() ?>assets/images/vision.png" alt="Card image cap"> -->
               <div class="card-body">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -254,7 +212,7 @@
     			<div class="col-xs-12 ">
     				<nav>
     					<div class="nav text-center " id="nav-tab" role="tablist">
-    						<a class="nmc-btn2 btn-hvr2 active show" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Sales Performance</a>
+    						<a class="nmc-btn2 padd-l-r btn-hvr2 active show" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Sales Performance</a>
     						<a class="nmc-btn2 btn-hvr2" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Production Performance</a>
     					</div>
               <hr class="nav-hr">
