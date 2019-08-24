@@ -1640,10 +1640,9 @@ height: 150px;
     text-align: left;
     padding-right: 30px;
   }
-
-  .footer-company .company-text{
-    font-size: 18px;
-  }
+}
+.footer-company .company-text{
+  font-size: 18px;
 }
 /* Award Info End*/
 .img__wrap {
