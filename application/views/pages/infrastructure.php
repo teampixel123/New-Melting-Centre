@@ -15,7 +15,8 @@
         <h1 class="sub-page-title" ><span>Infrastructure</span></h1>
     </div>
     <!-- <h1 class="sub-page-title"><span>Infrastructure</span></h1> -->
-    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <p class="text-center">Infrastructural facilities play a major role in the success of any company and we have invested a major share in this. Our entire infrastructure unit is fully fledged with all types of core techniques and advanced technologies that are required for making the production process fast and machines best in quality.
+</p>
 
   </div>
 </div>

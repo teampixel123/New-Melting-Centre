@@ -5,7 +5,7 @@
   <!-- top navigation -->
   <?php include('include/navbar.php') ?>
   <!-- /top navigation -->
-  <div class="container-fluid">
+  <div class="container-fluid para-img">
   <div class="parallax"></div>
   </div>
 

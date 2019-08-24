@@ -644,6 +644,33 @@ height: 150px;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.parallax-products {
+  /* The image used */
+  background-image: url("../images/parallex_product.jpg");
+
+  /* Set a specific height */
+  height: 300px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100% 80%;
+}
+.parallax-clients {
+  /* The image used */
+  background-image: url("../images/paralex.jpg");
+
+  /* Set a specific height */
+  height: 300px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .sub-page-title span{
   color: #FE5A0E;
   /* font-family: 'Playfair Display', serif; */
@@ -654,6 +681,9 @@ height: 150px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+
+
 .reg-office{
   margin-top: 30px;
   line-height: 32px;
@@ -779,6 +809,20 @@ height: 150px;
     margin-left: 0px!important;
     margin-bottom: 20px;
     margin-top: 20px;
+}
+ .policy .img-cert {
+  width: 300px;
+  height: 350px;
+  margin-left: 15px!important;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.ml-45{
+  margin-left: inherit;
+}
+.policy ul{
+  padding-left: 5px;
 }
 
 }
@@ -1435,7 +1479,7 @@ height: 150px;
 .svg svg{
   width: 150px;
 }
-.svg:hover{
+.icon-box:hover .svg{
       fill:#fe5a0e;
 }
 .icon-box h3{
@@ -1615,7 +1659,7 @@ height: 150px;
   left: 0;
   right: 0;
   padding: 25px 5px;
-  background: rgba(0, 0, 0, 0.72);
+  background: #fe5a0e;
   color: #fff;
   text-align: center;
   visibility: hidden;
@@ -1704,6 +1748,20 @@ height: 150px;
     padding-top: 40px;
     padding-bottom: 40px;
   }
+
+  .img__description {
+    vertical-align: middle;
+  }
+
+}
+.img__description {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.relative{
+      display: table-cell;
+      vertical-align: middle;
 }
 /* Products Home Page end*/
 /* Footer start*/
@@ -1732,14 +1790,19 @@ height: 150px;
 }
 .address-footer h6{
   font-weight: 400;
-  padding-top: 12px;
+  padding-top: 5px;
 }
 .link-footer{
   text-align: justify ;
-  margin-bottom: 5px;
+  margin-bottom: 2px;
 }
 .link-footer a{
   color:  #a2a7ad;
+}
+.p-12{
+  padding-top: 12px;
+  padding-bottom: 12px;
+
 }
 .footer-products, .footer-links, .footer-company{
   margin-bottom: 20px;
@@ -1754,6 +1817,9 @@ height: 150px;
 .nmc-footer hr{
   margin-bottom: 10px;
   margin-top: 0px !important;
+}
+.nmc-footer {
+  padding-bottom: 20px;
 }
 .padding-m-10{
   padding-top: 15px;
@@ -1781,6 +1847,12 @@ height: 150px;
   .link-footer{
     text-align: center ;
     margin-bottom: 5px;
+    color:  #a2a7ad;
+  }
+  #mo-fo p{
+    text-align: left;
+    margin-bottom: 5px;
+    margin-left: 35px;
     color:  #a2a7ad;
   }
   .footer-products, .footer-links, .footer-company{

@@ -46,7 +46,7 @@
           </div>
 
         </div>
-        <div class="col-md-4 footer-links footer-link-padding">
+        <div class="col-md-4 footer-links footer-link-padding d-none d-sm-block">
           <h6 class="text-uppercase">Useful links</h6>
           <hr class="deep-purple d-inline-block mx-auto" style="width: 60px;">
               <p class="link-footer"><a href="<?php echo base_url(); ?>">Home</a></p>
@@ -57,6 +57,26 @@
               <p class="link-footer"><a href="<?php echo base_url(); ?>Policy">Quality Policy</a></p>
               <p class="link-footer"><a href="<?php echo base_url(); ?>Awards">Awards</a></p>
               <p class="link-footer"><a href="<?php echo base_url(); ?>Contact-Us">Contact Us</a></p>
+        </div>
+        <!-- footer link mobile -->
+        <div class="col-md-4 footer-links footer-link-padding d-block d-sm-none">
+          <h6 class="text-uppercase">Useful links</h6>
+          <hr class="deep-purple d-inline-block mx-auto" style="width: 60px;">
+          <div class="row" id="mo-fo">
+            <div class="col-6 ">
+              <p class="link-footer"><a href="<?php echo base_url(); ?>">Home</a></p>
+              <p class="link-footer"><a href="<?php echo base_url(); ?>About-Us">About Us</a></p>
+              <p class="link-footer"><a href="<?php echo base_url(); ?>Products">Products</a></p>
+              <p class="link-footer"><a href="<?php echo base_url(); ?>Infrastructure">Infrastructure</a></p>
+            </div>
+            <div class="col-6">
+              <p class="link-footer"><a href="<?php echo base_url(); ?>Clients">Clients</a></p>
+              <p class="link-footer"><a href="<?php echo base_url(); ?>Policy">Quality Policy</a></p>
+              <p class="link-footer"><a href="<?php echo base_url(); ?>Awards">Awards</a></p>
+              <p class="link-footer"><a href="<?php echo base_url(); ?>Contact-Us">Contact Us</a></p>
+            </div>
+          </div>
+
         </div>
         <div class="col-md-4 col-12 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
           <!-- Links -->
@@ -76,7 +96,7 @@
     </div>
     <!-- Footer Links -->
     <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2019 Copyright :
+    <div class="footer-copyright text-center p-12">© 2019 Copyright :
       <a href="#" class="grey-co"> New Melting Centre Pvt.Ltd. <span class="footer-copyright">All rights reserved.</span> </a>
     </div>
     <!-- Copyright -->

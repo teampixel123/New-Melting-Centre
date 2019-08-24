@@ -5,8 +5,8 @@
   <!-- top navigation -->
   <?php include('include/navbar.php') ?>
   <!-- /top navigation -->
-  <div class="container-fluid">
-  <div class="parallax"></div>
+  <div class="container-fluid para-img">
+  <div class="parallax-clients"></div>
   </div>
 
 <div class="container" id="certi-head">
@@ -25,92 +25,94 @@
       <div class="col-md-2">
         <div class="img__wrap">
   <img class="img__img client-img" src="<?php echo base_url(); ?>assets/images/customers/customer_page/01.jpg" />
-  <p class="img__description">ILJIN AUTOMOTIVE PVT.LTD.</p>
-</div>
+  <div class="img__description"> <div class="relative" >ILJIN AUTOMOTIVE PVT.LTD.
+</div></div>
         <!-- <img class="client-img" src="<?php echo base_url(); ?>assets/images/customers/customer_page/01.jpg" alt=""> -->
       </div>
+    </div>
       <div class="col-md-2">
         <div class="img__wrap">
   <img class="img__img client-img" src="<?php echo base_url(); ?>assets/images/customers/customer_page/02.jpg" />
-  <p class="img__description">EMERSON CLIMATED TECHNOLOGIES (INDIA) LTD.</p>
-</div>
+<div class="img__description"> <div class="relative" >EMERSON CLIMATED TECHNOLOGIES (INDIA) LTD.
+</div></div>
         <!-- <img class="client-img" src="<?php echo base_url(); ?>assets/images/customers/customer_page/02.jpg" alt=""> -->
-      </div>
+      </div></div>
       <div class="col-md-2">
         <div class="img__wrap">
   <img class="img__img client-img" src="<?php echo base_url(); ?>assets/images/customers/customer_page/03.jpg" />
-  <p class="img__description">VST TILLER TRACTORS LTD.</p>
-</div>
+  <div class="img__description"> <div class="relative" >VST TILLER TRACTORS LTD.
+</div></div>
       <!-- <img class="client-img" src="<?php echo base_url(); ?>assets/images/customers/customer_page/03.jpg" alt=""> -->
-      </div>
+      </div></div>
 
       <div class="col-md-2">
         <div class="img__wrap">
   <img class="img__img client-img" src="<?php echo base_url(); ?>assets/images/customers/customer_page/04.jpg" />
-  <p class="img__description">KIRLOSKAR OIL ENGINES LTD.</p>
-</div>
+  <div class="img__description"> <div class="relative" >KIRLOSKAR OIL ENGINES LTD.
+</div></div>
         <!-- <img class="client-img" src="<?php echo base_url(); ?>assets/images/customers/customer_page/04.jpg" alt=""> -->
-      </div>
+      </div></div>
       <div class="col-md-2">
         <div class="img__wrap">
   <img class="img__img client-img" src="<?php echo base_url(); ?>assets/images/customers/customer_page/05.jpg" />
-  <p class="img__description"></p>
-</div>
+  <div class="img__description"> <div class="relative" >WOOSU AUTOMOTIVE INDIA PVT. LTD.
+</div></div>
         <!-- <img class="client-img" src="<?php echo base_url(); ?>assets/images/customers/customer_page/05.jpg" alt=""> -->
-      </div>
+      </div></div>
       <div class="col-md-2">
         <div class="img__wrap">
   <img class="img__img client-img" src="<?php echo base_url(); ?>assets/images/customers/customer_page/06.jpg" />
-  <p class="img__description"></p>
-</div>
+  <div class="img__description"> <div class="relative" > SAUR DANFOSS</p>
+</div></div>
       <!-- <img class="client-img" src="<?php echo base_url(); ?>assets/images/customers/customer_page/06.jpg" alt=""> -->
-      </div>
+      </div></div>
     </div>
     <div class="row">
       <div class="col-md-2">
         <div class="img__wrap">
   <img class="img__img client-img" src="<?php echo base_url(); ?>assets/images/customers/customer_page/07.jpg" />
-  <p class="img__description"></p>
-</div>
+  <div class="img__description"> <div class="relative" >CASPRO METAL INDUSTRIES PVT. LTD.
+</div></div>
         <!-- <img class="client-img" src="<?php echo base_url(); ?>assets/images/customers/customer_page/07.jpg" alt=""> -->
-      </div>
+      </div></div>
       <div class="col-md-2">
         <div class="img__wrap">
   <img class="img__img client-img" src="<?php echo base_url(); ?>assets/images/customers/customer_page/08.jpg" />
-  <p class="img__description"></p>
-</div>
+  <div class="img__description"> <div class="relative" >LOTUS ENGINEERING
+</div></div>
         <!-- <img class="client-img" src="<?php echo base_url(); ?>assets/images/customers/customer_page/08.jpg" alt=""> -->
-      </div>
+      </div></div>
       <div class="col-md-2">
         <div class="img__wrap">
   <img class="img__img client-img" src="<?php echo base_url(); ?>assets/images/customers/customer_page/09.jpg" />
-  <p class="img__description"></p>
-</div>
+  <div class="img__description"> <div class="relative" >MARKS ENGINEERING WORKS
+</div></div>
       <!-- <img class="client-img" src="<?php echo base_url(); ?>assets/images/customers/customer_page/09.jpg" alt=""> -->
-      </div>
+      </div></div>
 
       <div class="col-md-2">
         <div class="img__wrap">
   <img class="img__img client-img" src="<?php echo base_url(); ?>assets/images/customers/customer_page/10.jpg" />
-  <p class="img__description"></p>
-</div>
+  <div class="img__description"> <div class="relative" > MAHINDRA RISE
+</div></div>
         <!-- <img class="client-img" src="<?php echo base_url(); ?>assets/images/customers/customer_page/10.jpg" alt=""> -->
-      </div>
+      </div></div>
       <div class="col-md-2">
         <div class="img__wrap">
   <img class="img__img client-img" src="<?php echo base_url(); ?>assets/images/customers/customer_page/11.jpg" />
-  <p class="img__description"></p>
-</div>
+  <div class="img__description"> <div class="relative" > JOHN DEERE
+</div></div>
         <!-- <img class="client-img" src="<?php echo base_url(); ?>assets/images/customers/customer_page/11.jpg" alt=""> -->
-      </div>
+      </div></div>
       <div class="col-md-2">
         <div class="img__wrap">
   <img class="img__img client-img" src="<?php echo base_url(); ?>assets/images/customers/customer_page/12.jpg" />
-  <p class="img__description"></p>
-</div>
+  <div class="img__description"> <div class="relative" > EATON
+  </div></div>
+</div></div>
       <!-- <img class="client-img" src="<?php echo base_url(); ?>assets/images/customers/customer_page/12.jpg" alt=""> -->
       </div>
-    </div>
+
     <div class="row">
       <div class="col-md-2">
         <!-- <img class="client-img" src="<?php echo base_url(); ?>assets/images/customers/customer_page/01.jpg" alt=""> -->
@@ -118,32 +120,32 @@
       <div class="col-md-2">
         <div class="img__wrap">
   <img class="img__img client-img" src="<?php echo base_url(); ?>assets/images/customers/customer_page/13.jpg" />
-  <p class="img__description"></p>
-</div>
+  <div class="img__description"> <div class="relative" >CREATIVE TOOLS & COMPONENTS
+</div></div>
         <!-- <img class="client-img" src="<?php echo base_url(); ?>assets/images/customers/customer_page/13.jpg" alt=""> -->
-      </div>
+      </div></div>
       <div class="col-md-2">
-        <div class="img__wrap">
+        <div class="img__wrap ">
   <img class="img__img client-img" src="<?php echo base_url(); ?>assets/images/customers/customer_page/14.jpg" />
-  <p class="img__description"></p>
-</div>
+  <div class="img__description"> <div class="relative" >DUNUNG GROUP OF INDUSTRIES
+</div></div>
         <!-- <img class="client-img" src="<?php echo base_url(); ?>assets/images/customers/customer_page/14.jpg" alt=""> -->
-      </div>
+      </div></div>
       <div class="col-md-2">
         <div class="img__wrap">
   <img class="img__img client-img" src="<?php echo base_url(); ?>assets/images/customers/customer_page/15.jpg" />
-  <p class="img__description"></p>
-</div>
+  <div class="img__description"> <div class="relative" >MARVELOUS MACHINIST PVT. LTD.
+</div></div>
       <!-- <img class="client-img" src="<?php echo base_url(); ?>assets/images/customers/customer_page/15.jpg" alt=""> -->
-      </div>
+      </div></div>
 
       <div class="col-md-2">
         <div class="img__wrap">
   <img class="img__img client-img" src="<?php echo base_url(); ?>assets/images/customers/customer_page/16.jpg" />
-  <p class="img__description"></p>
-</div>
+  <div class="img__description"> <div class="relative" >HODEK VIBRATIONS TECHNOLOGIES PVT. LTD.
+</div></div>
         <!-- <img class="client-img" src="<?php echo base_url(); ?>assets/images/customers/customer_page/16.jpg" alt=""> -->
-      </div>
+      </div></div>
 
       <div class="col-md-2">
       <!-- <img class="client-img" src="<?php echo base_url(); ?>assets/images/customers/customer_page/01.jpg" alt=""> -->

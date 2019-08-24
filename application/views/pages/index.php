@@ -417,6 +417,7 @@
             	<div class="item">
             		<img class="owl-lazy border-light" data-src="<?php echo base_url(); ?>assets/images/products/flywheel5566.jpg" alt="">
             	</div>
+              
             </div>
           </div>
           <div class="mt-5 text-center">
