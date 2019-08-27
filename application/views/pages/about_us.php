@@ -101,7 +101,7 @@
                 <p>Workshop for repairing Sugarcane Crushers and Diesel Engines.</p>
               </div>
               <div class="time">
-                <div data-aos="fade-left time-ch">
+                <div data-aos=" time-ch">
                   <h4>1980-1996</h4>
               </div>
             </div>

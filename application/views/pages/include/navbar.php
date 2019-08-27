@@ -34,7 +34,7 @@
         </div>
         <div class="col-md-4 align-self-center">
           <div class="phone-num">
-            <span class="span1">Call Us 09.00 am - 06.00 pm</span><br>
+            <span class="span1">Call Us 09:00 am - 06:00 pm</span><br>
             <span class="span2">02328 271224</span>
           </div>
         </div>
