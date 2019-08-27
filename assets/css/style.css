@@ -825,6 +825,10 @@ height: 150px;
   padding-left: 5px;
 }
 
+.address h4, .address h5{
+  text-align: center;
+}
+
 }
 /* Top Logo head end*/
 
