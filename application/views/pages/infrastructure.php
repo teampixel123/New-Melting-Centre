@@ -86,7 +86,7 @@
     <div class="infra">
       <div class="row">
 
-        <div class="col-md-6 infra-second">
+        <div class="col-md-6 infra-second ">
           <h1 class="title front-sm-hr"><span>Melting</span></h1>
           <p>We are having four induction furnaces</p>
           <!-- <p>Available 4 Pots</p> -->
@@ -102,7 +102,7 @@
             <i class="fa fa-cog"></i><span class="infra-sub-title"> &nbsp;Pouring Line APML </span>
           </h6>
         </div>
-        <div class="col-md-6 infra-img-div second-div">
+        <div class="col-md-6 infra-img-div second-div ">
           <div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -201,8 +201,25 @@
     <div class="infra">
       <div class="row">
 
-        <div class="col-md-6 infra-second">
+        <div class="col-md-6 infra-second ">
           <h1 class="title front-sm-hr"><span>Core Shop</span></h1>
+          <h6 class="infra-info">
+            <i class="fa fa-cog"></i><span class="infra-sub-title"> &nbsp;Core Shop </span>
+          </h6>
+          <h6 class="infra-info">
+            <i class="fa fa-cog"></i><span class="infra-sub-title"> &nbsp;High Capacity Core Shop</span>
+          </h6>
+          <h6 class="infra-info">
+            <i class="fa fa-cog"></i><span class="infra-sub-title"> &nbsp;EMERSON Line</span>
+          </h6>
+          <h6 class="infra-info">
+            <i class="fa fa-cog"></i><span class="infra-sub-title"> &nbsp;DANFOSS Line</span>
+          </h6>
+          <h6 class="infra-info">
+            <i class="fa fa-cog"></i><span class="infra-sub-title"> &nbsp;High Pressure Washing Machine : </span>
+            <p class="ml-4 mb-0 mt-1"><b>Make : </b>AEW</p>
+            <p class="ml-4 mb-0"><b>Specification : </b>10bar HP, Hot water 800ltrs tank,with 23 pressure Jets</p>
+          </h6>
         </div>
         <div class="col-md-6 infra-img-div second-div">
           <div id="carouselExampleIndicators5" class="carousel slide" data-ride="carousel">
@@ -310,7 +327,7 @@
   <div class="container">
     <div class="infra">
       <div class="row">
-        <div class="col-md-6 infra-second">
+        <div class="col-md-6 infra-second ">
           <h1 class="title front-sm-hr"><span>Inspection Facilities</span></h1>
           <h6 class="infra-info">
             <i class="fa fa-cog"></i><span class="infra-sub-title"> &nbsp;CMM : </span>
@@ -412,9 +429,9 @@
               <div class="carousel-item active">
                 <img class="d-block w-100" src="<?php echo base_url();  ?>assets/images/infrastructure/testing_Spectro_Machine.jpg" alt="Third slide">
               </div>
-              <div class="carousel-item">
+              <!-- <div class="carousel-item">
                 <img class="d-block w-100" src="<?php echo base_url();  ?>assets/images/infrastructure/testing_Hardness_machine.jpg" alt="First slide">
-              </div>
+              </div> -->
               <div class="carousel-item">
                 <img class="d-block w-100" src="<?php echo base_url();  ?>assets/images/infrastructure/testing_Microscope_Image_Analyzer.jpg" alt="Second slide">
               </div>

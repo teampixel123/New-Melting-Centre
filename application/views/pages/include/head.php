@@ -8,6 +8,8 @@
   <!-- Bootstrap -->
   <link href="<?php echo base_url(); ?>assets/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <!-- <link href="<?php echo base_url(); ?>assets/css/font-awesome.min.css" rel="stylesheet"> -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <!-- Custom Theme Style -->
   <link href="<?php echo base_url(); ?>assets/css/style.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
@@ -18,6 +20,8 @@
   <link href="<?php echo base_url(); ?>assets/css/owl.carousel.css" rel="stylesheet">
   <link href="<?php echo base_url(); ?>assets/css/owl.theme.default.min.css" rel="stylesheet">
   <link href="<?php echo base_url(); ?>assets/css/animate.min.css" rel="stylesheet">
+  <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
 </head>
 
 <!-- <!DOCTYPE html>

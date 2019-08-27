@@ -97,7 +97,7 @@
     <!-- Footer Links -->
     <!-- Copyright -->
     <div class="footer-copyright text-center p-12">© 2019 Copyright :
-      <a href="#" class="grey-co"> New Melting Centre Pvt.Ltd. <span class="footer-copyright">All rights reserved.</span> </a>
+      <a href="#" class="grey-co"> New Melting Centre Pvt. Ltd. <span class="footer-copyright">All rights reserved.</span> </a>
     </div>
     <!-- Copyright -->
   </footer>

@@ -5,7 +5,9 @@
   <!-- top navigation -->
   <?php include('include/navbar.php') ?>
   <!-- /top navigation -->
-
+  <div class="container-fluid para-img">
+  <div class="parallax-products"></div>
+  </div>
   <div class="container-fluid " id="about-head">
     <div class="container">
       <div class="sub-page-heading mt-3">
@@ -99,8 +101,10 @@
                 <p>Workshop for repairing Sugarcane Crushers and Diesel Engines.</p>
               </div>
               <div class="time">
-                <h4>1980-1996</h4>
+                <div data-aos="fade-left time-ch">
+                  <h4>1980-1996</h4>
               </div>
+            </div>
             </li>
             <li>
               <div class="timeline-content">
@@ -279,5 +283,8 @@
 
     <!-- footer content -->
     <?php include('include/footer.php'); ?>
+    <script>
+  AOS.init();
+</script>
   </body>
 </html>
