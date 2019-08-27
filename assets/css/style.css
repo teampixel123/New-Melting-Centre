@@ -827,6 +827,10 @@ height: 150px;
 
 .address h4, .address h5{
   text-align: center;
+  margin-left: 0%;
+}
+.address h5{
+  padding-top: 10px;
 }
 
 }
@@ -1669,7 +1673,7 @@ height: 150px;
   opacity: 0;
 
   /* transition effect. not necessary */
-  transition: opacity .2s, visibility .2s;
+  /* transition: opacity .2s, visibility .2s; */
 }
 
 .img__wrap:hover .img__description {
