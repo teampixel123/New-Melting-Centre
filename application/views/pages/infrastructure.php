@@ -210,13 +210,13 @@
             <i class="fa fa-cog"></i><span class="infra-sub-title"> &nbsp;High Capacity Core Shop</span>
           </h6>
           <h6 class="infra-info">
-            <i class="fa fa-cog"></i><span class="infra-sub-title"> &nbsp;EMERSON Line</span>
+            <i class="fa fa-cog"></i><span class="infra-sub-title"> &nbsp;Core Shop </span>
           </h6>
           <h6 class="infra-info">
-            <i class="fa fa-cog"></i><span class="infra-sub-title"> &nbsp;DANFOSS Line</span>
+            <i class="fa fa-cog"></i><span class="infra-sub-title"> &nbsp;Core Shop</span>
           </h6>
           <h6 class="infra-info">
-            <i class="fa fa-cog"></i><span class="infra-sub-title"> &nbsp;High Pressure Washing Machine : </span>
+            <i class="fa fa-cog"></i><span class="infra-sub-title"> &nbsp;Core Shop  : </span>
             <p class="ml-4 mb-0 mt-1"><b>Make : </b>AEW</p>
             <p class="ml-4 mb-0"><b>Specification : </b>10bar HP, Hot water 800ltrs tank,with 23 pressure Jets</p>
           </h6>

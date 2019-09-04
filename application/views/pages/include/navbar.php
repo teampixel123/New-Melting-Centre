@@ -46,7 +46,7 @@
         <div class="col-md-4 align-self-center">
           <div class="email-id">
             <span class="span1">Email Us</span> <br>
-            <span class="span2">meltingcentre@gmail.com</span>
+            <span class="span2">ho@newmeltingcentre.com</span>
           </div>
         </div>
       </div>

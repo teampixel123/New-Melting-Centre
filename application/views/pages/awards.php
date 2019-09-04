@@ -82,7 +82,7 @@
         <div class="card-body">
           <!-- <h5 class="card-title">HUB MB 05 H</h5> -->
           <p class="card-text">
-            Award for achivement in small group activities by ILJIN AUTOMOTIVES PRIVATE LIMITED  <br> <br>  </p>
+            Award for achivement in small group activities by ILJIN AUTOMOTIVES PRIVATE LIMITED  <br> <br> <br> </p>
         </div>
       </div>
     </div>
@@ -92,7 +92,7 @@
         <div class="card-body">
           <!-- <h5 class="card-title">HUB MB 05 H</h5> -->
           <p class="card-text">
-            “ Best Small Scale Entrepreneur” Award received by Honorable Guardian Minister Mr. Harshawardhan Patil, Government of Maharashtra in  year 2013.
+            Participation in Indian Engineering Sourcing Show at Mumbai. It was Organized by the Minister of State for Commerce & Industry, Government of India.
             </p>
         </div>
       </div>

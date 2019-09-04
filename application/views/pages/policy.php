@@ -35,7 +35,7 @@
 <p>We maintain the documentation as per our well defined Quality Management Systems to assure quality. The Quality Team supervises the Q.A / Q.C aspects along the entire process system by identifying and associating with Quality Circles.Every casting produced is numbered which indicates the date and heat code thus ensuring 100% traceability for our products.</p> </li>
 <hr>
   <li><h6>Certification</h6>
-  <p>ISO 9001:2008 certified by TUV NORD for Manufacture and Supply of Graded Castings & Machined Components.</p></li>
+  <p>IATF 16949:2016 & ISO 9001:2015 Company. certified by TUV NORD for Manufacture and Supply of Graded Castings & Machined Components.</p></li>
 <hr>
   <li><h6>Occupational Health & Safety </h6>
 <p>NMC is committed to ensure occupational Health & Safety of its staff. We ensure strict adherence to body protective gears and covers for shop floor workers. The workers are constantly educated about the importance of health & safety through displays and safety tips. Fire safety drills are conducted on a continuous basis.</p></li>

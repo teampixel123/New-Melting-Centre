@@ -42,7 +42,7 @@
       </p>
           <h6 class="text-uppercase">Unit 2 : </h6>
       <p class="contact-footer mob-cen"> F-11, Five Star MIDC, Kagal
-        Dist : Kolhapur Maharashtra - 416229</p>
+        Dist : Kolhapur Maharashtra - 416236</p>
           </div>
 
         </div>
@@ -87,7 +87,7 @@
             Gat No.678 / 679 (Part), Kushire, Tal: Panhala,
             Dist: Kolhapur - 416229,
             Maharashtra (India).</p> -->
-          <p class="link-footer" ><i class="fas fa-envelope mr-3"></i> meltingcentre@gmail.com</p>
+          <p class="link-footer" ><i class="fas fa-envelope mr-3"></i> ho@newmeltingcentre.com</p>
           <p class="link-footer" ><i class="fas fa-phone mr-3"></i> 02328 271224</p>
           <p class="link-footer" ><i class="fas fa-phone mr-3"></i> 0231 2690730</p>
           <img class="logo-footer" src="<?php echo base_url('assets/images/footer_logo.svg'); ?>" alt="">

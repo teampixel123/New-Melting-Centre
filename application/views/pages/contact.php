@@ -46,7 +46,7 @@
 
               <h5>Unit 2 : </h5>
             <p> F-11, Five Star MIDC, Kagal</p>
-              <p>  Dist : Kolhapur Maharashtra - 416229</p>
+              <p>  Dist : Kolhapur Maharashtra - 416236</p>
         </div>
         <div class="address">
       <h4 class="reg-office">Register office</h4>

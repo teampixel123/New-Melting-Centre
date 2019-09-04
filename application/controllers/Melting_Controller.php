@@ -30,6 +30,9 @@ class Melting_Controller extends CI_Controller {
   public function clients(){
     $this->load->view('pages/clients');
   }
+  public function clients1(){
+    $this->load->view('pages/clients1');
+  }
   public function awards(){
     $this->load->view('pages/awards');
   }
@@ -60,7 +63,7 @@ class Melting_Controller extends CI_Controller {
        </p>
      ';
 
-     $recipient = "dhananjay.pixelbazar@gmail.com";
+     $recipient = "ho@newmeltingcentre.com";
      $subject = "Mail From New Melting Centre Contact";
 
      $headers  = 'MIME-Version: 1.0' . "\r\n";

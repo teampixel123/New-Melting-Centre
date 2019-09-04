@@ -184,7 +184,7 @@ button:focus {
   text-shadow: 2px 2px 4px #000000;
   /* The image used */
 
-  background: url("../../assets/images/meltonparalex.jpg") no-repeat 0 100%;;
+  background: url("../../assets/images/meltonparalex.jpg") no-repeat 0 100%;
 
   width: 100%;
   /* Set a specific height */
@@ -579,6 +579,50 @@ height: 150px;
   text-align: center;
 }
 
+
+/* clients page */
+
+#clients .info{
+ height: 120px!important;
+}
+#clients .info .single{
+  top: 28%;
+}
+#clients .info .double{
+  top: 18%;
+}
+#clients .info .triple{
+  top: 8%;
+}
+#clients .info .four{
+  top: 0%;
+}
+#clients .img{
+  height: 120px!important;
+}
+.ih-item.square{
+  width: 100%!important;
+  height: 100%!important;
+  box-shadow: none!important
+}
+#clients .info p{
+  font-size: 14px!important;
+  font-style: normal!important;
+  font-family: "Roboto", Helvetica, Arial, sans-serif !important;
+  color: #fff!important;
+  background-color: #fe5a0e!important;
+  padding: 10px!important;
+  margin-bottom: 0px!important;
+
+}
+.ih-item.square.effect10.colored .info {
+    background: #fe5a0e!important;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+
+/* clients page */
 .policy p{
   font-size: 18px;
 }
@@ -831,6 +875,12 @@ height: 150px;
 }
 .address h5{
   padding-top: 10px;
+}
+#clients .info .single,#clients .info .double,#clients .info .triple{
+  top: 35%;
+}
+#clients .info .four{
+  top: 35%;
 }
 
 }
@@ -1843,6 +1893,10 @@ transition: all .5s ease-in-out;
 .link-footer{
   text-align: justify ;
   margin-bottom: 2px;
+  color: #a2a7ad;
+}
+.link-footer p{
+color: #a2a7ad;
 }
 .link-footer a{
   color:  #a2a7ad;
@@ -2324,6 +2378,9 @@ width: 80%;
     margin: 0;
     padding: 0;
     font-size: 14px;
+  }
+  .timeline ul li .time h4:hover{
+    font-size: 15px;
   }
   .timeline ul li:nth-child(odd) .time{
     position: absolute;

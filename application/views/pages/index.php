@@ -19,7 +19,7 @@
         <div class="carousel-item active">
           <img class="d-block w-100 banner-img" src="<?php echo base_url('assets/images/slider/banner3.png'); ?>" alt="Second slide">
           <div class="animated animated-2s bounceInLeft delay-1s banner-title d-none d-md-block">
-            <h1 class="title text-white banner-title1">Welcome to NMCPL</h1>
+            <h1 class="title text-white banner-title1">Welcome to New Melting Centre Pvt. Ltd.</h1>
             <!-- <h1 class="title title2 text-white banner-title1 top-scale-1">We will provide the best service</h1> -->
             <p class="banner-para1 text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit,sed do eiusmod tempor<br> incididunt ut labore et dolore magna aliqua.</p>
             <div class="banner-btn1">
@@ -29,7 +29,7 @@
         <div class="carousel-item">
           <img class="d-block w-100" src="<?php echo base_url('assets/images/slider/banner1.png'); ?>" alt="Second slide">
           <div class="animated animated-2s bounceInLeft delay-1s banner-title d-none d-md-block">
-            <h1 class="title text-white banner-title1">Welcome to NMCPL</h1>
+            <h1 class="title text-white banner-title1">Welcome to New Melting Centre Pvt. Ltd.</h1>
             <!-- <h1 class="title text-white banner-title1 top-scale-1">We will provide the best service</h1> -->
             <p class="banner-para1 text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit,sed do eiusmod tempor<br> incididunt ut labore et dolore magna aliqua.</p>
             <div class="banner-btn1">
@@ -39,7 +39,7 @@
         <div class="carousel-item">
           <img class="d-block w-100" src="<?php echo base_url('assets/images/slider/banner2.png'); ?>" alt="Third slide">
           <div class="animated animated-2s bounceInLeft delay-1s banner-title d-none d-md-block">
-            <h1 class="title text-white banner-title1">Welcome to NMCPL</h1>
+            <h1 class="title text-white banner-title1">Welcome to New Melting Centre Pvt. Ltd.</h1>
             <!-- <h1 class="title text-white banner-title1 top-scale-1">We will provide the best service</h1> -->
             <p class="banner-para1 text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit,sed do eiusmod tempor<br> incididunt ut labore et dolore magna aliqua.</p>
             <div class="banner-btn1">
@@ -66,7 +66,7 @@
         <div class="col-md-4">
           <div class="box">
             <div class="img-box">
-              <img src="<?php echo base_url() ?>assets/images/infrastructure/img_intro1.jpg" alt="">
+              <img src="<?php echo base_url() ?>assets/images/infrastructure/img1.jpg" alt="">
             </div>
             <div class="service-content">
               <h3>STATE OF ART FOUNDRY</h3>
@@ -98,7 +98,7 @@
         <div class="col-md-4">
           <div class="box">
             <div class="img-box">
-              <img src="<?php echo base_url() ?>assets/images/infrastructure/intro_img03.jpg" alt="">
+              <img src="<?php echo base_url() ?>assets/images/infrastructure/img_intro3.gif" alt="">
             </div>
             <div class="service-content">
               <h3>PATTERN SHOP</h3>
@@ -194,8 +194,11 @@
               <div class="item">
             		<img class="owl-lazy" data-src="<?php echo base_url() ?>assets/images/customers/15.jpg" alt="">
             	</div>
+              <div class="item">
+            		<img class="owl-lazy" data-src="<?php echo base_url() ?>assets/images/customers/17.jpg" alt="">
+            	</div>
               <!-- <div class="item">
-            		 <img class="owl-lazy" data-src="<?php echo base_url() ?>assets/images/customers/16.jpg" alt=""> -
+            		 <img class="owl-lazy" data-src="<?php echo base_url() ?>assets/images/customers/17.jpg" alt=""> -
             	</div> -->
             </div>
           </div>

@@ -217,7 +217,7 @@
     				<nav>
     					<div class="nav text-center " id="nav-tab" role="tablist">
     						<a class="nmc-btn2 padd-l-r btn-hvr2 active show" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Sales Performance</a>
-    						<a class="nmc-btn2 btn-hvr2" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Production Performance</a>
+    						<!-- <a class="nmc-btn2 btn-hvr2" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Production Performance</a> -->
     					</div>
               <hr class="nav-hr">
     				</nav>

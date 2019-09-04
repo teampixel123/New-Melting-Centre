@@ -59,6 +59,7 @@ $route['Our-Strength'] = 'Melting_Controller/our_strength';
 $route['Infrastructure'] = 'Melting_Controller/infrastructure';
 $route['Policy'] = 'Melting_Controller/policy';
 $route['Clients'] = 'Melting_Controller/clients';
+$route['Clients1'] = 'Melting_Controller/clients1';
 $route['Awards'] = 'Melting_Controller/awards';
 $route['Certificate'] = 'Melting_Controller/certificate';
 $route['Contact-Us'] = 'Melting_Controller/contact_us';
